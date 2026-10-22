@@ -4,9 +4,9 @@ Code and data supporting the note *Least lengths of Aoki's exceptional Hodge cla
 degrees with four prime factors* (K. Saller, 2026), DOI: [10.5281/zenodo.23571028](https://doi.org/10.5281/zenodo.23571028).
 
 **Subject.** Aoki reduced the Hodge conjecture for Fermat varieties to the algebraicity of the classes of
-exceptional Hodge elements xi_q, and Miranda, Movasati, Rufino and Villaflor showed that such a class is algebraic
-once it is congruent, modulo linear and standard elements, to an element with at most six entries. For q = lp and
-q = 4p the note describes the Hodge elements by pairs of odd functions, determines the least length of the class
+exceptional Hodge elements xi_q, and Miranda, Movasati, Rufino and Villaflor deduced from a result of Kang that
+such a class is algebraic once it is congruent, modulo linear and standard elements, to an element with at most
+six entries. For q = lp and q = 4p the note describes the Hodge elements by pairs of odd functions, determines the least length of the class
 of xi_q in closed form, and bounds the lengths of its lifts to the degrees 2q and rq. For q with four prime
 factors, such as 420, it bounds the least length of a Hodge element on which a parity invariant (in other terms
 due to Kubert) is nonzero, determines it as 15 at 420 and 16 at 924, and shows that Aoki's recursion for xi_q has
