@@ -1,0 +1,10 @@
+q=15 d=30 value=3: B=2 unsat (0.0s); B=3 sat (0.0s, model norm 3 hodge True class True) -> confirmed
+q=21 d=42 value=3: B=2 unsat (0.0s); B=3 sat (0.0s, model norm 3 hodge True class True) -> confirmed
+q=33 d=66 value=4: B=3 unsat (0.1s); B=4 sat (0.0s, model norm 4 hodge True class True) -> confirmed
+q=35 d=70 value=6: B=5 unknown (25.0s); B=6 sat (0.2s, model norm 6 hodge True class True) -> NOT confirmed
+q=39 d=78 value=3: B=2 unsat (0.1s); B=3 sat (0.0s, model norm 3 hodge True class True) -> confirmed
+q=51 d=102 value=7: B=6 unknown (25.0s); B=7 sat (0.5s, model norm 7 hodge True class True) -> NOT confirmed
+q=55 d=110 value=5: B=4 unknown (25.0s); B=5 sat (0.9s, model norm 5 hodge True class True) -> NOT confirmed
+q=57 d=114 value=6: B=5 unsat (8.3s); B=6 sat (0.1s, model norm 6 hodge True class True) -> confirmed
+q=65 d=130 value=10: B=9 unknown (25.0s); B=10 sat (1.4s, model norm 10 hodge True class True) -> NOT confirmed
+q=69 d=138 value=9: B=8 unknown (25.0s); B=9 sat (9.5s, model norm 9 hodge True class True) -> NOT confirmed

@@ -1,0 +1,48 @@
+    (AM) q=60: basis of L_q (Z-basis) satisfies the relations: True; rank of the relations 8 = phi(q)/2 = 8; rank L_q 21: True
+    (AM) q=84: basis of L_q (Z-basis) satisfies the relations: True; rank of the relations 12 = phi(q)/2 = 12; rank L_q 29: True
+    (AM) q=105: basis of L_q (Z-basis) satisfies the relations: True; rank of the relations 24 = phi(q)/2 = 24; rank L_q 28: True
+    (AM) q=165: basis of L_q (Z-basis) satisfies the relations: True; rank of the relations 40 = phi(q)/2 = 40; rank L_q 42: True
+    (AM) q=420: basis of L_q (Z-basis) satisfies the relations: True; rank of the relations 48 = phi(q)/2 = 48; rank L_q 161: True
+    (AM) q=660: basis of L_q (Z-basis) satisfies the relations: True; rank of the relations 80 = phi(q)/2 = 80; rank L_q 249: True
+    (AM) q=780: basis of L_q (Z-basis) satisfies the relations: True; rank of the relations 96 = phi(q)/2 = 96; rank L_q 293: True
+    (AM) q=1155: basis of L_q (2-saturated basis) satisfies the relations: True; rank of the relations 240 = phi(q)/2 = 240; rank L_q 337: True
+    (AM) q=1155: the flint nullspace basis has rank 1 mod 2; after 404 halvings it is independent mod 2 (odd index in L_q)
+(AM) True
+    (AN) q=420: 6 cosets, witnesses True, one functional True, formula True, dual rank 7, lifts 6, + xi 7, Gamma-witnesses 22 (rank with eps 7), sign-blind witnesses rank with eps 7, their kernel on the lifts [], criterion True, single signs True, SNF [2, 2, 2, 2, 2, 2, 2]: True
+    (AN) q=660: 10 cosets, witnesses True, one functional True, formula True, dual rank 7, lifts 6, + xi 7, Gamma-witnesses 22 (rank with eps 6), sign-blind witnesses rank with eps 6, their kernel on the lifts [[[5, 11]]], criterion True, single signs True, SNF [2, 2, 2, 2, 2, 2, 2]: True
+    (AN) q=780: 12 cosets, witnesses True, one functional True, formula True, dual rank 7, lifts 6, + xi 7, Gamma-witnesses 22 (rank with eps 5), sign-blind witnesses rank with eps 5, their kernel on the lifts [[[3, 13]], [[3, 13], [4, 5], [4, 13], [5, 13]], [[4, 5], [4, 13], [5, 13]]], criterion True, single signs True, SNF [2, 2, 2, 2, 2, 2, 2]: True
+    (AN) q=1155 (2-saturated basis): 30 cosets, witnesses True, one functional True (nonzero True), formula True: True
+    (AN) criterion of Proposition 54(iii), odd pairs without a sign-blind witness: {924: [], 1020: [], 1092: ['3,13'], 1140: ['5,19'], 1155: ['5,11']}; order-l parts against Theorem 3(i): True
+(AN) True
+    (AO) 420: element of length 15 (+ 210): Hodge True, primitive part prod H True, every K-coset odd True, levels {15: 1, 35: 1, 60: 1, 105: 3, 140: 3, 420: 6}: True
+    (AO) 420, order 15: least number of entries with eps = 1: 1 (exact; Z^4 / Proj_d(ker eps): rank 4, order 2); with only [('I', (3, 5)), ('I', (3, 5, 7))] and one odd K-coset: 1 (group of order 2); XI420: 1
+    (AO) 420, order 35: least number of entries with eps = 1: 1 (exact; Z^12 / Proj_d(ker eps): rank 12, order 2); with only [('I', (7,)), ('I', (3, 5, 7))] and one odd K-coset: 1 (group of order 2); XI420: 1
+    (AO) 420, order 60: least number of entries with eps = 1: 1 (exact; Z^8 / Proj_d(ker eps): rank 8, order 2); with only [('I', (5, 7)), ('II', (3, 5))] and one odd K-coset: 1 (group of order 2); XI420: 1
+    (AO) 420, order 105: least number of entries with eps = 1: 3 (exact; Z^24 / Proj_d(ker eps): rank 24, order 6); with only [('I', (3, 5, 7))] and one odd K-coset: 3 (group of order 6); XI420: 3
+    (AO) 420, order 140: least number of entries with eps = 1: 3 (exact; Z^24 / Proj_d(ker eps): rank 24, order 6); with only [('II', (5, 7))] and one odd K-coset: 3 (group of order 6); XI420: 3
+    (AO) 420, order 420: least number of entries with eps = 1: 6 (exact; Z^48 / Proj_d(ker eps): rank 41, order infinite, bounded below by the relaxation); with only [('I', (3, 5, 7))] and one odd K-coset: 6 (group of order 256); XI420: 6
+    (AO) 420: least number 0 at the other 16 orders below 420 [3, 4, 5, 6, 7, 10, 12, 14, 20, 21, 28, 30, 42, 70, 84, 210]; sum of the per-level minima = 15 = the length of XI420: True
+    (AO) 420, order 105: F = sum of chi_3 chi_5 (a') over the entries vanishes mod 3 on B_420 True, lambda_105 = eps True, Z^24 / Proj_d(ker eps) of order 6 (so Z/6, unit vectors at +-1, eps = 1 at 3), XI420 at (lambda, F) = (1, 0): True
+    (AO) 420, order 140: F = sum of chi_4 chi_5 (a') over the entries vanishes mod 3 on B_420 True, lambda_140 = eps True, Z^24 / Proj_d(ker eps) of order 6 (so Z/6, unit vectors at +-1, eps = 1 at 3), XI420 at (lambda, F) = (1, 0): True
+    (AO) 420: the parities of the counts of orders (3, 4, 5, 7, 12, 21, 28) kill D + S True, rank with eps on B_420 7, all even on XI420 True (lifted classes: {'4,3': [(1, 1, 0, 0, 1, 0, 0)], '4,5': [(0, 0, 1, 0, 0, 0, 0)], '4,7': [(0, 1, 0, 0, 0, 0, 1)], '3,5': [(1, 0, 1, 0, 0, 0, 0)], '3,7': [(0, 0, 0, 1, 0, 1, 0)], '5,7': [(0, 0, 1, 1, 0, 0, 0)]}): True
+    (AO) q=420: lower bound (a) 9 (top 6); product element of length 15: Hodge True, eps 1 True, levels {15: 1, 35: 1, 60: 1, 105: 3, 140: 3, 420: 6}, (r-1)-levels vs formula {4: (3, '3'), 3: (3, '3'), 5: (0, '0'), 7: (1, '1')}: True
+    (AO) q=660: lower bound (a) 13 (top 10); product element of length 26: Hodge True, eps 1 True, levels {11: 1, 15: 1, 20: 1, 44: 1, 55: 1, 132: 1, 165: 5, 220: 5, 660: 10}, (r-1)-levels vs formula {4: (5, '5'), 3: (5, '5'), 5: (1, '1'), 11: (0, '0')}: True
+    (AO) q=780: lower bound (a) 18 (top 12); product element of length 32: Hodge True, eps 1 True, levels {15: 1, 20: 1, 52: 1, 60: 1, 65: 1, 156: 3, 195: 6, 260: 6, 780: 12}, (r-1)-levels vs formula {4: (6, '6'), 3: (6, '6'), 5: (3, '3'), 13: (1, '1')}: True
+    (AO) q=1155: lower bound (a) 34 (top 30); product element of length 62: Hodge True, eps 1 True, levels {15: 1, 55: 1, 105: 6, 165: 9, 385: 15, 1155: 30}, (r-1)-levels vs formula {3: (15, '15'), 5: (0, '0'), 7: (9, '5'), 11: (6, '6')}: True
+    (AO) q=924: lower bound (a) 15 (top 15); product element of length 16: Hodge True, eps 1 True, levels {4: 1, 924: 15}, (r-1)-levels vs formula {4: (0, '0'), 3: (0, '0'), 7: (0, '0'), 11: (0, '0')}: True
+    (AO) q=1020: lower bound (a) 24 (top 16, terms {4: (1, 4), 3: (1, 2), 5: (1, 1), 17: (1, 1)})
+    (AO) q=1140: lower bound (a) 21 (top 18, terms {4: (1, 1), 3: (1, 1), 5: (1, 1), 19: (0, 2)})
+    (AO) q=1365: lower bound (a) 48 (top 36, terms {3: (1, 6), 5: (1, 3), 7: (0, 2), 13: (1, 3)})
+    (AO) q=1428: lower bound (a) 28 (top 24, terms {4: (1, 2), 3: (1, 1), 7: (1, 1), 17: (0, 1)})
+    (AO) q=1540: lower bound (a) 35 (top 30, terms {4: (1, 1), 5: (1, 1), 7: (1, 1), 11: (1, 2)})
+(AO) True
+    (AP) q=420, d=1260: 6 extended coset witnesses: even True, kill 10518 standard tuples True, disjoint True, 1 on the lift of the element of length 15 True, avoid the lifts of R_d' (d' | d, P(d') != P(q); 33 divisors) True: True
+(AP) True
+    (AQ) q=420 (Z-basis): lambda_{q/l} = e_l [G:Gamma] eps_q on B_q for every l in P(q), and lambda_q = N eps_q (N = 6): True {'4': (105, 1, 1), '3': (140, 1, 1), '5': (84, 0, 1), '7': (60, 1, 1)}; at 420 eps = lambda_15 = lambda_35 = lambda_60 = lambda_105 = lambda_140, and lambda_20, lambda_84, lambda_420, lambda_4 + lambda_12 + lambda_28 vanish: True; the combinations of counts vanishing on B_420 have dimension 8, spanned by these and lambda_15 + lambda_d: True
+    (AQ) q=660 (Z-basis): lambda_{q/l} = e_l [G:Gamma] eps_q on B_q for every l in P(q), and lambda_q = N eps_q (N = 10): True {'4': (165, 1, 1), '3': (220, 1, 1), '5': (132, 1, 1), '11': (60, 0, 2)}
+    (AQ) q=780 (Z-basis): lambda_{q/l} = e_l [G:Gamma] eps_q on B_q for every l in P(q), and lambda_q = N eps_q (N = 12): True {'4': (195, 0, 2), '3': (260, 1, 2), '5': (156, 1, 3), '13': (60, 1, 1)}
+    (AQ) q=924 (2-saturated basis): lambda_{q/l} = e_l [G:Gamma] eps_q on B_q for every l in P(q), and lambda_q = N eps_q (N = 15): True {'4': (231, 0, 1), '3': (308, 0, 1), '7': (132, 0, 1), '11': (84, 0, 1)}
+    (AQ) q=1155 (2-saturated basis): lambda_{q/l} = e_l [G:Gamma] eps_q on B_q for every l in P(q), and lambda_q = N eps_q (N = 30): True {'3': (385, 1, 1), '5': (231, 0, 1), '7': (165, 1, 1), '11': (105, 1, 2)}
+    (AQ) cyclic covers of degree 420: 24 random families (N = 4, 6, 8), 4211 lattice vectors, eps(gamma_e) = 1 for 0: True
+(AQ) True
+ALL CHECKS PASS: True

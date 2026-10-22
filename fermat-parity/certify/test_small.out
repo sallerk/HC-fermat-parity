@@ -1,0 +1,7 @@
+level d=30 n=14 rank_L=10 rank_S=10 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 0.0s
+  q=15 k=2 d=30 extra=[] HiGHS=3 | rep ok=True len=3 | B=2 w1=80 w2max=1 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 3, "genuine_matches": 2, "min_norm": 3, "distinct_normalized": 1, "highs_rep_orbit_found": true, "sec": 0.0}
+level d=42 n=20 rank_L=14 rank_S=14 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 0.0s
+  q=21 k=2 d=42 extra=[] HiGHS=3 | rep ok=True len=3 | B=2 w1=106 w2max=1 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 3, "genuine_matches": 4, "min_norm": 3, "distinct_normalized": 2, "highs_rep_orbit_found": true, "sec": 0.0}
+level d=66 n=32 rank_L=22 rank_S=22 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 0.0s
+  q=33 k=2 d=66 extra=[] HiGHS=4 | rep ok=True len=4 | B=3 w1=158 w2max=65 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 4, "genuine_matches": 6, "min_norm": 4, "distinct_normalized": 2, "highs_rep_orbit_found": true, "sec": 0.0}
+finished 3 of 3 levels in 0.6 s; unfinished levels: []

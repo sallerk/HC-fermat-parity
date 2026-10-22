@@ -1,0 +1,8969 @@
+{
+ "jobs": [
+  {
+   "q": 12,
+   "k": 1,
+   "d": 12,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 26,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 2,
+    "min_norm": 3,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "12",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 12,
+   "k": 2,
+   "d": 24,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 64,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      4,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 4,
+    "min_norm": 3,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "12",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 12,
+   "k": 3,
+   "d": 36,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 101,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      6,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 2,
+    "min_norm": 3,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "12",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 12,
+   "k": 4,
+   "d": 48,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 142,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      8,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 4,
+    "min_norm": 3,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "12",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 12,
+   "k": 5,
+   "d": 60,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 224,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [7, 11, 13] verified",
+     "orbits": [
+      8,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 2,
+    "min_norm": 3,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "12",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 12,
+   "k": 6,
+   "d": 72,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 242,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      12,
+      6,
+      4,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 4,
+    "min_norm": 3,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "12",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 15,
+   "k": 1,
+   "d": 15,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 25,
+     "w2_max": 15,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 7] verified",
+     "orbits": [
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 6,
+    "min_norm": 4,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "15",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 15,
+   "k": 2,
+   "d": 30,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "P1.json",
+     "B": 2,
+     "w1": 80,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [7, 11] verified",
+     "orbits": [
+      4,
+      4,
+      2,
+      2,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 80,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [7, 11] verified",
+     "orbits": [
+      4,
+      4,
+      2,
+      2,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "test_small.json",
+     "B": 2,
+     "w1": 80,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [7, 11] verified",
+     "orbits": [
+      4,
+      4,
+      2,
+      2,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 2,
+    "min_norm": 3,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "15",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 15,
+   "k": 3,
+   "d": 45,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 89,
+     "w2_max": 45,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 7] verified",
+     "orbits": [
+      12,
+      4,
+      3,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 6,
+    "min_norm": 4,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "15",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 15,
+   "k": 4,
+   "d": 60,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 224,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [7, 11, 13] verified",
+     "orbits": [
+      8,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 2,
+    "min_norm": 3,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "15",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 15,
+   "k": 5,
+   "d": 75,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 135,
+     "w2_max": 75,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 7] verified",
+     "orbits": [
+      20,
+      10,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 6,
+    "min_norm": 4,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "15",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 15,
+   "k": 6,
+   "d": 90,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 302,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [7, 11] verified",
+     "orbits": [
+      12,
+      12,
+      4,
+      4,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 2,
+    "min_norm": 3,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "15",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 20,
+   "k": 1,
+   "d": 20,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 40,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 11] verified",
+     "orbits": [
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 4,
+    "min_norm": 3,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "20",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 20,
+   "k": 2,
+   "d": 40,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 98,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 7, 11] verified",
+     "orbits": [
+      8,
+      4,
+      2,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 4,
+    "min_norm": 3,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "20",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 20,
+   "k": 3,
+   "d": 60,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 224,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [7, 11, 13] verified",
+     "orbits": [
+      8,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 6,
+    "min_norm": 3,
+    "distinct_normalized": 3,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "20",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 20,
+   "k": 4,
+   "d": 80,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 216,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 7, 11] verified",
+     "orbits": [
+      16,
+      8,
+      4,
+      4,
+      2,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 4,
+    "min_norm": 3,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "20",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 20,
+   "k": 5,
+   "d": 100,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 237,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 11] verified",
+     "orbits": [
+      20,
+      10,
+      10,
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 4,
+    "min_norm": 3,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "20",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 20,
+   "k": 6,
+   "d": 120,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 532,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [7, 11, 13, 17] verified",
+     "orbits": [
+      16,
+      8,
+      8,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 6,
+    "min_norm": 3,
+    "distinct_normalized": 3,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "20",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 21,
+   "k": 1,
+   "d": 21,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 33,
+     "w2_max": 21,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      6,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 9,
+    "min_norm": 4,
+    "distinct_normalized": 3,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "21",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 21,
+   "k": 2,
+   "d": 42,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "P1.json",
+     "B": 2,
+     "w1": 106,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 11] verified",
+     "orbits": [
+      6,
+      6,
+      3,
+      3,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 106,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 11] verified",
+     "orbits": [
+      6,
+      6,
+      3,
+      3,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "test_small.json",
+     "B": 2,
+     "w1": 106,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 11] verified",
+     "orbits": [
+      6,
+      6,
+      3,
+      3,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 4,
+    "min_norm": 3,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "21",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 21,
+   "k": 3,
+   "d": 63,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 117,
+     "w2_max": 63,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      18,
+      6,
+      3,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 9,
+    "min_norm": 4,
+    "distinct_normalized": 3,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "21",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 21,
+   "k": 4,
+   "d": 84,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 290,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 11, 13] verified",
+     "orbits": [
+      12,
+      6,
+      6,
+      6,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 4,
+    "min_norm": 3,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "21",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 21,
+   "k": 5,
+   "d": 105,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 239,
+     "w2_max": 105,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 11, 13] verified",
+     "orbits": [
+      24,
+      12,
+      6,
+      4,
+      3,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 9,
+    "min_norm": 4,
+    "distinct_normalized": 3,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "21",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 21,
+   "k": 6,
+   "d": 126,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 396,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 11, 13] verified",
+     "orbits": [
+      18,
+      18,
+      6,
+      6,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 4,
+    "min_norm": 3,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "21",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 28,
+   "k": 1,
+   "d": 28,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 54,
+     "w2_max": 27,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 5] verified",
+     "orbits": [
+      6,
+      3,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 3,
+    "min_norm": 4,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "28",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 28,
+   "k": 2,
+   "d": 56,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 128,
+     "w2_max": 55,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 5, 11] verified",
+     "orbits": [
+      12,
+      6,
+      3,
+      3,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 3,
+    "min_norm": 4,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "28",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 28,
+   "k": 3,
+   "d": 84,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 290,
+     "w2_max": 83,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 11, 13] verified",
+     "orbits": [
+      12,
+      6,
+      6,
+      6,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 6,
+    "min_norm": 4,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "28",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 28,
+   "k": 4,
+   "d": 112,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 282,
+     "w2_max": 111,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 5, 11] verified",
+     "orbits": [
+      24,
+      12,
+      6,
+      4,
+      3,
+      3,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 3,
+    "min_norm": 4,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "28",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 28,
+   "k": 5,
+   "d": 140,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 3,
+     "w1": 432,
+     "w2_max": 139,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 11, 19] verified",
+     "orbits": [
+      24,
+      12,
+      12,
+      6,
+      4,
+      3,
+      3,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 3,
+    "min_norm": 4,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "28",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 28,
+   "k": 6,
+   "d": 168,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 3,
+     "w1": 682,
+     "w2_max": 167,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 11, 13, 17] verified",
+     "orbits": [
+      24,
+      12,
+      12,
+      6,
+      6,
+      6,
+      4,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 6,
+    "min_norm": 4,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "28",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 33,
+   "k": 1,
+   "d": 33,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 5,
+     "w1": 658,
+     "w2_max": 561,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      10,
+      5,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 10,
+    "min_norm": 6,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "33",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 33,
+   "k": 2,
+   "d": 66,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "S",
+    "T"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "P1.json",
+     "B": 3,
+     "w1": 158,
+     "w2_max": 65,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      10,
+      10,
+      5,
+      5,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "S_T_upto128.json",
+     "B": 3,
+     "w1": 158,
+     "w2_max": 65,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      10,
+      10,
+      5,
+      5,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "test_small.json",
+     "B": 3,
+     "w1": 158,
+     "w2_max": 65,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      10,
+      10,
+      5,
+      5,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 6,
+    "min_norm": 4,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "33",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 33,
+   "k": 3,
+   "d": 99,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 5,
+     "w1": 5971,
+     "w2_max": 4950,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      30,
+      10,
+      5,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 10,
+    "min_norm": 6,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "33",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 33,
+   "k": 4,
+   "d": 132,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 3,
+     "w1": 422,
+     "w2_max": 131,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      20,
+      10,
+      10,
+      10,
+      5,
+      5,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 6,
+    "min_norm": 4,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "33",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 33,
+   "k": 5,
+   "d": 165,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 5,
+     "w1": 18864,
+     "w2_max": 13695,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 7, 19] verified",
+     "orbits": [
+      40,
+      20,
+      10,
+      5,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 10,
+    "min_norm": 6,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.1
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "33",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 33,
+   "k": 6,
+   "d": 198,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 4,
+   "rep_ok": true,
+   "rep_len": 4,
+   "lb": 4,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 3,
+     "w1": 568,
+     "w2_max": 197,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      30,
+      30,
+      10,
+      10,
+      5,
+      5,
+      3,
+      3,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 4,
+    "genuine_matches": 6,
+    "min_norm": 4,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "33",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 35,
+   "k": 1,
+   "d": 35,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 8,
+   "rep_ok": true,
+   "rep_len": 8,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 7,
+     "w1": 8091,
+     "w2_max": 7770,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 3] verified",
+     "orbits": [
+      12,
+      3,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 8,
+    "genuine_matches": 210,
+    "min_norm": 8,
+    "distinct_normalized": 6,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "35",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 35,
+   "k": 2,
+   "d": 70,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "S",
+    "T"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "P1.json",
+     "B": 5,
+     "w1": 3861,
+     "w2_max": 2415,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 19] verified",
+     "orbits": [
+      12,
+      12,
+      3,
+      3,
+      2,
+      2
+     ]
+    },
+    {
+     "file": "S_T_upto128.json",
+     "B": 5,
+     "w1": 3861,
+     "w2_max": 2415,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 19] verified",
+     "orbits": [
+      12,
+      12,
+      3,
+      3,
+      2,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 20,
+    "min_norm": 6,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "35",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 35,
+   "k": 3,
+   "d": 105,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 8,
+   "rep_ok": true,
+   "rep_len": 8,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 7,
+     "w1": 239859,
+     "w2_max": 198485,
+     "sec": 0.1,
+     "symmetry": "full unit group, generators [2, 11, 13] verified",
+     "orbits": [
+      24,
+      12,
+      6,
+      4,
+      3,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 8,
+    "genuine_matches": 245,
+    "min_norm": 8,
+    "distinct_normalized": 7,
+    "highs_rep_orbit_found": true,
+    "sec": 1.2
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "35",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 35,
+   "k": 4,
+   "d": 140,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 5,
+     "w1": 18165,
+     "w2_max": 9730,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 11, 19] verified",
+     "orbits": [
+      24,
+      12,
+      12,
+      6,
+      4,
+      3,
+      3,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 20,
+    "min_norm": 6,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.1
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "35",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 35,
+   "k": 5,
+   "d": 175,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 8,
+   "rep_ok": true,
+   "rep_len": 8,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 7,
+     "w1": 943637,
+     "w2_max": 908600,
+     "sec": 0.4,
+     "symmetry": "full unit group, generators [2, 3] verified",
+     "orbits": [
+      60,
+      12,
+      10,
+      3,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "35",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 35,
+   "k": 6,
+   "d": 210,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 5,
+     "w1": 51102,
+     "w2_max": 21945,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [11, 13, 19] verified",
+     "orbits": [
+      24,
+      24,
+      12,
+      12,
+      6,
+      6,
+      4,
+      4,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 30,
+    "min_norm": 6,
+    "distinct_normalized": 3,
+    "highs_rep_orbit_found": true,
+    "sec": 0.3
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "35",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 39,
+   "k": 1,
+   "d": 39,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 5,
+     "w1": 906,
+     "w2_max": 780,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 7] verified",
+     "orbits": [
+      12,
+      6,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 20,
+    "min_norm": 6,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "39",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 39,
+   "k": 2,
+   "d": 78,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "S",
+    "T"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "P1.json",
+     "B": 2,
+     "w1": 184,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      12,
+      12,
+      6,
+      6,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "S_T_upto128.json",
+     "B": 2,
+     "w1": 184,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      12,
+      12,
+      6,
+      6,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 2,
+    "min_norm": 3,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "39",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 39,
+   "k": 3,
+   "d": 117,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 5,
+     "w1": 8220,
+     "w2_max": 6903,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 5, 7] verified",
+     "orbits": [
+      36,
+      12,
+      6,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 20,
+    "min_norm": 6,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "39",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 39,
+   "k": 4,
+   "d": 156,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 2,
+     "w1": 488,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      24,
+      12,
+      12,
+      12,
+      6,
+      6,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 2,
+    "min_norm": 3,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "39",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 39,
+   "k": 5,
+   "d": 195,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 5,
+     "w1": 25918,
+     "w2_max": 19110,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [2, 7, 11] verified",
+     "orbits": [
+      48,
+      24,
+      12,
+      6,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 20,
+    "min_norm": 6,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 0.2
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "39",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 39,
+   "k": 6,
+   "d": 234,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 3,
+   "rep_ok": true,
+   "rep_len": 3,
+   "lb": 3,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 2,
+     "w1": 654,
+     "w2_max": 1,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      36,
+      36,
+      12,
+      12,
+      6,
+      6,
+      3,
+      3,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 3,
+    "genuine_matches": 2,
+    "min_norm": 3,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "39",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 1,
+   "d": 44,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 6,
+     "w1": 16955,
+     "w2_max": 946,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 7] verified",
+     "orbits": [
+      10,
+      5,
+      5,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 100,
+    "min_norm": 7,
+    "distinct_normalized": 5,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 2,
+   "d": 88,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 6,
+     "w1": 136705,
+     "w2_max": 3828,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 5, 7] verified",
+     "orbits": [
+      20,
+      10,
+      5,
+      5,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 100,
+    "min_norm": 7,
+    "distinct_normalized": 5,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 3,
+   "d": 132,
+   "extra": [],
+   "srcs": [
+    "S",
+    "T"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 6,
+     "w1": 606336,
+     "w2_max": 8646,
+     "sec": 0.1,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      20,
+      10,
+      10,
+      10,
+      5,
+      5,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 180,
+    "min_norm": 7,
+    "distinct_normalized": 9,
+    "highs_rep_orbit_found": true,
+    "sec": 0.2
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 3,
+   "d": 132,
+   "extra": [
+    12
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 8,
+   "rep_ok": true,
+   "rep_len": 8,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 7,
+     "w1": 606336,
+     "w2_max": 383306,
+     "sec": 0.2,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      20,
+      10,
+      10,
+      10,
+      5,
+      5,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 8,
+    "genuine_matches": 630,
+    "min_norm": 8,
+    "distinct_normalized": 18,
+    "highs_rep_orbit_found": true,
+    "sec": 3.6
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "3",
+    "(12,)"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 3,
+   "d": 132,
+   "extra": [
+    12,
+    33
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 9,
+   "rep_ok": true,
+   "rep_len": 9,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 17415427,
+     "w2_max": 383306,
+     "sec": 3.6,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      20,
+      10,
+      10,
+      10,
+      5,
+      5,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "3",
+    "(12, 33)"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 3,
+   "d": 132,
+   "extra": [
+    33
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 17415427,
+     "w2_max": 12840751,
+     "sec": 30.7,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      20,
+      10,
+      10,
+      10,
+      5,
+      5,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "3",
+    "(33,)"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 4,
+   "d": 176,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 6,
+     "w1": 1096769,
+     "w2_max": 15400,
+     "sec": 0.1,
+     "symmetry": "full unit group, generators [3, 5, 7] verified",
+     "orbits": [
+      40,
+      20,
+      10,
+      5,
+      5,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 100,
+    "min_norm": 7,
+    "distinct_normalized": 5,
+    "highs_rep_orbit_found": true,
+    "sec": 0.7
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 5,
+   "d": 220,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 6,
+     "w1": 2451445,
+     "w2_max": 24090,
+     "sec": 0.4,
+     "symmetry": "full unit group, generators [3, 7, 13] verified",
+     "orbits": [
+      40,
+      20,
+      20,
+      10,
+      5,
+      5,
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 100,
+    "min_norm": 7,
+    "distinct_normalized": 5,
+    "highs_rep_orbit_found": true,
+    "sec": 3.6
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 5,
+   "d": 220,
+   "extra": [
+    20
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 119690321,
+     "w2_max": 1774630,
+     "sec": 104.1,
+     "symmetry": "full unit group, generators [3, 7, 13] verified",
+     "orbits": [
+      40,
+      20,
+      20,
+      10,
+      5,
+      5,
+      4,
+      2,
+      2,
+      1
+     ]
+    },
+    {
+     "file": "S_220_x20_B9.json",
+     "B": 9,
+     "w1": 119690321,
+     "w2_max": 98491965,
+     "sec": 235.2,
+     "symmetry": "full unit group, generators [3, 7, 13] verified",
+     "orbits": [
+      40,
+      20,
+      20,
+      10,
+      5,
+      5,
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "5",
+    "(20,)"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 5,
+   "d": 220,
+   "extra": [
+    20,
+    55
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 15,
+   "rep_ok": true,
+   "rep_len": 15,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 119690321,
+     "w2_max": 1774630,
+     "sec": 104.6,
+     "symmetry": "full unit group, generators [3, 7, 13] verified",
+     "orbits": [
+      40,
+      20,
+      20,
+      10,
+      5,
+      5,
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "44",
+    "5",
+    "(20, 55)"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 5,
+   "d": 220,
+   "extra": [
+    55
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 12,
+   "rep_ok": true,
+   "rep_len": 12,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 119690321,
+     "w2_max": 1774630,
+     "sec": 123.3,
+     "symmetry": "full unit group, generators [3, 7, 13] verified",
+     "orbits": [
+      40,
+      20,
+      20,
+      10,
+      5,
+      5,
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "44",
+    "5",
+    "(55,)"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 6,
+   "d": 264,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 6,
+     "w1": 4956480,
+     "w2_max": 34716,
+     "sec": 0.5,
+     "symmetry": "full unit group, generators [5, 7, 13, 19] verified",
+     "orbits": [
+      40,
+      20,
+      20,
+      10,
+      10,
+      10,
+      5,
+      5,
+      4,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 180,
+    "min_norm": 7,
+    "distinct_normalized": 9,
+    "highs_rep_orbit_found": true,
+    "sec": 5.3
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 7,
+   "d": 308,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 6408920,
+     "w2_max": 47278,
+     "sec": 0.6,
+     "symmetry": "full unit group, generators [3, 5, 13] verified",
+     "orbits": [
+      60,
+      30,
+      30,
+      10,
+      6,
+      5,
+      5,
+      3,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 100,
+    "min_norm": 7,
+    "distinct_normalized": 5,
+    "highs_rep_orbit_found": true,
+    "sec": 7.8
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "7",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 7,
+   "d": 308,
+   "extra": [
+    28
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 9,
+   "rep_ok": true,
+   "rep_len": 9,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 6408920,
+     "w2_max": 4869634,
+     "sec": 8.2,
+     "symmetry": "full unit group, generators [3, 5, 13] verified",
+     "orbits": [
+      60,
+      30,
+      30,
+      10,
+      6,
+      5,
+      5,
+      3,
+      3,
+      1
+     ]
+    },
+    {
+     "file": "S_308_x28_B8.json",
+     "B": 8,
+     "w1": 442602735,
+     "w2_max": 4869634,
+     "sec": 467.5,
+     "symmetry": "full unit group, generators [3, 5, 13] verified",
+     "orbits": [
+      60,
+      30,
+      30,
+      10,
+      6,
+      5,
+      5,
+      3,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "7",
+    "(28,)"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 8,
+   "d": 352,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 8779819,
+     "w2_max": 61776,
+     "sec": 0.8,
+     "symmetry": "full unit group, generators [3, 5, 7] verified",
+     "orbits": [
+      80,
+      40,
+      20,
+      10,
+      8,
+      5,
+      5,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "8",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 9,
+   "d": 396,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 16700529,
+     "w2_max": 78210,
+     "sec": 1.6,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      60,
+      30,
+      30,
+      20,
+      10,
+      10,
+      10,
+      6,
+      5,
+      5,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "9",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 10,
+   "d": 440,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 20305205,
+     "w2_max": 96580,
+     "sec": 1.9,
+     "symmetry": "full unit group, generators [3, 7, 13, 17] verified",
+     "orbits": [
+      80,
+      40,
+      20,
+      20,
+      20,
+      10,
+      8,
+      5,
+      5,
+      4,
+      2,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "10",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 11,
+   "d": 484,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 22588790,
+     "w2_max": 116886,
+     "sec": 2.1,
+     "symmetry": "full unit group, generators [3, 5, 7] verified",
+     "orbits": [
+      110,
+      55,
+      55,
+      10,
+      5,
+      5,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "11",
+    "()"
+   ]
+  },
+  {
+   "q": 44,
+   "k": 12,
+   "d": 528,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 39880154,
+     "w2_max": 139128,
+     "sec": 4.3,
+     "symmetry": "full unit group, generators [5, 7, 13, 19] verified",
+     "orbits": [
+      80,
+      40,
+      40,
+      20,
+      20,
+      10,
+      10,
+      10,
+      8,
+      5,
+      5,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "44",
+    "12",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 1,
+   "d": 51,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 9,
+     "w1": 323581,
+     "w2_max": 316251,
+     "sec": 0.1,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      16,
+      8,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 10,
+    "genuine_matches": 1008,
+    "min_norm": 10,
+    "distinct_normalized": 8,
+    "highs_rep_orbit_found": true,
+    "sec": 1.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 2,
+   "d": 102,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "S",
+    "T"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "P1.json",
+     "B": 6,
+     "w1": 244961,
+     "w2_max": 5151,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      16,
+      16,
+      8,
+      8,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "S_T_upto128.json",
+     "B": 6,
+     "w1": 244961,
+     "w2_max": 5151,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      16,
+      16,
+      8,
+      8,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 240,
+    "min_norm": 7,
+    "distinct_normalized": 12,
+    "highs_rep_orbit_found": true,
+    "sec": 0.1
+   },
+   "count": {
+    "B": 7,
+    "distinct_normalized": 12,
+    "all_solutions_by_norm": {
+     "7": 96
+    },
+    "collect_cap_hit": false,
+    "sec": 0.0
+   },
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 3,
+   "d": 153,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 24247335,
+     "w2_max": 23738715,
+     "sec": 50.0,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      48,
+      16,
+      8,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 4,
+   "d": 204,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 6,
+     "w1": 2173563,
+     "w2_max": 20706,
+     "sec": 0.2,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      32,
+      16,
+      16,
+      16,
+      8,
+      8,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 240,
+    "min_norm": 7,
+    "distinct_normalized": 12,
+    "highs_rep_orbit_found": true,
+    "sec": 1.7
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 4,
+   "d": 204,
+   "extra": [
+    12
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 8,
+   "rep_ok": true,
+   "rep_len": 8,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 7,
+     "w1": 2173563,
+     "w2_max": 1414910,
+     "sec": 1.7,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      32,
+      16,
+      16,
+      16,
+      8,
+      8,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "4",
+    "(12,)"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 5,
+   "d": 255,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 192481581,
+     "w2_max": 2796160,
+     "sec": 272.4,
+     "symmetry": "full unit group, generators [2, 7, 13] verified",
+     "orbits": [
+      64,
+      32,
+      16,
+      8,
+      4,
+      2,
+      1
+     ]
+    },
+    {
+     "file": "S_255_q51_B9.json",
+     "B": 9,
+     "w1": 192481581,
+     "w2_max": 180352320,
+     "sec": 450.3,
+     "symmetry": "full unit group, generators [2, 7, 13] verified",
+     "orbits": [
+      64,
+      32,
+      16,
+      8,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 5,
+   "d": 255,
+   "extra": [
+    15
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 12,
+   "rep_ok": true,
+   "rep_len": 12,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 192481581,
+     "w2_max": 2796160,
+     "sec": 209.6,
+     "symmetry": "full unit group, generators [2, 7, 13] verified",
+     "orbits": [
+      64,
+      32,
+      16,
+      8,
+      4,
+      2,
+      1
+     ]
+    },
+    {
+     "file": "S_255_x15_B9.json",
+     "B": 9,
+     "w1": 192481581,
+     "w2_max": 180352320,
+     "sec": 470.5,
+     "symmetry": "full unit group, generators [2, 7, 13] verified",
+     "orbits": [
+      64,
+      32,
+      16,
+      8,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "51",
+    "5",
+    "(15,)"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 6,
+   "d": 306,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 6686306,
+     "w2_max": 46665,
+     "sec": 0.6,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      48,
+      48,
+      16,
+      16,
+      8,
+      8,
+      3,
+      3,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 240,
+    "min_norm": 7,
+    "distinct_normalized": 12,
+    "highs_rep_orbit_found": true,
+    "sec": 7.4
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 7,
+   "d": 357,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 8477654,
+     "w2_max": 7647059,
+     "sec": 13.0,
+     "symmetry": "full unit group, generators [2, 5, 11] verified",
+     "orbits": [
+      96,
+      48,
+      16,
+      8,
+      6,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "51",
+    "7",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 7,
+   "d": 357,
+   "extra": [
+    21
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 14,
+   "rep_ok": true,
+   "rep_len": 14,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 8477654,
+     "w2_max": 7647059,
+     "sec": 12.7,
+     "symmetry": "full unit group, generators [2, 5, 11] verified",
+     "orbits": [
+      96,
+      48,
+      16,
+      8,
+      6,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "51",
+    "7",
+    "(21,)"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 8,
+   "d": 408,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 17687819,
+     "w2_max": 83028,
+     "sec": 1.7,
+     "symmetry": "full unit group, generators [5, 7, 11, 13] verified",
+     "orbits": [
+      64,
+      32,
+      32,
+      16,
+      16,
+      16,
+      8,
+      8,
+      4,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "8",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 9,
+   "d": 459,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 17161076,
+     "w2_max": 16222590,
+     "sec": 30.9,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      144,
+      48,
+      16,
+      9,
+      8,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "51",
+    "9",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 10,
+   "d": 510,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 35807763,
+     "w2_max": 129795,
+     "sec": 3.8,
+     "symmetry": "full unit group, generators [7, 11, 13] verified",
+     "orbits": [
+      64,
+      64,
+      32,
+      32,
+      16,
+      16,
+      8,
+      8,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "10",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 10,
+   "d": 510,
+   "extra": [
+    15
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 8,
+   "rep_ok": true,
+   "rep_len": 8,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 35807763,
+     "w2_max": 22108415,
+     "sec": 63.8,
+     "symmetry": "full unit group, generators [7, 11, 13] verified",
+     "orbits": [
+      64,
+      64,
+      32,
+      32,
+      16,
+      16,
+      8,
+      8,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "10",
+    "(15,)"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 11,
+   "d": 561,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 32063668,
+     "w2_max": 29583961,
+     "sec": 54.5,
+     "symmetry": "full unit group, generators [2, 5, 13] verified",
+     "orbits": [
+      160,
+      80,
+      16,
+      10,
+      8,
+      5,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "51",
+    "11",
+    "()"
+   ]
+  },
+  {
+   "q": 51,
+   "k": 12,
+   "d": 612,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 59567680,
+     "w2_max": 186966,
+     "sec": 7.7,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      96,
+      48,
+      48,
+      32,
+      16,
+      16,
+      16,
+      8,
+      8,
+      6,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "51",
+    "12",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 1,
+   "d": 52,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 6,
+     "w1": 27770,
+     "w2_max": 1326,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 5] verified",
+     "orbits": [
+      12,
+      6,
+      6,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 120,
+    "min_norm": 7,
+    "distinct_normalized": 6,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 2,
+   "d": 104,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 6,
+     "w1": 223600,
+     "w2_max": 5356,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 5, 11] verified",
+     "orbits": [
+      24,
+      12,
+      6,
+      6,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 120,
+    "min_norm": 7,
+    "distinct_normalized": 6,
+    "highs_rep_orbit_found": true,
+    "sec": 0.1
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 3,
+   "d": 156,
+   "extra": [],
+   "srcs": [
+    "S",
+    "T"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 6,
+     "w1": 987889,
+     "w2_max": 12090,
+     "sec": 0.1,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      24,
+      12,
+      12,
+      12,
+      6,
+      6,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 360,
+    "min_norm": 7,
+    "distinct_normalized": 18,
+    "highs_rep_orbit_found": true,
+    "sec": 0.3
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 3,
+   "d": 156,
+   "extra": [
+    12
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 33536691,
+     "w2_max": 24992045,
+     "sec": 65.8,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      24,
+      12,
+      12,
+      12,
+      6,
+      6,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "3",
+    "(12,)"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 3,
+   "d": 156,
+   "extra": [
+    12,
+    39
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 12,
+   "rep_ok": true,
+   "rep_len": 12,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 33536691,
+     "w2_max": 24992045,
+     "sec": 90.8,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      24,
+      12,
+      12,
+      12,
+      6,
+      6,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "52",
+    "3",
+    "(12, 39)"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 3,
+   "d": 156,
+   "extra": [
+    39
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 9,
+   "rep_ok": true,
+   "rep_len": 9,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 33536691,
+     "w2_max": 632710,
+     "sec": 8.3,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      24,
+      12,
+      12,
+      12,
+      6,
+      6,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "3",
+    "(39,)"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 4,
+   "d": 208,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 6,
+     "w1": 1792688,
+     "w2_max": 21528,
+     "sec": 0.2,
+     "symmetry": "full unit group, generators [3, 5, 11] verified",
+     "orbits": [
+      48,
+      24,
+      12,
+      6,
+      6,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 120,
+    "min_norm": 7,
+    "distinct_normalized": 6,
+    "highs_rep_orbit_found": true,
+    "sec": 1.4
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 5,
+   "d": 260,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 6,
+     "w1": 3998300,
+     "w2_max": 33670,
+     "sec": 0.7,
+     "symmetry": "full unit group, generators [3, 7, 11] verified",
+     "orbits": [
+      48,
+      24,
+      24,
+      12,
+      6,
+      6,
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 7,
+    "genuine_matches": 120,
+    "min_norm": 7,
+    "distinct_normalized": 6,
+    "highs_rep_orbit_found": true,
+    "sec": 5.9
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 5,
+   "d": 260,
+   "extra": [
+    20
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 231185222,
+     "w2_max": 2929290,
+     "sec": 209.5,
+     "symmetry": "full unit group, generators [3, 7, 11] verified",
+     "orbits": [
+      48,
+      24,
+      24,
+      12,
+      6,
+      6,
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "52",
+    "5",
+    "(20,)"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 6,
+   "d": 312,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 8058865,
+     "w2_max": 48516,
+     "sec": 0.7,
+     "symmetry": "full unit group, generators [5, 7, 11, 17] verified",
+     "orbits": [
+      48,
+      24,
+      24,
+      12,
+      12,
+      12,
+      6,
+      6,
+      4,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 7,
+   "d": 364,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 10464679,
+     "w2_max": 66066,
+     "sec": 1.0,
+     "symmetry": "full unit group, generators [3, 5, 17] verified",
+     "orbits": [
+      72,
+      36,
+      36,
+      12,
+      6,
+      6,
+      6,
+      3,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "7",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 7,
+   "d": 364,
+   "extra": [
+    28
+   ],
+   "srcs": [
+    "S"
+   ],
+   "highs": 11,
+   "rep_ok": true,
+   "rep_len": 11,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 10464679,
+     "w2_max": 8038030,
+     "sec": 15.5,
+     "symmetry": "full unit group, generators [3, 5, 17] verified",
+     "orbits": [
+      72,
+      36,
+      36,
+      12,
+      6,
+      6,
+      6,
+      3,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "52",
+    "7",
+    "(28,)"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 8,
+   "d": 416,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 14350852,
+     "w2_max": 86320,
+     "sec": 1.4,
+     "symmetry": "full unit group, generators [3, 5, 11] verified",
+     "orbits": [
+      96,
+      48,
+      24,
+      12,
+      8,
+      6,
+      6,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "8",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 9,
+   "d": 468,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 27149418,
+     "w2_max": 109278,
+     "sec": 2.8,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      72,
+      36,
+      36,
+      24,
+      12,
+      12,
+      12,
+      6,
+      6,
+      6,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "9",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 10,
+   "d": 520,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 33041178,
+     "w2_max": 134940,
+     "sec": 3.8,
+     "symmetry": "full unit group, generators [3, 7, 11, 17] verified",
+     "orbits": [
+      96,
+      48,
+      24,
+      24,
+      24,
+      12,
+      8,
+      6,
+      6,
+      4,
+      2,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "10",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 11,
+   "d": 572,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 39089557,
+     "w2_max": 163306,
+     "sec": 4.6,
+     "symmetry": "full unit group, generators [3, 5, 7] verified",
+     "orbits": [
+      120,
+      60,
+      60,
+      12,
+      10,
+      6,
+      6,
+      5,
+      5,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "11",
+    "()"
+   ]
+  },
+  {
+   "q": 52,
+   "k": 12,
+   "d": 624,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 7,
+   "rep_ok": true,
+   "rep_len": 7,
+   "lb": 7,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 6,
+     "w1": 64785109,
+     "w2_max": 194376,
+     "sec": 8.7,
+     "symmetry": "full unit group, generators [5, 7, 11, 17] verified",
+     "orbits": [
+      96,
+      48,
+      48,
+      24,
+      24,
+      12,
+      12,
+      12,
+      8,
+      6,
+      6,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "52",
+    "12",
+    "()"
+   ]
+  },
+  {
+   "q": 55,
+   "k": 1,
+   "d": 55,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 9,
+     "w1": 427400,
+     "w2_max": 424270,
+     "sec": 0.2,
+     "symmetry": "full unit group, generators [2, 3] verified",
+     "orbits": [
+      20,
+      5,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 10,
+    "genuine_matches": 252,
+    "min_norm": 10,
+    "distinct_normalized": 2,
+    "highs_rep_orbit_found": true,
+    "sec": 1.6
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "55",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 55,
+   "k": 2,
+   "d": 110,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "S",
+    "T"
+   ],
+   "highs": 5,
+   "rep_ok": true,
+   "rep_len": 5,
+   "lb": 5,
+   "runs": [
+    {
+     "file": "P1.json",
+     "B": 4,
+     "w1": 9095,
+     "w2_max": 109,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 7] verified",
+     "orbits": [
+      20,
+      20,
+      5,
+      5,
+      2,
+      2
+     ]
+    },
+    {
+     "file": "S_T_upto128.json",
+     "B": 4,
+     "w1": 9095,
+     "w2_max": 109,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 7] verified",
+     "orbits": [
+      20,
+      20,
+      5,
+      5,
+      2,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 5,
+    "genuine_matches": 6,
+    "min_norm": 5,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "55",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 55,
+   "k": 3,
+   "d": 165,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 34569140,
+     "w2_max": 32018910,
+     "sec": 72.3,
+     "symmetry": "full unit group, generators [2, 7, 19] verified",
+     "orbits": [
+      40,
+      20,
+      10,
+      5,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "55",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 55,
+   "k": 4,
+   "d": 220,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 5,
+   "rep_ok": true,
+   "rep_len": 5,
+   "lb": 5,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 4,
+     "w1": 42045,
+     "w2_max": 219,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [3, 7, 13] verified",
+     "orbits": [
+      40,
+      20,
+      20,
+      10,
+      5,
+      5,
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 5,
+    "genuine_matches": 6,
+    "min_norm": 5,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "55",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 55,
+   "k": 5,
+   "d": 275,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 245034845,
+     "w2_max": 3504050,
+     "sec": 381.3,
+     "symmetry": "full unit group, generators [2, 3] verified",
+     "orbits": [
+      100,
+      20,
+      10,
+      5,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "55",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 55,
+   "k": 6,
+   "d": 330,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 5,
+   "rep_ok": true,
+   "rep_len": 5,
+   "lb": 5,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 4,
+     "w1": 117408,
+     "w2_max": 329,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [7, 17, 19] verified",
+     "orbits": [
+      40,
+      40,
+      20,
+      20,
+      10,
+      10,
+      5,
+      5,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 5,
+    "genuine_matches": 6,
+    "min_norm": 5,
+    "distinct_normalized": 1,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "55",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 57,
+   "k": 1,
+   "d": 57,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 9,
+     "w1": 498276,
+     "w2_max": 487635,
+     "sec": 0.3,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      18,
+      9,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 10,
+    "genuine_matches": 1134,
+    "min_norm": 10,
+    "distinct_normalized": 9,
+    "highs_rep_orbit_found": true,
+    "sec": 2.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "57",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 57,
+   "k": 2,
+   "d": 114,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "S",
+    "T"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "P1.json",
+     "B": 5,
+     "w1": 10602,
+     "w2_max": 6441,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 13] verified",
+     "orbits": [
+      18,
+      18,
+      9,
+      9,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "S_T_upto128.json",
+     "B": 5,
+     "w1": 10602,
+     "w2_max": 6441,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 13] verified",
+     "orbits": [
+      18,
+      18,
+      9,
+      9,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 120,
+    "min_norm": 6,
+    "distinct_normalized": 12,
+    "highs_rep_orbit_found": true,
+    "sec": 0.0
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "57",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 57,
+   "k": 3,
+   "d": 171,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 37638636,
+     "w2_max": 36890001,
+     "sec": 102.2,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      54,
+      18,
+      9,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "57",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 57,
+   "k": 4,
+   "d": 228,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 5,
+     "w1": 50272,
+     "w2_max": 25878,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      36,
+      18,
+      18,
+      18,
+      9,
+      9,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 120,
+    "min_norm": 6,
+    "distinct_normalized": 12,
+    "highs_rep_orbit_found": true,
+    "sec": 0.5
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "57",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 57,
+   "k": 5,
+   "d": 285,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 7,
+     "w1": 4440560,
+     "w2_max": 3898895,
+     "sec": 6.2,
+     "symmetry": "full unit group, generators [2, 7, 11] verified",
+     "orbits": [
+      72,
+      36,
+      18,
+      9,
+      4,
+      2,
+      1
+     ]
+    },
+    {
+     "file": "S_285_q57_B8.json",
+     "B": 8,
+     "w1": 298990296,
+     "w2_max": 3898895,
+     "sec": 336.4,
+     "symmetry": "full unit group, generators [2, 7, 11] verified",
+     "orbits": [
+      72,
+      36,
+      18,
+      9,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "57",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 57,
+   "k": 6,
+   "d": 342,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 6,
+   "rep_ok": true,
+   "rep_len": 6,
+   "lb": 6,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 5,
+     "w1": 99753,
+     "w2_max": 58311,
+     "sec": 0.0,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      54,
+      54,
+      18,
+      18,
+      9,
+      9,
+      3,
+      3,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 6,
+    "genuine_matches": 120,
+    "min_norm": 6,
+    "distinct_normalized": 12,
+    "highs_rep_orbit_found": true,
+    "sec": 0.8
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "57",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 65,
+   "k": 1,
+   "d": 65,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 16,
+   "rep_ok": true,
+   "rep_len": 16,
+   "lb": 13,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 12,
+     "w1": 131190808,
+     "w2_max": 11238513,
+     "sec": 182.0,
+     "symmetry": "full unit group, generators [2, 3] verified",
+     "orbits": [
+      24,
+      6,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "65",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 65,
+   "k": 2,
+   "d": 130,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "S",
+    "T"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "P1.json",
+     "B": 9,
+     "w1": 14082382,
+     "w2_max": 12082785,
+     "sec": 20.7,
+     "symmetry": "full unit group, generators [3, 7] verified",
+     "orbits": [
+      24,
+      24,
+      6,
+      6,
+      2,
+      2
+     ]
+    },
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 14082382,
+     "w2_max": 12082785,
+     "sec": 24.6,
+     "symmetry": "full unit group, generators [3, 7] verified",
+     "orbits": [
+      24,
+      24,
+      6,
+      6,
+      2,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "65",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 65,
+   "k": 3,
+   "d": 195,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 16,
+   "rep_ok": true,
+   "rep_len": 16,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 66713571,
+     "w2_max": 1254890,
+     "sec": 55.1,
+     "symmetry": "full unit group, generators [2, 7, 11] verified",
+     "orbits": [
+      48,
+      24,
+      12,
+      6,
+      4,
+      2,
+      1
+     ]
+    },
+    {
+     "file": "S_195_q65_B9.json",
+     "B": 9,
+     "w1": 66713571,
+     "w2_max": 62117055,
+     "sec": 134.3,
+     "symmetry": "full unit group, generators [2, 7, 11] verified",
+     "orbits": [
+      48,
+      24,
+      12,
+      6,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "65",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 65,
+   "k": 4,
+   "d": 260,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 231185222,
+     "w2_max": 2929290,
+     "sec": 298.2,
+     "symmetry": "full unit group, generators [3, 7, 11] verified",
+     "orbits": [
+      48,
+      24,
+      24,
+      12,
+      6,
+      6,
+      4,
+      2,
+      2,
+      1
+     ]
+    },
+    {
+     "file": "S_260_q65_B9.json",
+     "B": 9,
+     "w1": 231185222,
+     "w2_max": 191868495,
+     "sec": 483.4,
+     "symmetry": "full unit group, generators [3, 7, 11] verified",
+     "orbits": [
+      48,
+      24,
+      24,
+      12,
+      6,
+      6,
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "65",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 65,
+   "k": 5,
+   "d": 325,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 16,
+   "rep_ok": true,
+   "rep_len": 16,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 5890413,
+     "w2_max": 5774275,
+     "sec": 9.1,
+     "symmetry": "full unit group, generators [2, 3] verified",
+     "orbits": [
+      120,
+      24,
+      10,
+      6,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "65",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 65,
+   "k": 6,
+   "d": 390,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 16279361,
+     "w2_max": 9886435,
+     "sec": 24.2,
+     "symmetry": "full unit group, generators [7, 11, 19] verified",
+     "orbits": [
+      48,
+      48,
+      24,
+      24,
+      12,
+      12,
+      6,
+      6,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "65",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 68,
+   "k": 1,
+   "d": 68,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 9,
+     "w1": 998040,
+     "w2_max": 916895,
+     "sec": 1.4,
+     "symmetry": "full unit group, generators [3, 5] verified",
+     "orbits": [
+      16,
+      8,
+      8,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": {
+    "B": 10,
+    "genuine_matches": 4032,
+    "min_norm": 10,
+    "distinct_normalized": 32,
+    "highs_rep_orbit_found": true,
+    "sec": 4.8
+   },
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "68",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 68,
+   "k": 2,
+   "d": 136,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 15740821,
+     "w2_max": 14463090,
+     "sec": 29.9,
+     "symmetry": "full unit group, generators [3, 5, 7] verified",
+     "orbits": [
+      32,
+      16,
+      8,
+      8,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "68",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 68,
+   "k": 3,
+   "d": 204,
+   "extra": [],
+   "srcs": [
+    "S",
+    "T"
+   ],
+   "highs": 8,
+   "rep_ok": true,
+   "rep_len": 8,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 7,
+     "w1": 2173563,
+     "w2_max": 1414910,
+     "sec": 1.6,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      32,
+      16,
+      16,
+      16,
+      8,
+      8,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "68",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 68,
+   "k": 4,
+   "d": 272,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 249934757,
+     "w2_max": 3353896,
+     "sec": 361.2,
+     "symmetry": "full unit group, generators [3, 5, 7] verified",
+     "orbits": [
+      64,
+      32,
+      16,
+      8,
+      8,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "68",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 68,
+   "k": 5,
+   "d": 340,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 8810546,
+     "w2_max": 6550610,
+     "sec": 11.7,
+     "symmetry": "full unit group, generators [3, 11, 19] verified",
+     "orbits": [
+      64,
+      32,
+      32,
+      16,
+      8,
+      8,
+      4,
+      2,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "68",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 68,
+   "k": 6,
+   "d": 408,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 8,
+   "rep_ok": true,
+   "rep_len": 8,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 17687819,
+     "w2_max": 11319484,
+     "sec": 26.2,
+     "symmetry": "full unit group, generators [5, 7, 11, 13] verified",
+     "orbits": [
+      64,
+      32,
+      32,
+      16,
+      16,
+      16,
+      8,
+      8,
+      4,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "68",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 69,
+   "k": 1,
+   "d": 69,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 12,
+   "rep_ok": true,
+   "rep_len": 12,
+   "lb": 12,
+   "runs": [
+    {
+     "file": "S_T_upto128.json",
+     "B": 11,
+     "w1": 15139110,
+     "w2_max": 15020334,
+     "sec": 26.7,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      22,
+      11,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "69",
+    "1",
+    "()"
+   ]
+  },
+  {
+   "q": 69,
+   "k": 2,
+   "d": 138,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "S",
+    "T"
+   ],
+   "highs": 9,
+   "rep_ok": true,
+   "rep_len": 9,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "P1.json",
+     "B": 8,
+     "w1": 18949790,
+     "w2_max": 437989,
+     "sec": 3.8,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      22,
+      22,
+      11,
+      11,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 18949790,
+     "w2_max": 437989,
+     "sec": 4.3,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      22,
+      22,
+      11,
+      11,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "69",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 69,
+   "k": 3,
+   "d": 207,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 12,
+   "rep_ok": true,
+   "rep_len": 12,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 80211971,
+     "w2_max": 1499784,
+     "sec": 70.5,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      66,
+      22,
+      11,
+      3,
+      1
+     ]
+    },
+    {
+     "file": "S_207_q69_B9.json",
+     "B": 9,
+     "w1": 80211971,
+     "w2_max": 78738660,
+     "sec": 162.2,
+     "symmetry": "full unit group, generators [2, 5] verified",
+     "orbits": [
+      66,
+      22,
+      11,
+      3,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "69",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 69,
+   "k": 4,
+   "d": 276,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 9,
+   "rep_ok": true,
+   "rep_len": 9,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 7,
+     "w1": 5311974,
+     "w2_max": 3504050,
+     "sec": 6.7,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      44,
+      22,
+      22,
+      22,
+      11,
+      11,
+      2,
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "S_276_q69_B8.json",
+     "B": 8,
+     "w1": 319031546,
+     "w2_max": 3504050,
+     "sec": 257.6,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      44,
+      22,
+      22,
+      22,
+      11,
+      11,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "69",
+    "4",
+    "()"
+   ]
+  },
+  {
+   "q": 69,
+   "k": 5,
+   "d": 345,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 12,
+   "rep_ok": true,
+   "rep_len": 12,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 7824164,
+     "w2_max": 6903565,
+     "sec": 11.7,
+     "symmetry": "full unit group, generators [2, 7, 13] verified",
+     "orbits": [
+      88,
+      44,
+      22,
+      11,
+      4,
+      2,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "69",
+    "5",
+    "()"
+   ]
+  },
+  {
+   "q": 69,
+   "k": 6,
+   "d": 414,
+   "extra": [],
+   "srcs": [
+    "S"
+   ],
+   "highs": 9,
+   "rep_ok": true,
+   "rep_len": 9,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "ST_301_624.json",
+     "B": 7,
+     "w1": 16376467,
+     "w2_max": 11826255,
+     "sec": 26.3,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      66,
+      66,
+      22,
+      22,
+      11,
+      11,
+      3,
+      3,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "69",
+    "6",
+    "()"
+   ]
+  },
+  {
+   "q": 76,
+   "k": 3,
+   "d": 228,
+   "extra": [],
+   "srcs": [
+    "T"
+   ],
+   "highs": 11,
+   "rep_ok": true,
+   "rep_len": 11,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 149749401,
+     "w2_max": 1975354,
+     "sec": 159.0,
+     "symmetry": "full unit group, generators [5, 7, 13] verified",
+     "orbits": [
+      36,
+      18,
+      18,
+      18,
+      9,
+      9,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "76",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 77,
+   "k": 2,
+   "d": 154,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "T"
+   ],
+   "highs": 12,
+   "rep_ok": true,
+   "rep_len": 12,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 27136560,
+     "w2_max": 23738715,
+     "sec": 54.5,
+     "symmetry": "full unit group, generators [3, 13] verified",
+     "orbits": [
+      30,
+      30,
+      5,
+      5,
+      3,
+      3
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "77",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 85,
+   "k": 2,
+   "d": 170,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "T"
+   ],
+   "highs": 12,
+   "rep_ok": true,
+   "rep_len": 12,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 40724501,
+     "w2_max": 35208615,
+     "sec": 86.7,
+     "symmetry": "full unit group, generators [3, 11] verified",
+     "orbits": [
+      32,
+      32,
+      8,
+      8,
+      2,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "85",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 87,
+   "k": 2,
+   "d": 174,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "T"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 9,
+     "w1": 47539836,
+     "w2_max": 38630900,
+     "sec": 105.2,
+     "symmetry": "full unit group, generators [5, 11] verified",
+     "orbits": [
+      28,
+      28,
+      14,
+      14,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "87",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 91,
+   "k": 2,
+   "d": 182,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "T"
+   ],
+   "highs": 17,
+   "rep_ok": true,
+   "rep_len": 17,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 52542341,
+     "w2_max": 1004731,
+     "sec": 25.7,
+     "symmetry": "full unit group, generators [3, 5] verified",
+     "orbits": [
+      36,
+      36,
+      6,
+      6,
+      3,
+      3
+     ]
+    },
+    {
+     "file": "T_182_q91_B9.json",
+     "B": 9,
+     "w1": 52542341,
+     "w2_max": 46217626,
+     "sec": 101.3,
+     "symmetry": "full unit group, generators [3, 5] verified",
+     "orbits": [
+      36,
+      36,
+      6,
+      6,
+      3,
+      3
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "91",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 92,
+   "k": 3,
+   "d": 276,
+   "extra": [],
+   "srcs": [
+    "T"
+   ],
+   "highs": 12,
+   "rep_ok": true,
+   "rep_len": 12,
+   "lb": 9,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 7,
+     "w1": 5311974,
+     "w2_max": 3504050,
+     "sec": 6.3,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      44,
+      22,
+      22,
+      22,
+      11,
+      11,
+      2,
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "T_276_q92_B8.json",
+     "B": 8,
+     "w1": 319031546,
+     "w2_max": 3504050,
+     "sec": 296.2,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      44,
+      22,
+      22,
+      22,
+      11,
+      11,
+      2,
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "92",
+    "3",
+    "()"
+   ]
+  },
+  {
+   "q": 93,
+   "k": 2,
+   "d": 186,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "T"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 61961200,
+     "w2_max": 1072445,
+     "sec": 36.7,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      30,
+      30,
+      15,
+      15,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "T_exact_B9.json",
+     "B": 9,
+     "w1": 61961200,
+     "w2_max": 50404915,
+     "sec": 131.0,
+     "symmetry": "full unit group, generators [5, 7, 11] verified",
+     "orbits": [
+      30,
+      30,
+      15,
+      15,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "93",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 95,
+   "k": 2,
+   "d": 190,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "T"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 63307600,
+     "w2_max": 1143135,
+     "sec": 42.0,
+     "symmetry": "full unit group, generators [3, 7] verified",
+     "orbits": [
+      36,
+      36,
+      9,
+      9,
+      2,
+      2
+     ]
+    },
+    {
+     "file": "T_exact_B9.json",
+     "B": 9,
+     "w1": 63307600,
+     "w2_max": 54870480,
+     "sec": 135.3,
+     "symmetry": "full unit group, generators [3, 7] verified",
+     "orbits": [
+      36,
+      36,
+      9,
+      9,
+      2,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "95",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 111,
+   "k": 2,
+   "d": 222,
+   "extra": [],
+   "srcs": [
+    "Q",
+    "T"
+   ],
+   "highs": 10,
+   "rep_ok": true,
+   "rep_len": 10,
+   "lb": 10,
+   "runs": [
+    {
+     "file": "ST_129_300.json",
+     "B": 8,
+     "w1": 125205842,
+     "w2_max": 1823471,
+     "sec": 110.8,
+     "symmetry": "full unit group, generators [5, 11] verified",
+     "orbits": [
+      36,
+      36,
+      18,
+      18,
+      1,
+      1
+     ]
+    },
+    {
+     "file": "T_exact_B9.json",
+     "B": 9,
+     "w1": 125205842,
+     "w2_max": 102114376,
+     "sec": 271.4,
+     "symmetry": "full unit group, generators [5, 11] verified",
+     "orbits": [
+      36,
+      36,
+      18,
+      18,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "CERTIFIED",
+   "key": [
+    "111",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 115,
+   "k": 2,
+   "d": 230,
+   "extra": [],
+   "srcs": [
+    "Q"
+   ],
+   "highs": 16,
+   "rep_ok": true,
+   "rep_len": 16,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "Q_only_B7.json",
+     "B": 7,
+     "w1": 2536877,
+     "w2_max": 2027795,
+     "sec": 3.5,
+     "symmetry": "full unit group, generators [3, 7] verified",
+     "orbits": [
+      44,
+      44,
+      11,
+      11,
+      2,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "115",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 119,
+   "k": 2,
+   "d": 238,
+   "extra": [],
+   "srcs": [
+    "Q"
+   ],
+   "highs": 18,
+   "rep_ok": true,
+   "rep_len": 18,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "Q_only_B7.json",
+     "B": 7,
+     "w1": 2745279,
+     "w2_max": 2246839,
+     "sec": 4.0,
+     "symmetry": "full unit group, generators [3, 11] verified",
+     "orbits": [
+      48,
+      48,
+      8,
+      8,
+      3,
+      3
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "119",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 123,
+   "k": 2,
+   "d": 246,
+   "extra": [],
+   "srcs": [
+    "Q"
+   ],
+   "highs": 14,
+   "rep_ok": true,
+   "rep_len": 14,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "Q_only_B7.json",
+     "B": 7,
+     "w1": 3365725,
+     "w2_max": 2481115,
+     "sec": 4.8,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      40,
+      40,
+      20,
+      20,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "123",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 129,
+   "k": 2,
+   "d": 258,
+   "extra": [],
+   "srcs": [
+    "Q"
+   ],
+   "highs": 13,
+   "rep_ok": true,
+   "rep_len": 13,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "Q_only_B7.json",
+     "B": 7,
+     "w1": 3880138,
+     "w2_max": 2862209,
+     "sec": 6.6,
+     "symmetry": "full unit group, generators [5, 7] verified",
+     "orbits": [
+      42,
+      42,
+      21,
+      21,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "129",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 133,
+   "k": 2,
+   "d": 266,
+   "extra": [],
+   "srcs": [
+    "Q"
+   ],
+   "highs": 19,
+   "rep_ok": true,
+   "rep_len": 19,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "Q_only_B7.json",
+     "B": 7,
+     "w1": 3820984,
+     "w2_max": 3136805,
+     "sec": 8.2,
+     "symmetry": "full unit group, generators [3, 5] verified",
+     "orbits": [
+      54,
+      54,
+      9,
+      9,
+      3,
+      3
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "133",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 141,
+   "k": 2,
+   "d": 282,
+   "extra": [],
+   "srcs": [
+    "Q"
+   ],
+   "highs": 15,
+   "rep_ok": true,
+   "rep_len": 15,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "Q_only_B7.json",
+     "B": 7,
+     "w1": 5061036,
+     "w2_max": 3737581,
+     "sec": 11.0,
+     "symmetry": "full unit group, generators [5, 13] verified",
+     "orbits": [
+      46,
+      46,
+      23,
+      23,
+      1,
+      1
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "141",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 143,
+   "k": 2,
+   "d": 286,
+   "extra": [],
+   "srcs": [
+    "Q"
+   ],
+   "highs": 19,
+   "rep_ok": true,
+   "rep_len": 19,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "Q_only_B7.json",
+     "B": 7,
+     "w1": 4686067,
+     "w2_max": 3898895,
+     "sec": 10.2,
+     "symmetry": "full unit group, generators [3, 5, 7] verified",
+     "orbits": [
+      60,
+      60,
+      6,
+      6,
+      5,
+      5
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "143",
+    "2",
+    "()"
+   ]
+  },
+  {
+   "q": 145,
+   "k": 2,
+   "d": 290,
+   "extra": [],
+   "srcs": [
+    "Q"
+   ],
+   "highs": 19,
+   "rep_ok": true,
+   "rep_len": 19,
+   "lb": 8,
+   "runs": [
+    {
+     "file": "Q_only_B7.json",
+     "B": 7,
+     "w1": 5061958,
+     "w2_max": 4064785,
+     "sec": 10.7,
+     "symmetry": "full unit group, generators [3, 7] verified",
+     "orbits": [
+      56,
+      56,
+      14,
+      14,
+      2,
+      2
+     ]
+    }
+   ],
+   "genuine": 0,
+   "selftest": null,
+   "count": null,
+   "status": "LOWER BOUND ONLY",
+   "key": [
+    "145",
+    "2",
+    "()"
+   ]
+  }
+ ],
+ "levels": {
+  "30": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 3,
+   "n": 14,
+   "rank_L": 10,
+   "rank_S": 10,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "42": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 3,
+   "n": 20,
+   "rank_L": 14,
+   "rank_S": 14,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "66": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 3,
+   "n": 32,
+   "rank_L": 22,
+   "rank_S": 22,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "70": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 34,
+   "rank_L": 22,
+   "rank_S": 22,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "78": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 38,
+   "rank_L": 26,
+   "rank_S": 26,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "102": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 50,
+   "rank_L": 34,
+   "rank_S": 34,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "110": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 54,
+   "rank_L": 34,
+   "rank_S": 34,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "114": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 56,
+   "rank_L": 38,
+   "rank_S": 38,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "130": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 64,
+   "rank_L": 40,
+   "rank_S": 40,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "138": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 68,
+   "rank_L": 46,
+   "rank_S": 46,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "230": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 114,
+   "rank_L": 70,
+   "rank_S": 70,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "238": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 118,
+   "rank_L": 70,
+   "rank_S": 70,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "246": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 122,
+   "rank_L": 82,
+   "rank_S": 82,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "258": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 128,
+   "rank_L": 86,
+   "rank_S": 86,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "266": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 132,
+   "rank_L": 78,
+   "rank_S": 78,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "282": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 140,
+   "rank_L": 94,
+   "rank_S": 94,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "286": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 142,
+   "rank_L": 82,
+   "rank_S": 82,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "290": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 144,
+   "rank_L": 88,
+   "rank_S": 88,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "132": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 65,
+   "rank_L": 45,
+   "rank_S": 45,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "136": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 67,
+   "rank_L": 35,
+   "rank_S": 35,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "140": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 69,
+   "rank_L": 45,
+   "rank_S": 45,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "153": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 76,
+   "rank_L": 28,
+   "rank_S": 28,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "154": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 76,
+   "rank_L": 46,
+   "rank_S": 46,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "156": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 77,
+   "rank_L": 53,
+   "rank_S": 53,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "165": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 82,
+   "rank_L": 42,
+   "rank_S": 42,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "168": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 83,
+   "rank_L": 59,
+   "rank_S": 59,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "170": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 84,
+   "rank_L": 52,
+   "rank_S": 52,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "171": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 85,
+   "rank_L": 31,
+   "rank_S": 31,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "174": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 86,
+   "rank_L": 58,
+   "rank_S": 58,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "175": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 87,
+   "rank_L": 27,
+   "rank_S": 27,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "176": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 87,
+   "rank_L": 47,
+   "rank_S": 47,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "182": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 90,
+   "rank_L": 54,
+   "rank_S": 54,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "186": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 92,
+   "rank_L": 62,
+   "rank_S": 62,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "190": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 94,
+   "rank_L": 58,
+   "rank_S": 58,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "195": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 97,
+   "rank_L": 49,
+   "rank_S": 49,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "198": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 98,
+   "rank_L": 68,
+   "rank_S": 68,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "204": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 101,
+   "rank_L": 69,
+   "rank_S": 69,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "207": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 103,
+   "rank_L": 37,
+   "rank_S": 37,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "208": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 103,
+   "rank_L": 55,
+   "rank_S": 55,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "210": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 104,
+   "rank_L": 80,
+   "rank_S": 80,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "220": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 109,
+   "rank_L": 69,
+   "rank_S": 69,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "222": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 110,
+   "rank_L": 74,
+   "rank_S": 74,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "228": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 113,
+   "rank_L": 77,
+   "rank_S": 77,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "234": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 116,
+   "rank_L": 80,
+   "rank_S": 80,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "255": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 3,
+   "n": 127,
+   "rank_L": 63,
+   "rank_S": 63,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "260": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 129,
+   "rank_L": 81,
+   "rank_S": 81,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "264": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 131,
+   "rank_L": 91,
+   "rank_S": 91,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "272": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 135,
+   "rank_L": 71,
+   "rank_S": 71,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "275": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 137,
+   "rank_L": 37,
+   "rank_S": 37,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "276": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 3,
+   "n": 137,
+   "rank_L": 93,
+   "rank_S": 93,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "285": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 142,
+   "rank_L": 70,
+   "rank_S": 70,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "306": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 152,
+   "rank_L": 104,
+   "rank_S": 104,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "308": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 2,
+   "n": 153,
+   "rank_L": 93,
+   "rank_S": 93,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "312": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 155,
+   "rank_L": 107,
+   "rank_S": 107,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "325": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 162,
+   "rank_L": 42,
+   "rank_S": 42,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "330": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 164,
+   "rank_L": 124,
+   "rank_S": 124,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "340": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 169,
+   "rank_L": 105,
+   "rank_S": 105,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "342": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 170,
+   "rank_L": 116,
+   "rank_S": 116,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "345": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 172,
+   "rank_L": 84,
+   "rank_S": 84,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "352": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 175,
+   "rank_L": 95,
+   "rank_S": 95,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "357": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 178,
+   "rank_L": 82,
+   "rank_S": 82,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "364": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 181,
+   "rank_L": 109,
+   "rank_S": 109,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "390": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 194,
+   "rank_L": 146,
+   "rank_S": 146,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "396": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 197,
+   "rank_L": 137,
+   "rank_S": 137,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "408": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 203,
+   "rank_L": 139,
+   "rank_S": 139,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "414": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 206,
+   "rank_L": 140,
+   "rank_S": 140,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "416": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 207,
+   "rank_L": 111,
+   "rank_S": 111,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "440": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 219,
+   "rank_L": 139,
+   "rank_S": 139,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "459": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 229,
+   "rank_L": 85,
+   "rank_S": 85,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "468": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 233,
+   "rank_L": 161,
+   "rank_S": 161,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "484": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 241,
+   "rank_L": 131,
+   "rank_S": 131,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "510": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 254,
+   "rank_L": 190,
+   "rank_S": 190,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "520": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 259,
+   "rank_L": 163,
+   "rank_S": 163,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "528": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 263,
+   "rank_L": 183,
+   "rank_S": 183,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "561": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 280,
+   "rank_L": 120,
+   "rank_S": 120,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "572": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 285,
+   "rank_L": 165,
+   "rank_S": 165,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "612": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 305,
+   "rank_L": 209,
+   "rank_S": 209,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "624": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 311,
+   "rank_L": 215,
+   "rank_S": 215,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "12": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 5,
+   "rank_L": 3,
+   "rank_S": 3,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "15": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 7,
+   "rank_L": 3,
+   "rank_S": 3,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "20": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 9,
+   "rank_L": 5,
+   "rank_S": 5,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "21": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 10,
+   "rank_L": 4,
+   "rank_S": 4,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "24": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 11,
+   "rank_L": 7,
+   "rank_S": 7,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "28": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 13,
+   "rank_L": 7,
+   "rank_S": 7,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "33": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 16,
+   "rank_L": 6,
+   "rank_S": 6,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "35": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 17,
+   "rank_L": 5,
+   "rank_S": 5,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "36": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 17,
+   "rank_L": 11,
+   "rank_S": 11,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "39": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 19,
+   "rank_L": 7,
+   "rank_S": 7,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "40": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 19,
+   "rank_L": 11,
+   "rank_S": 11,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "44": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 21,
+   "rank_L": 11,
+   "rank_S": 11,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "45": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 22,
+   "rank_L": 10,
+   "rank_S": 10,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "48": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 23,
+   "rank_L": 15,
+   "rank_S": 15,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "51": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 25,
+   "rank_L": 9,
+   "rank_S": 9,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "52": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 25,
+   "rank_L": 13,
+   "rank_S": 13,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "55": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 27,
+   "rank_L": 7,
+   "rank_S": 7,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "56": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 27,
+   "rank_L": 15,
+   "rank_S": 15,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "57": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 28,
+   "rank_L": 10,
+   "rank_S": 10,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "60": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 29,
+   "rank_L": 21,
+   "rank_S": 21,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "63": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 31,
+   "rank_L": 13,
+   "rank_S": 13,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "65": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 32,
+   "rank_L": 8,
+   "rank_S": 8,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "68": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 33,
+   "rank_L": 17,
+   "rank_S": 17,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "69": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 34,
+   "rank_L": 12,
+   "rank_S": 12,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "72": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 35,
+   "rank_L": 23,
+   "rank_S": 23,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "75": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 37,
+   "rank_L": 17,
+   "rank_S": 17,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "80": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 39,
+   "rank_L": 23,
+   "rank_S": 23,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "84": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 41,
+   "rank_L": 29,
+   "rank_S": 29,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "88": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 43,
+   "rank_L": 23,
+   "rank_S": 23,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "90": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 44,
+   "rank_L": 32,
+   "rank_S": 32,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "99": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 49,
+   "rank_L": 19,
+   "rank_S": 19,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "100": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 49,
+   "rank_L": 29,
+   "rank_S": 29,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "104": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 51,
+   "rank_L": 27,
+   "rank_S": 27,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "105": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 52,
+   "rank_L": 28,
+   "rank_S": 28,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "112": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 55,
+   "rank_L": 31,
+   "rank_S": 31,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "117": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 58,
+   "rank_L": 22,
+   "rank_S": 22,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  },
+  "120": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 59,
+   "rank_L": 43,
+   "rank_S": 43,
+   "index": 8,
+   "k": 3,
+   "snf": [
+    2,
+    2,
+    2
+   ]
+  },
+  "126": {
+   "pins": true,
+   "lifts_same": true,
+   "sym": true,
+   "runs": 1,
+   "n": 62,
+   "rank_L": 44,
+   "rank_S": 44,
+   "index": 2,
+   "k": 1,
+   "snf": [
+    2
+   ]
+  }
+ },
+ "files": [
+  "P1.json",
+  "Q_only_B7.json",
+  "ST_129_300.json",
+  "ST_301_624.json",
+  "S_195_q65_B9.json",
+  "S_207_q69_B9.json",
+  "S_220_x20_B9.json",
+  "S_255_q51_B9.json",
+  "S_255_x15_B9.json",
+  "S_260_q65_B9.json",
+  "S_276_q69_B8.json",
+  "S_285_q57_B8.json",
+  "S_308_x28_B8.json",
+  "S_T_upto128.json",
+  "T_182_q91_B9.json",
+  "T_276_q92_B8.json",
+  "T_exact_B9.json",
+  "test_small.json"
+ ]
+}

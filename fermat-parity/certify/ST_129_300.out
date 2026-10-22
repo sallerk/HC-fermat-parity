@@ -1,0 +1,93 @@
+level d=174 n=86 rank_L=58 rank_S=58 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=8 setup 0.3s
+  q=87 k=2 d=174 extra=[] HiGHS=10 | rep ok=True len=10 | B=9 w1=47539836 w2max=38630900 keymatch=0 genuine=0 105.2s | CERTIFIED
+level d=228 n=113 rank_L=77 rank_S=77 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 0.9s
+  q=57 k=4 d=228 extra=[] HiGHS=6 | rep ok=True len=6 | B=5 w1=50272 w2max=25878 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 6, "genuine_matches": 120, "min_norm": 6, "distinct_normalized": 12, "highs_rep_orbit_found": true, "sec": 0.5}
+  q=76 k=3 d=228 extra=[] HiGHS=11 | rep ok=True len=11 | B=8 w1=149749401 w2max=1975354 keymatch=0 genuine=0 159.0s | LOWER BOUND ONLY (>= 9)
+level d=156 n=77 rank_L=53 rank_S=53 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 0.2s
+  q=52 k=3 d=156 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=987889 w2max=12090 keymatch=0 genuine=0 0.1s | CERTIFIED | selftest {"B": 7, "genuine_matches": 360, "min_norm": 7, "distinct_normalized": 18, "highs_rep_orbit_found": true, "sec": 0.3}
+  q=39 k=4 d=156 extra=[] HiGHS=3 | rep ok=True len=3 | B=2 w1=488 w2max=1 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 3, "genuine_matches": 2, "min_norm": 3, "distinct_normalized": 1, "highs_rep_orbit_found": true, "sec": 0.0}
+  q=52 k=3 d=156 extra=[12] HiGHS=10 | rep ok=True len=10 | B=9 w1=33536691 w2max=24992045 keymatch=0 genuine=0 65.8s | CERTIFIED
+  q=52 k=3 d=156 extra=[39] HiGHS=9 | rep ok=True len=9 | B=8 w1=33536691 w2max=632710 keymatch=0 genuine=0 8.3s | CERTIFIED
+  q=52 k=3 d=156 extra=[12, 39] HiGHS=12 | rep ok=True len=12 | B=9 w1=33536691 w2max=24992045 keymatch=0 genuine=0 90.8s | LOWER BOUND ONLY (>= 10)
+level d=171 n=85 rank_L=31 rank_S=31 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 1.0s
+  q=57 k=3 d=171 extra=[] HiGHS=10 | rep ok=True len=10 | B=9 w1=37638636 w2max=36890001 keymatch=0 genuine=0 102.2s | CERTIFIED
+level d=170 n=84 rank_L=52 rank_S=52 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=6 setup 0.3s
+  q=85 k=2 d=170 extra=[] HiGHS=12 | rep ok=True len=12 | B=9 w1=40724501 w2max=35208615 keymatch=0 genuine=0 86.7s | LOWER BOUND ONLY (>= 10)
+level d=222 n=110 rank_L=74 rank_S=74 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=14 setup 0.9s
+  q=111 k=2 d=222 extra=[] HiGHS=10 | rep ok=True len=10 | B=8 w1=125205842 w2max=1823471 keymatch=0 genuine=0 110.8s | LOWER BOUND ONLY (>= 9)
+level d=165 n=82 rank_L=42 rank_S=42 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=6 setup 0.3s
+  q=33 k=5 d=165 extra=[] HiGHS=6 | rep ok=True len=6 | B=5 w1=18864 w2max=13695 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 6, "genuine_matches": 10, "min_norm": 6, "distinct_normalized": 1, "highs_rep_orbit_found": true, "sec": 0.1}
+  q=55 k=3 d=165 extra=[] HiGHS=10 | rep ok=True len=10 | B=9 w1=34569140 w2max=32018910 keymatch=0 genuine=0 72.3s | CERTIFIED
+level d=154 n=76 rank_L=46 rank_S=46 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=3 setup 0.2s
+  q=77 k=2 d=154 extra=[] HiGHS=12 | rep ok=True len=12 | B=9 w1=27136560 w2max=23738715 keymatch=0 genuine=0 54.5s | LOWER BOUND ONLY (>= 10)
+level d=153 n=76 rank_L=28 rank_S=28 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 0.2s
+  q=51 k=3 d=153 extra=[] HiGHS=10 | rep ok=True len=10 | B=9 w1=24247335 w2max=23738715 keymatch=0 genuine=0 50.0s | CERTIFIED
+level d=220 n=109 rank_L=69 rank_S=69 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=3 setup 0.8s
+  q=44 k=5 d=220 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=2451445 w2max=24090 keymatch=0 genuine=0 0.4s | CERTIFIED | selftest {"B": 7, "genuine_matches": 100, "min_norm": 7, "distinct_normalized": 5, "highs_rep_orbit_found": true, "sec": 3.6}
+  q=55 k=4 d=220 extra=[] HiGHS=5 | rep ok=True len=5 | B=4 w1=42045 w2max=219 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 5, "genuine_matches": 6, "min_norm": 5, "distinct_normalized": 1, "highs_rep_orbit_found": true, "sec": 0.0}
+  q=44 k=5 d=220 extra=[20] HiGHS=10 | rep ok=True len=10 | B=8 w1=119690321 w2max=1774630 keymatch=0 genuine=0 104.1s | LOWER BOUND ONLY (>= 9)
+  q=44 k=5 d=220 extra=[55] HiGHS=12 | rep ok=True len=12 | B=8 w1=119690321 w2max=1774630 keymatch=0 genuine=0 123.3s | LOWER BOUND ONLY (>= 9)
+  q=44 k=5 d=220 extra=[20, 55] HiGHS=15 | rep ok=True len=15 | B=8 w1=119690321 w2max=1774630 keymatch=0 genuine=0 104.6s | LOWER BOUND ONLY (>= 9)
+level d=132 n=65 rank_L=45 rank_S=45 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=3 setup 0.1s
+  q=44 k=3 d=132 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=606336 w2max=8646 keymatch=0 genuine=0 0.1s | CERTIFIED | selftest {"B": 7, "genuine_matches": 180, "min_norm": 7, "distinct_normalized": 9, "highs_rep_orbit_found": true, "sec": 0.2}
+  q=33 k=4 d=132 extra=[] HiGHS=4 | rep ok=True len=4 | B=3 w1=422 w2max=131 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 4, "genuine_matches": 6, "min_norm": 4, "distinct_normalized": 2, "highs_rep_orbit_found": true, "sec": 0.0}
+  q=44 k=3 d=132 extra=[12] HiGHS=8 | rep ok=True len=8 | B=7 w1=606336 w2max=383306 keymatch=0 genuine=0 0.2s | CERTIFIED | selftest {"B": 8, "genuine_matches": 630, "min_norm": 8, "distinct_normalized": 18, "highs_rep_orbit_found": true, "sec": 3.6}
+  q=44 k=3 d=132 extra=[33] HiGHS=10 | rep ok=True len=10 | B=9 w1=17415427 w2max=12840751 keymatch=0 genuine=0 30.7s | CERTIFIED
+  q=44 k=3 d=132 extra=[12, 33] HiGHS=9 | rep ok=True len=9 | B=8 w1=17415427 w2max=383306 keymatch=0 genuine=0 3.6s | CERTIFIED
+level d=207 n=103 rank_L=37 rank_S=37 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=1 setup 0.8s
+  q=69 k=3 d=207 extra=[] HiGHS=12 | rep ok=True len=12 | B=8 w1=80211971 w2max=1499784 keymatch=0 genuine=0 70.5s | LOWER BOUND ONLY (>= 9)
+level d=272 n=135 rank_L=71 rank_S=71 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 2.1s
+  q=68 k=4 d=272 extra=[] HiGHS=10 | rep ok=True len=10 | B=8 w1=249934757 w2max=3353896 keymatch=0 genuine=0 361.2s | LOWER BOUND ONLY (>= 9)
+level d=186 n=92 rank_L=62 rank_S=62 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 0.5s
+  q=93 k=2 d=186 extra=[] HiGHS=10 | rep ok=True len=10 | B=8 w1=61961200 w2max=1072445 keymatch=0 genuine=0 36.7s | LOWER BOUND ONLY (>= 9)
+level d=190 n=94 rank_L=58 rank_S=58 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 0.5s
+  q=95 k=2 d=190 extra=[] HiGHS=10 | rep ok=True len=10 | B=8 w1=63307600 w2max=1143135 keymatch=0 genuine=0 42.0s | LOWER BOUND ONLY (>= 9)
+level d=136 n=67 rank_L=35 rank_S=35 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 0.2s
+  q=68 k=2 d=136 extra=[] HiGHS=10 | rep ok=True len=10 | B=9 w1=15740821 w2max=14463090 keymatch=0 genuine=0 29.9s | CERTIFIED
+level d=195 n=97 rank_L=49 rank_S=49 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=9 setup 0.6s
+  q=39 k=5 d=195 extra=[] HiGHS=6 | rep ok=True len=6 | B=5 w1=25918 w2max=19110 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 6, "genuine_matches": 20, "min_norm": 6, "distinct_normalized": 2, "highs_rep_orbit_found": true, "sec": 0.2}
+  q=65 k=3 d=195 extra=[] HiGHS=16 | rep ok=True len=16 | B=8 w1=66713571 w2max=1254890 keymatch=0 genuine=0 55.1s | LOWER BOUND ONLY (>= 9)
+level d=275 n=137 rank_L=37 rank_S=37 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=3 setup 4.9s
+  q=55 k=5 d=275 extra=[] HiGHS=10 | rep ok=True len=10 | B=8 w1=245034845 w2max=3504050 keymatch=0 genuine=0 381.3s | LOWER BOUND ONLY (>= 9)
+level d=138 n=68 rank_L=46 rank_S=46 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=7 setup 0.1s
+  q=69 k=2 d=138 extra=[] HiGHS=9 | rep ok=True len=9 | B=8 w1=18949790 w2max=437989 keymatch=0 genuine=0 4.3s | CERTIFIED
+level d=204 n=101 rank_L=69 rank_S=69 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 0.7s
+  q=51 k=4 d=204 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=2173563 w2max=20706 keymatch=0 genuine=0 0.2s | CERTIFIED | selftest {"B": 7, "genuine_matches": 240, "min_norm": 7, "distinct_normalized": 12, "highs_rep_orbit_found": true, "sec": 1.7}
+  q=68 k=3 d=204 extra=[] HiGHS=8 | rep ok=True len=8 | B=7 w1=2173563 w2max=1414910 keymatch=0 genuine=0 1.6s | CERTIFIED
+  q=51 k=4 d=204 extra=[12] HiGHS=8 | rep ok=True len=8 | B=7 w1=2173563 w2max=1414910 keymatch=0 genuine=0 1.7s | CERTIFIED
+level d=182 n=90 rank_L=54 rank_S=54 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=15 setup 0.4s
+  q=91 k=2 d=182 extra=[] HiGHS=17 | rep ok=True len=17 | B=8 w1=52542341 w2max=1004731 keymatch=0 genuine=0 25.7s | LOWER BOUND ONLY (>= 9)
+level d=176 n=87 rank_L=47 rank_S=47 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 0.4s
+  q=44 k=4 d=176 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=1096769 w2max=15400 keymatch=0 genuine=0 0.1s | CERTIFIED | selftest {"B": 7, "genuine_matches": 100, "min_norm": 7, "distinct_normalized": 5, "highs_rep_orbit_found": true, "sec": 0.7}
+level d=175 n=87 rank_L=27 rank_S=27 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 0.4s
+  q=35 k=5 d=175 extra=[] HiGHS=8 | rep ok=True len=8 | B=7 w1=943637 w2max=908600 keymatch=0 genuine=0 0.4s | CERTIFIED
+level d=208 n=103 rank_L=55 rank_S=55 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 0.7s
+  q=52 k=4 d=208 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=1792688 w2max=21528 keymatch=0 genuine=0 0.2s | CERTIFIED | selftest {"B": 7, "genuine_matches": 120, "min_norm": 7, "distinct_normalized": 6, "highs_rep_orbit_found": true, "sec": 1.4}
+level d=210 n=104 rank_L=80 rank_S=80 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=12 setup 0.8s
+  q=35 k=6 d=210 extra=[] HiGHS=6 | rep ok=True len=6 | B=5 w1=51102 w2max=21945 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 6, "genuine_matches": 30, "min_norm": 6, "distinct_normalized": 3, "highs_rep_orbit_found": true, "sec": 0.3}
+level d=234 n=116 rank_L=80 rank_S=80 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=5 setup 1.1s
+  q=39 k=6 d=234 extra=[] HiGHS=3 | rep ok=True len=3 | B=2 w1=654 w2max=1 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 3, "genuine_matches": 2, "min_norm": 3, "distinct_normalized": 1, "highs_rep_orbit_found": true, "sec": 0.0}
+level d=198 n=98 rank_L=68 rank_S=68 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=5 setup 0.6s
+  q=33 k=6 d=198 extra=[] HiGHS=4 | rep ok=True len=4 | B=3 w1=568 w2max=197 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 4, "genuine_matches": 6, "min_norm": 4, "distinct_normalized": 2, "highs_rep_orbit_found": true, "sec": 0.0}
+level d=168 n=83 rank_L=59 rank_S=59 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=6 setup 0.3s
+  q=28 k=6 d=168 extra=[] HiGHS=4 | rep ok=True len=4 | B=3 w1=682 w2max=167 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 4, "genuine_matches": 6, "min_norm": 4, "distinct_normalized": 2, "highs_rep_orbit_found": true, "sec": 0.0}
+level d=140 n=69 rank_L=45 rank_S=45 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 0.2s
+  q=28 k=5 d=140 extra=[] HiGHS=4 | rep ok=True len=4 | B=3 w1=432 w2max=139 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 4, "genuine_matches": 3, "min_norm": 4, "distinct_normalized": 1, "highs_rep_orbit_found": true, "sec": 0.0}
+  q=35 k=4 d=140 extra=[] HiGHS=6 | rep ok=True len=6 | B=5 w1=18165 w2max=9730 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 6, "genuine_matches": 20, "min_norm": 6, "distinct_normalized": 2, "highs_rep_orbit_found": true, "sec": 0.1}
+level d=276 n=137 rank_L=93 rank_S=93 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=7 setup 2.3s
+  q=69 k=4 d=276 extra=[] HiGHS=9 | rep ok=True len=9 | B=7 w1=5311974 w2max=3504050 keymatch=0 genuine=0 6.7s | LOWER BOUND ONLY (>= 8)
+  q=92 k=3 d=276 extra=[] HiGHS=12 | rep ok=True len=12 | B=7 w1=5311974 w2max=3504050 keymatch=0 genuine=0 6.3s | LOWER BOUND ONLY (>= 8)
+level d=264 n=131 rank_L=91 rank_S=91 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=13 setup 1.9s
+  q=44 k=6 d=264 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=4956480 w2max=34716 keymatch=0 genuine=0 0.5s | CERTIFIED | selftest {"B": 7, "genuine_matches": 180, "min_norm": 7, "distinct_normalized": 9, "highs_rep_orbit_found": true, "sec": 5.3}
+level d=285 n=142 rank_L=70 rank_S=70 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=7 setup 3.6s
+  q=57 k=5 d=285 extra=[] HiGHS=10 | rep ok=True len=10 | B=7 w1=4440560 w2max=3898895 keymatch=0 genuine=0 6.2s | LOWER BOUND ONLY (>= 8)
+level d=130 n=64 rank_L=40 rank_S=40 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 0.1s
+  q=65 k=2 d=130 extra=[] HiGHS=10 | rep ok=True len=10 | B=9 w1=14082382 w2max=12082785 keymatch=0 genuine=0 24.6s | CERTIFIED
+level d=255 n=127 rank_L=63 rank_S=63 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 1.8s
+  q=51 k=5 d=255 extra=[] HiGHS=10 | rep ok=True len=10 | B=8 w1=192481581 w2max=2796160 keymatch=0 genuine=0 272.4s | LOWER BOUND ONLY (>= 9)
+  q=51 k=5 d=255 extra=[15] HiGHS=12 | rep ok=True len=12 | B=8 w1=192481581 w2max=2796160 keymatch=0 genuine=0 209.6s | LOWER BOUND ONLY (>= 9)
+level d=260 n=129 rank_L=81 rank_S=81 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 1.6s
+  q=52 k=5 d=260 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=3998300 w2max=33670 keymatch=0 genuine=0 0.7s | CERTIFIED | selftest {"B": 7, "genuine_matches": 120, "min_norm": 7, "distinct_normalized": 6, "highs_rep_orbit_found": true, "sec": 5.9}
+  q=65 k=4 d=260 extra=[] HiGHS=10 | rep ok=True len=10 | B=8 w1=231185222 w2max=2929290 keymatch=0 genuine=0 298.2s | LOWER BOUND ONLY (>= 9)
+  q=52 k=5 d=260 extra=[20] HiGHS=10 | rep ok=True len=10 | B=8 w1=231185222 w2max=2929290 keymatch=0 genuine=0 209.5s | LOWER BOUND ONLY (>= 9)
+finished 35 of 35 levels in 516.7 s; unfinished levels: []

@@ -1,0 +1,4217 @@
+{
+ "_all_checks_pass": true,
+ "results": {
+  "Q": {
+   "nu": true,
+   "snf": {
+    "30": [
+     2
+    ],
+    "42": [
+     2
+    ],
+    "66": [
+     2
+    ],
+    "70": [
+     2
+    ],
+    "78": [
+     2
+    ],
+    "102": [
+     2
+    ],
+    "110": [
+     2
+    ],
+    "114": [
+     2
+    ],
+    "130": [
+     2
+    ],
+    "138": [
+     2
+    ],
+    "154": [
+     2
+    ],
+    "170": [
+     2
+    ],
+    "174": [
+     2
+    ],
+    "182": [
+     2
+    ],
+    "186": [
+     2
+    ],
+    "190": [
+     2
+    ],
+    "222": [
+     2
+    ]
+   },
+   "table": [
+    {
+     "d": 30,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 3,
+     "lower_bound": 1.0,
+     "orbit_program": 3,
+     "orbit_status": 0,
+     "q": 15,
+     "rep": [
+      6,
+      19,
+      20
+     ],
+     "sec": 0.0,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 42,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 3,
+     "lower_bound": 1.5,
+     "orbit_program": 3,
+     "orbit_status": 0,
+     "q": 21,
+     "rep": [
+      5,
+      24,
+      34
+     ],
+     "sec": 0.0,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 66,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 4,
+     "lower_bound": 2.5,
+     "orbit_program": 4,
+     "orbit_status": 0,
+     "q": 33,
+     "rep": [
+      22,
+      23,
+      40,
+      47
+     ],
+     "sec": 0.2,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 70,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 6,
+     "lower_bound": 3.0,
+     "orbit_program": 6,
+     "orbit_status": 0,
+     "q": 35,
+     "rep": [
+      6,
+      20,
+      33,
+      43,
+      52,
+      56
+     ],
+     "sec": 0.2,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 78,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 3,
+     "lower_bound": 3.0,
+     "orbit_program": 3,
+     "orbit_status": 0,
+     "q": 39,
+     "rep": [
+      5,
+      41,
+      71
+     ],
+     "sec": 0.1,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 102,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 7,
+     "lower_bound": 4.0,
+     "orbit_program": 7,
+     "orbit_status": 0,
+     "q": 51,
+     "rep": [
+      7,
+      36,
+      43,
+      49,
+      68,
+      75,
+      79
+     ],
+     "sec": 0.2,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 110,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 5,
+     "lower_bound": 5.0,
+     "orbit_program": 5,
+     "orbit_status": 0,
+     "q": 55,
+     "rep": [
+      27,
+      37,
+      47,
+      67,
+      97
+     ],
+     "sec": 0.4,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 114,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 6,
+     "lower_bound": 4.5,
+     "orbit_program": 6,
+     "orbit_status": 0,
+     "q": 57,
+     "rep": [
+      23,
+      29,
+      35,
+      40,
+      107,
+      108
+     ],
+     "sec": 0.4,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 130,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 10,
+     "lower_bound": 6.0,
+     "orbit_program": 10,
+     "orbit_status": 0,
+     "q": 65,
+     "rep": [
+      3,
+      5,
+      33,
+      43,
+      52,
+      83,
+      100,
+      102,
+      103,
+      126
+     ],
+     "sec": 1.4,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 138,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 9,
+     "lower_bound": 5.5,
+     "orbit_program": 9,
+     "orbit_status": 0,
+     "q": 69,
+     "rep": [
+      4,
+      46,
+      47,
+      58,
+      77,
+      82,
+      95,
+      101,
+      111
+     ],
+     "sec": 1.0,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 154,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 12,
+     "lower_bound": 7.5,
+     "orbit_program": 12,
+     "orbit_status": 0,
+     "q": 77,
+     "rep": [
+      8,
+      13,
+      27,
+      55,
+      74,
+      79,
+      92,
+      93,
+      98,
+      120,
+      130,
+      135
+     ],
+     "sec": 3.5,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 170,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 12,
+     "lower_bound": 8.0,
+     "orbit_program": 12,
+     "orbit_status": 0,
+     "q": 85,
+     "rep": [
+      31,
+      52,
+      61,
+      80,
+      81,
+      91,
+      92,
+      94,
+      101,
+      102,
+      114,
+      121
+     ],
+     "sec": 2.5,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 174,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 10,
+     "lower_bound": 7.0,
+     "orbit_program": 10,
+     "orbit_status": 0,
+     "q": 87,
+     "rep": [
+      11,
+      18,
+      41,
+      52,
+      58,
+      77,
+      130,
+      149,
+      161,
+      173
+     ],
+     "sec": 1.6,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 182,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 17,
+     "lower_bound": 9.0,
+     "orbit_program": 17,
+     "orbit_status": 0,
+     "q": 91,
+     "rep": [
+      10,
+      28,
+      33,
+      44,
+      48,
+      62,
+      80,
+      85,
+      89,
+      104,
+      117,
+      118,
+      122,
+      133,
+      141,
+      159,
+      174
+     ],
+     "sec": 9.4,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 186,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 10,
+     "lower_bound": 7.5,
+     "orbit_program": 10,
+     "orbit_status": 0,
+     "q": 93,
+     "rep": [
+      17,
+      29,
+      47,
+      52,
+      100,
+      108,
+      113,
+      137,
+      149,
+      178
+     ],
+     "sec": 2.8,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 190,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 10,
+     "lower_bound": 9.0,
+     "orbit_program": 10,
+     "orbit_status": 0,
+     "q": 95,
+     "rep": [
+      23,
+      43,
+      63,
+      73,
+      83,
+      93,
+      123,
+      133,
+      153,
+      163
+     ],
+     "sec": 2.6,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 222,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 10,
+     "lower_bound": 9.0,
+     "orbit_program": 10,
+     "orbit_status": 0,
+     "q": 111,
+     "rep": [
+      19,
+      31,
+      45,
+      61,
+      97,
+      109,
+      133,
+      193,
+      205,
+      217
+     ],
+     "sec": 5.1,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 230,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 16,
+     "lower_bound": 11.0,
+     "orbit_program": 16,
+     "orbit_status": 0,
+     "q": 115,
+     "rep": [
+      3,
+      10,
+      53,
+      55,
+      63,
+      66,
+      92,
+      102,
+      123,
+      143,
+      163,
+      173,
+      183,
+      193,
+      203,
+      215
+     ],
+     "sec": 11.3,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 238,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 18,
+     "lower_bound": 12.0,
+     "orbit_program": 18,
+     "orbit_status": 0,
+     "q": 119,
+     "rep": [
+      22,
+      33,
+      47,
+      56,
+      61,
+      67,
+      81,
+      100,
+      106,
+      120,
+      128,
+      131,
+      165,
+      190,
+      198,
+      201,
+      204,
+      232
+     ],
+     "sec": 15.9,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 246,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 14,
+     "lower_bound": 10.0,
+     "orbit_program": 14,
+     "orbit_status": 0,
+     "q": 123,
+     "rep": [
+      25,
+      31,
+      55,
+      60,
+      81,
+      97,
+      111,
+      127,
+      145,
+      163,
+      164,
+      211,
+      223,
+      229
+     ],
+     "sec": 2.1,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 258,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 13,
+     "lower_bound": 10.5,
+     "orbit_program": 13,
+     "orbit_status": 0,
+     "q": 129,
+     "rep": [
+      11,
+      35,
+      77,
+      83,
+      119,
+      130,
+      131,
+      143,
+      180,
+      184,
+      185,
+      191,
+      208
+     ],
+     "sec": 6.9,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 266,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 19,
+     "lower_bound": 13.5,
+     "orbit_program": 19,
+     "orbit_status": 0,
+     "q": 133,
+     "rep": [
+      18,
+      32,
+      46,
+      50,
+      55,
+      60,
+      88,
+      111,
+      121,
+      125,
+      153,
+      162,
+      186,
+      190,
+      191,
+      195,
+      233,
+      251,
+      260
+     ],
+     "sec": 33.8,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 282,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 15,
+     "lower_bound": 11.5,
+     "orbit_program": 15,
+     "orbit_status": 0,
+     "q": 141,
+     "rep": [
+      13,
+      48,
+      61,
+      67,
+      79,
+      85,
+      91,
+      98,
+      133,
+      187,
+      188,
+      247,
+      270,
+      271,
+      277
+     ],
+     "sec": 5.3,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 286,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 19,
+     "lower_bound": 15.0,
+     "orbit_program": 19,
+     "orbit_status": 0,
+     "q": 143,
+     "rep": [
+      26,
+      29,
+      35,
+      51,
+      61,
+      65,
+      87,
+      88,
+      107,
+      129,
+      139,
+      195,
+      211,
+      217,
+      233,
+      237,
+      259,
+      263,
+      285
+     ],
+     "sec": 23.5,
+     "status": 0,
+     "verified": true
+    },
+    {
+     "d": 290,
+     "extra": [],
+     "functionals": 1,
+     "k": 2,
+     "least": 19,
+     "lower_bound": 14.0,
+     "orbit_program": 19,
+     "orbit_status": 0,
+     "q": 145,
+     "rep": [
+      7,
+      37,
+      38,
+      57,
+      77,
+      87,
+      127,
+      134,
+      135,
+      147,
+      157,
+      177,
+      187,
+      197,
+      215,
+      235,
+      237,
+      247,
+      257
+     ],
+     "sec": 10.9,
+     "status": 0,
+     "verified": true
+    }
+   ]
+  },
+  "R": [
+   {
+    "bound": 4,
+    "d": 105,
+    "least": 4,
+    "max_coverage": "1",
+    "q": 15,
+    "r": 7,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 4,
+    "d": 105,
+    "least": 4,
+    "max_coverage": "1",
+    "q": 21,
+    "r": 5,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 6,
+    "d": 165,
+    "least": 6,
+    "max_coverage": "1",
+    "q": 33,
+    "r": 5,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 6,
+    "d": 231,
+    "least": 6,
+    "max_coverage": "1",
+    "q": 33,
+    "r": 7,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 6,
+    "d": 195,
+    "least": 6,
+    "max_coverage": "1",
+    "q": 39,
+    "r": 5,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 6,
+    "d": 273,
+    "least": 6,
+    "max_coverage": "1",
+    "q": 39,
+    "r": 7,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 10,
+    "d": 255,
+    "least": 10,
+    "max_coverage": "1",
+    "q": 51,
+    "r": 5,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 10,
+    "d": 357,
+    "least": 10,
+    "max_coverage": "1",
+    "q": 51,
+    "r": 7,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 10,
+    "d": 285,
+    "least": 10,
+    "max_coverage": "1",
+    "q": 57,
+    "r": 5,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 8,
+    "d": 385,
+    "least": 8,
+    "max_coverage": "1",
+    "q": 35,
+    "r": 11,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 8,
+    "d": 455,
+    "least": 8,
+    "max_coverage": "1",
+    "q": 35,
+    "r": 13,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 10,
+    "d": 385,
+    "least": 10,
+    "max_coverage": "1",
+    "q": 55,
+    "r": 7,
+    "tight": true,
+    "valid": 1,
+    "verified": true
+   },
+   {
+    "bound": 3,
+    "d": 60,
+    "least": 3,
+    "max_coverage": "1",
+    "q": 12,
+    "r": 5,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 3,
+    "d": 84,
+    "least": 3,
+    "max_coverage": "1",
+    "q": 12,
+    "r": 7,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 3,
+    "d": 60,
+    "least": 3,
+    "max_coverage": "1",
+    "q": 20,
+    "r": 3,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 4,
+    "d": 84,
+    "least": 4,
+    "max_coverage": "1",
+    "q": 28,
+    "r": 3,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 7,
+    "d": 132,
+    "least": 7,
+    "max_coverage": "1",
+    "q": 44,
+    "r": 3,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 7,
+    "d": 220,
+    "least": 7,
+    "max_coverage": "1",
+    "q": 44,
+    "r": 5,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 7,
+    "d": 308,
+    "least": 7,
+    "max_coverage": "1",
+    "q": 44,
+    "r": 7,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 7,
+    "d": 156,
+    "least": 7,
+    "max_coverage": "1",
+    "q": 52,
+    "r": 3,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 7,
+    "d": 260,
+    "least": 7,
+    "max_coverage": "1",
+    "q": 52,
+    "r": 5,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 8,
+    "d": 204,
+    "least": 8,
+    "max_coverage": "1",
+    "q": 68,
+    "r": 3,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 11,
+    "d": 228,
+    "least": 11,
+    "max_coverage": "1",
+    "q": 76,
+    "r": 3,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 15,
+    "d": 348,
+    "least": 15,
+    "max_coverage": "1",
+    "q": 116,
+    "r": 3,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 3,
+    "d": 24,
+    "least": 3,
+    "max_coverage": "1",
+    "q": 12,
+    "r": 2,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 3,
+    "d": 40,
+    "least": 3,
+    "max_coverage": "1",
+    "q": 20,
+    "r": 2,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 4,
+    "d": 56,
+    "least": 4,
+    "max_coverage": "1",
+    "q": 28,
+    "r": 2,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 7,
+    "d": 88,
+    "least": 7,
+    "max_coverage": "1",
+    "q": 44,
+    "r": 2,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 7,
+    "d": 104,
+    "least": 7,
+    "max_coverage": "1",
+    "q": 52,
+    "r": 2,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 10,
+    "d": 136,
+    "least": 10,
+    "max_coverage": "1",
+    "q": 68,
+    "r": 2,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 11,
+    "d": 152,
+    "least": 11,
+    "max_coverage": "1",
+    "q": 76,
+    "r": 2,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 12,
+    "d": 184,
+    "least": 12,
+    "max_coverage": "1",
+    "q": 92,
+    "r": 2,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   },
+   {
+    "bound": 25,
+    "d": 344,
+    "least": 25,
+    "max_coverage": "1",
+    "q": 172,
+    "r": 2,
+    "tight": true,
+    "valid": true,
+    "verified": true
+   }
+  ],
+  "S": [
+   {
+    "d": 44,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     1,
+     13,
+     17,
+     25,
+     29,
+     33,
+     36
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 88,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     6,
+     22,
+     30,
+     46,
+     56,
+     70,
+     78
+    ],
+    "sec": 0.3,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 132,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     7,
+     33,
+     48,
+     57,
+     93,
+     95,
+     129
+    ],
+    "sec": 0.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 176,
+    "extra": [],
+    "functionals": 1,
+    "k": 4,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     4,
+     48,
+     52,
+     68,
+     132,
+     148,
+     164
+    ],
+    "sec": 0.7,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 220,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     20,
+     55,
+     75,
+     95,
+     135,
+     175,
+     215
+    ],
+    "sec": 1.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 264,
+    "extra": [],
+    "functionals": 3,
+    "k": 6,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     2,
+     78,
+     102,
+     150,
+     178,
+     198,
+     216
+    ],
+    "sec": 3.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 308,
+    "extra": [],
+    "functionals": 3,
+    "k": 7,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     7,
+     35,
+     91,
+     168,
+     231,
+     259,
+     287
+    ],
+    "sec": 4.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 352,
+    "extra": [],
+    "functionals": 1,
+    "k": 8,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     64,
+     88,
+     120,
+     152,
+     216,
+     248,
+     344
+    ],
+    "sec": 7.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 396,
+    "extra": [],
+    "functionals": 3,
+    "k": 9,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     51,
+     75,
+     180,
+     183,
+     261,
+     297,
+     339
+    ],
+    "sec": 8.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 440,
+    "extra": [],
+    "functionals": 3,
+    "k": 10,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     40,
+     110,
+     150,
+     190,
+     270,
+     350,
+     430
+    ],
+    "sec": 14.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 484,
+    "extra": [],
+    "functionals": 1,
+    "k": 11,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     99,
+     187,
+     220,
+     231,
+     275,
+     319,
+     363
+    ],
+    "sec": 21.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 528,
+    "extra": [],
+    "functionals": 3,
+    "k": 12,
+    "least": 7,
+    "q": 44,
+    "rep": [
+     132,
+     180,
+     228,
+     276,
+     288,
+     324,
+     420
+    ],
+    "sec": 44.9,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 51,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 10,
+    "q": 51,
+    "rep": [
+     2,
+     17,
+     20,
+     21,
+     23,
+     26,
+     29,
+     35,
+     38,
+     44
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 102,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 7,
+    "q": 51,
+    "rep": [
+     7,
+     36,
+     43,
+     49,
+     68,
+     75,
+     79
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 153,
+    "extra": [],
+    "functionals": 1,
+    "k": 3,
+    "least": 10,
+    "q": 51,
+    "rep": [
+     3,
+     30,
+     39,
+     54,
+     66,
+     84,
+     102,
+     111,
+     129,
+     147
+    ],
+    "sec": 1.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 204,
+    "extra": [],
+    "functionals": 3,
+    "k": 4,
+    "least": 7,
+    "q": 51,
+    "rep": [
+     22,
+     30,
+     68,
+     84,
+     154,
+     166,
+     190
+    ],
+    "sec": 2.7,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 255,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 10,
+    "q": 51,
+    "rep": [
+     25,
+     45,
+     55,
+     70,
+     85,
+     130,
+     160,
+     220,
+     235,
+     250
+    ],
+    "sec": 4.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 306,
+    "extra": [],
+    "functionals": 1,
+    "k": 6,
+    "least": 7,
+    "q": 51,
+    "rep": [
+     111,
+     117,
+     129,
+     144,
+     147,
+     204,
+     219
+    ],
+    "sec": 4.9,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 357,
+    "extra": [],
+    "functionals": 3,
+    "k": 7,
+    "least": 10,
+    "q": 51,
+    "rep": [
+     21,
+     70,
+     91,
+     112,
+     154,
+     196,
+     238,
+     259,
+     301,
+     343
+    ],
+    "sec": 43.8,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 408,
+    "extra": [],
+    "functionals": 3,
+    "k": 8,
+    "least": 7,
+    "q": 51,
+    "rep": [
+     76,
+     148,
+     172,
+     180,
+     192,
+     272,
+     388
+    ],
+    "sec": 20.3,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 459,
+    "extra": [],
+    "functionals": 1,
+    "k": 9,
+    "least": 10,
+    "q": 51,
+    "rep": [
+     18,
+     72,
+     126,
+     153,
+     207,
+     261,
+     315,
+     342,
+     369,
+     432
+    ],
+    "sec": 41.8,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 510,
+    "extra": [],
+    "functionals": 3,
+    "k": 10,
+    "least": 7,
+    "q": 51,
+    "rep": [
+     15,
+     145,
+     170,
+     265,
+     355,
+     385,
+     450
+    ],
+    "sec": 50.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 561,
+    "extra": [],
+    "functionals": 3,
+    "k": 11,
+    "least": 10,
+    "q": 51,
+    "rep": [
+     33,
+     110,
+     143,
+     176,
+     242,
+     308,
+     374,
+     407,
+     473,
+     539
+    ],
+    "sec": 143.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 612,
+    "extra": [],
+    "functionals": 3,
+    "k": 12,
+    "least": 7,
+    "q": 51,
+    "rep": [
+     54,
+     174,
+     204,
+     318,
+     390,
+     462,
+     540
+    ],
+    "sec": 66.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 52,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     4,
+     17,
+     21,
+     25,
+     29,
+     41,
+     45
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 104,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     2,
+     10,
+     18,
+     66,
+     82,
+     88,
+     98
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 156,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     12,
+     17,
+     73,
+     75,
+     121,
+     123,
+     125
+    ],
+    "sec": 2.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 208,
+    "extra": [],
+    "functionals": 1,
+    "k": 4,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     4,
+     68,
+     80,
+     84,
+     132,
+     164,
+     196
+    ],
+    "sec": 1.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 260,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     15,
+     55,
+     95,
+     155,
+     160,
+     175,
+     255
+    ],
+    "sec": 2.8,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 312,
+    "extra": [],
+    "functionals": 3,
+    "k": 6,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     50,
+     96,
+     126,
+     154,
+     174,
+     194,
+     298
+    ],
+    "sec": 6.8,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 364,
+    "extra": [],
+    "functionals": 3,
+    "k": 7,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     56,
+     119,
+     147,
+     175,
+     203,
+     259,
+     315
+    ],
+    "sec": 6.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 416,
+    "extra": [],
+    "functionals": 1,
+    "k": 8,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     8,
+     136,
+     168,
+     232,
+     264,
+     320,
+     328
+    ],
+    "sec": 11.8,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 468,
+    "extra": [],
+    "functionals": 3,
+    "k": 9,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     21,
+     27,
+     177,
+     243,
+     360,
+     387,
+     423
+    ],
+    "sec": 17.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 520,
+    "extra": [],
+    "functionals": 3,
+    "k": 10,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     10,
+     170,
+     210,
+     290,
+     330,
+     400,
+     410
+    ],
+    "sec": 26.9,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 572,
+    "extra": [],
+    "functionals": 3,
+    "k": 11,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     99,
+     176,
+     231,
+     275,
+     319,
+     407,
+     495
+    ],
+    "sec": 45.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 624,
+    "extra": [],
+    "functionals": 3,
+    "k": 12,
+    "least": 7,
+    "q": 52,
+    "rep": [
+     60,
+     196,
+     204,
+     396,
+     404,
+     432,
+     492
+    ],
+    "sec": 81.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 12,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 3,
+    "q": 12,
+    "rep": [
+     3,
+     7,
+     8
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 24,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 3,
+    "q": 12,
+    "rep": [
+     2,
+     16,
+     18
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 36,
+    "extra": [],
+    "functionals": 1,
+    "k": 3,
+    "least": 3,
+    "q": 12,
+    "rep": [
+     9,
+     12,
+     33
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 48,
+    "extra": [],
+    "functionals": 1,
+    "k": 4,
+    "least": 3,
+    "q": 12,
+    "rep": [
+     12,
+     16,
+     44
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 60,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 3,
+    "q": 12,
+    "rep": [
+     15,
+     20,
+     55
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 72,
+    "extra": [],
+    "functionals": 1,
+    "k": 6,
+    "least": 3,
+    "q": 12,
+    "rep": [
+     18,
+     42,
+     48
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 15,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 4,
+    "q": 15,
+    "rep": [
+     3,
+     5,
+     8,
+     14
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 30,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 3,
+    "q": 15,
+    "rep": [
+     6,
+     19,
+     20
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 45,
+    "extra": [],
+    "functionals": 1,
+    "k": 3,
+    "least": 4,
+    "q": 15,
+    "rep": [
+     9,
+     15,
+     24,
+     42
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 60,
+    "extra": [],
+    "functionals": 3,
+    "k": 4,
+    "least": 3,
+    "q": 15,
+    "rep": [
+     14,
+     36,
+     40
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 75,
+    "extra": [],
+    "functionals": 1,
+    "k": 5,
+    "least": 4,
+    "q": 15,
+    "rep": [
+     25,
+     30,
+     40,
+     55
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 90,
+    "extra": [],
+    "functionals": 1,
+    "k": 6,
+    "least": 3,
+    "q": 15,
+    "rep": [
+     36,
+     39,
+     60
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 20,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 3,
+    "q": 20,
+    "rep": [
+     4,
+     9,
+     17
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 40,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 3,
+    "q": 20,
+    "rep": [
+     2,
+     26,
+     32
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 60,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 3,
+    "q": 20,
+    "rep": [
+     3,
+     36,
+     51
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 80,
+    "extra": [],
+    "functionals": 1,
+    "k": 4,
+    "least": 3,
+    "q": 20,
+    "rep": [
+     4,
+     52,
+     64
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 100,
+    "extra": [],
+    "functionals": 1,
+    "k": 5,
+    "least": 3,
+    "q": 20,
+    "rep": [
+     5,
+     60,
+     85
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 120,
+    "extra": [],
+    "functionals": 3,
+    "k": 6,
+    "least": 3,
+    "q": 20,
+    "rep": [
+     42,
+     66,
+     72
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 21,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 4,
+    "q": 21,
+    "rep": [
+     1,
+     10,
+     12,
+     19
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 42,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 3,
+    "q": 21,
+    "rep": [
+     5,
+     24,
+     34
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 63,
+    "extra": [],
+    "functionals": 1,
+    "k": 3,
+    "least": 4,
+    "q": 21,
+    "rep": [
+     6,
+     9,
+     51,
+     60
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 84,
+    "extra": [],
+    "functionals": 3,
+    "k": 4,
+    "least": 3,
+    "q": 21,
+    "rep": [
+     10,
+     44,
+     72
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 105,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 4,
+    "q": 21,
+    "rep": [
+     25,
+     40,
+     60,
+     85
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 126,
+    "extra": [],
+    "functionals": 1,
+    "k": 6,
+    "least": 3,
+    "q": 21,
+    "rep": [
+     24,
+     57,
+     108
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 28,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 4,
+    "q": 28,
+    "rep": [
+     5,
+     13,
+     17,
+     21
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 56,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 4,
+    "q": 28,
+    "rep": [
+     6,
+     14,
+     38,
+     54
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 84,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 4,
+    "q": 28,
+    "rep": [
+     13,
+     41,
+     51,
+     63
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 112,
+    "extra": [],
+    "functionals": 1,
+    "k": 4,
+    "least": 4,
+    "q": 28,
+    "rep": [
+     4,
+     36,
+     84,
+     100
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 140,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 4,
+    "q": 28,
+    "rep": [
+     5,
+     45,
+     105,
+     125
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 168,
+    "extra": [],
+    "functionals": 3,
+    "k": 6,
+    "least": 4,
+    "q": 28,
+    "rep": [
+     42,
+     66,
+     86,
+     142
+    ],
+    "sec": 0.7,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 33,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 6,
+    "q": 33,
+    "rep": [
+     7,
+     10,
+     13,
+     19,
+     22,
+     28
+    ],
+    "sec": 0.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 66,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 4,
+    "q": 33,
+    "rep": [
+     22,
+     23,
+     40,
+     47
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 99,
+    "extra": [],
+    "functionals": 1,
+    "k": 3,
+    "least": 6,
+    "q": 33,
+    "rep": [
+     21,
+     30,
+     39,
+     57,
+     66,
+     84
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 132,
+    "extra": [],
+    "functionals": 3,
+    "k": 4,
+    "least": 4,
+    "q": 33,
+    "rep": [
+     2,
+     74,
+     88,
+     100
+    ],
+    "sec": 0.3,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 165,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 6,
+    "q": 33,
+    "rep": [
+     5,
+     20,
+     80,
+     110,
+     125,
+     155
+    ],
+    "sec": 1.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 198,
+    "extra": [],
+    "functionals": 1,
+    "k": 6,
+    "least": 4,
+    "q": 33,
+    "rep": [
+     66,
+     69,
+     84,
+     177
+    ],
+    "sec": 1.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 35,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 8,
+    "q": 35,
+    "rep": [
+     5,
+     6,
+     11,
+     12,
+     21,
+     26,
+     27,
+     32
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 70,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 6,
+    "q": 35,
+    "rep": [
+     6,
+     20,
+     33,
+     43,
+     52,
+     56
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 105,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 8,
+    "q": 35,
+    "rep": [
+     3,
+     9,
+     24,
+     48,
+     69,
+     84,
+     90,
+     93
+    ],
+    "sec": 1.8,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 140,
+    "extra": [],
+    "functionals": 3,
+    "k": 4,
+    "least": 6,
+    "q": 35,
+    "rep": [
+     12,
+     18,
+     56,
+     80,
+     118,
+     136
+    ],
+    "sec": 1.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 175,
+    "extra": [],
+    "functionals": 1,
+    "k": 5,
+    "least": 8,
+    "q": 35,
+    "rep": [
+     15,
+     45,
+     65,
+     70,
+     100,
+     115,
+     120,
+     170
+    ],
+    "sec": 1.8,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 210,
+    "extra": [],
+    "functionals": 3,
+    "k": 6,
+    "least": 6,
+    "q": 35,
+    "rep": [
+     18,
+     60,
+     99,
+     129,
+     156,
+     168
+    ],
+    "sec": 2.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 39,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 6,
+    "q": 39,
+    "rep": [
+     8,
+     11,
+     14,
+     20,
+     29,
+     35
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 78,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 3,
+    "q": 39,
+    "rep": [
+     5,
+     41,
+     71
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 117,
+    "extra": [],
+    "functionals": 1,
+    "k": 3,
+    "least": 6,
+    "q": 39,
+    "rep": [
+     12,
+     21,
+     30,
+     75,
+     102,
+     111
+    ],
+    "sec": 0.3,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 156,
+    "extra": [],
+    "functionals": 3,
+    "k": 4,
+    "least": 3,
+    "q": 39,
+    "rep": [
+     58,
+     70,
+     106
+    ],
+    "sec": 0.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 195,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 6,
+    "q": 39,
+    "rep": [
+     10,
+     25,
+     70,
+     145,
+     160,
+     175
+    ],
+    "sec": 1.3,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 234,
+    "extra": [],
+    "functionals": 1,
+    "k": 6,
+    "least": 3,
+    "q": 39,
+    "rep": [
+     57,
+     93,
+     201
+    ],
+    "sec": 1.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 55,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 10,
+    "q": 55,
+    "rep": [
+     4,
+     9,
+     12,
+     14,
+     27,
+     34,
+     37,
+     42,
+     47,
+     49
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 110,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 5,
+    "q": 55,
+    "rep": [
+     27,
+     37,
+     47,
+     67,
+     97
+    ],
+    "sec": 0.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 165,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 10,
+    "q": 55,
+    "rep": [
+     6,
+     18,
+     21,
+     51,
+     63,
+     96,
+     123,
+     138,
+     153,
+     156
+    ],
+    "sec": 6.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 220,
+    "extra": [],
+    "functionals": 3,
+    "k": 4,
+    "least": 5,
+    "q": 55,
+    "rep": [
+     14,
+     34,
+     114,
+     174,
+     214
+    ],
+    "sec": 2.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 275,
+    "extra": [],
+    "functionals": 1,
+    "k": 5,
+    "least": 10,
+    "q": 55,
+    "rep": [
+     40,
+     65,
+     90,
+     95,
+     120,
+     140,
+     145,
+     195,
+     215,
+     270
+    ],
+    "sec": 4.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 330,
+    "extra": [],
+    "functionals": 3,
+    "k": 6,
+    "least": 5,
+    "q": 55,
+    "rep": [
+     63,
+     123,
+     153,
+     183,
+     303
+    ],
+    "sec": 9.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 57,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 10,
+    "q": 57,
+    "rep": [
+     1,
+     4,
+     10,
+     13,
+     22,
+     31,
+     48,
+     49,
+     52,
+     55
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 114,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 6,
+    "q": 57,
+    "rep": [
+     23,
+     29,
+     35,
+     40,
+     107,
+     108
+    ],
+    "sec": 0.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 171,
+    "extra": [],
+    "functionals": 1,
+    "k": 3,
+    "least": 10,
+    "q": 57,
+    "rep": [
+     21,
+     27,
+     48,
+     75,
+     84,
+     102,
+     111,
+     120,
+     129,
+     138
+    ],
+    "sec": 1.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 228,
+    "extra": [],
+    "functionals": 3,
+    "k": 4,
+    "least": 6,
+    "q": 57,
+    "rep": [
+     24,
+     74,
+     100,
+     122,
+     146,
+     218
+    ],
+    "sec": 2.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 285,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 10,
+    "q": 57,
+    "rep": [
+     10,
+     25,
+     40,
+     100,
+     130,
+     195,
+     205,
+     220,
+     235,
+     265
+    ],
+    "sec": 5.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 342,
+    "extra": [],
+    "functionals": 1,
+    "k": 6,
+    "least": 6,
+    "q": 57,
+    "rep": [
+     51,
+     87,
+     105,
+     138,
+     321,
+     324
+    ],
+    "sec": 5.3,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 65,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 16,
+    "q": 65,
+    "rep": [
+     3,
+     8,
+     9,
+     13,
+     20,
+     24,
+     25,
+     29,
+     33,
+     34,
+     38,
+     48,
+     50,
+     59,
+     63,
+     64
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 130,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 10,
+    "q": 65,
+    "rep": [
+     3,
+     5,
+     33,
+     43,
+     52,
+     83,
+     100,
+     102,
+     103,
+     126
+    ],
+    "sec": 1.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 195,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 16,
+    "q": 65,
+    "rep": [
+     19,
+     27,
+     29,
+     34,
+     64,
+     72,
+     75,
+     94,
+     105,
+     117,
+     126,
+     141,
+     149,
+     150,
+     164,
+     194
+    ],
+    "sec": 15.3,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 260,
+    "extra": [],
+    "functionals": 3,
+    "k": 4,
+    "least": 10,
+    "q": 65,
+    "rep": [
+     10,
+     52,
+     58,
+     96,
+     118,
+     138,
+     152,
+     200,
+     218,
+     258
+    ],
+    "sec": 9.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 325,
+    "extra": [],
+    "functionals": 1,
+    "k": 5,
+    "least": 16,
+    "q": 65,
+    "rep": [
+     35,
+     45,
+     60,
+     100,
+     110,
+     120,
+     125,
+     145,
+     170,
+     185,
+     195,
+     210,
+     235,
+     250,
+     295,
+     320
+    ],
+    "sec": 10.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 390,
+    "extra": [],
+    "functionals": 3,
+    "k": 6,
+    "least": 10,
+    "q": 65,
+    "rep": [
+     129,
+     135,
+     138,
+     156,
+     159,
+     186,
+     189,
+     240,
+     249,
+     369
+    ],
+    "sec": 250.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 68,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 10,
+    "q": 68,
+    "rep": [
+     5,
+     13,
+     16,
+     25,
+     33,
+     37,
+     45,
+     49,
+     56,
+     61
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 136,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 10,
+    "q": 68,
+    "rep": [
+     6,
+     30,
+     46,
+     54,
+     70,
+     78,
+     86,
+     88,
+     94,
+     128
+    ],
+    "sec": 0.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 204,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 8,
+    "q": 68,
+    "rep": [
+     5,
+     29,
+     61,
+     65,
+     109,
+     173,
+     181,
+     193
+    ],
+    "sec": 1.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 272,
+    "extra": [],
+    "functionals": 1,
+    "k": 4,
+    "least": 10,
+    "q": 68,
+    "rep": [
+     16,
+     28,
+     48,
+     76,
+     92,
+     124,
+     220,
+     236,
+     252,
+     268
+    ],
+    "sec": 2.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 340,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 10,
+    "q": 68,
+    "rep": [
+     15,
+     75,
+     115,
+     135,
+     175,
+     195,
+     215,
+     220,
+     235,
+     320
+    ],
+    "sec": 20.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 408,
+    "extra": [],
+    "functionals": 3,
+    "k": 6,
+    "least": 8,
+    "q": 68,
+    "rep": [
+     14,
+     142,
+     158,
+     182,
+     214,
+     262,
+     326,
+     334
+    ],
+    "sec": 16.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 69,
+    "extra": [],
+    "functionals": 1,
+    "k": 1,
+    "least": 12,
+    "q": 69,
+    "rep": [
+     5,
+     11,
+     14,
+     17,
+     20,
+     23,
+     38,
+     44,
+     53,
+     56,
+     65,
+     68
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 138,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 9,
+    "q": 69,
+    "rep": [
+     4,
+     46,
+     47,
+     58,
+     77,
+     82,
+     95,
+     101,
+     111
+    ],
+    "sec": 1.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 207,
+    "extra": [],
+    "functionals": 1,
+    "k": 3,
+    "least": 12,
+    "q": 69,
+    "rep": [
+     6,
+     24,
+     69,
+     78,
+     87,
+     96,
+     105,
+     123,
+     141,
+     150,
+     177,
+     186
+    ],
+    "sec": 1.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 276,
+    "extra": [],
+    "functionals": 3,
+    "k": 4,
+    "least": 9,
+    "q": 69,
+    "rep": [
+     22,
+     80,
+     92,
+     142,
+     154,
+     156,
+     166,
+     180,
+     250
+    ],
+    "sec": 11.3,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 345,
+    "extra": [],
+    "functionals": 3,
+    "k": 5,
+    "least": 12,
+    "q": 69,
+    "rep": [
+     25,
+     55,
+     70,
+     85,
+     100,
+     115,
+     190,
+     220,
+     265,
+     280,
+     325,
+     340
+    ],
+    "sec": 15.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 414,
+    "extra": [],
+    "functionals": 1,
+    "k": 6,
+    "least": 9,
+    "q": 69,
+    "rep": [
+     51,
+     108,
+     138,
+     141,
+     231,
+     252,
+     264,
+     303,
+     375
+    ],
+    "sec": 35.3,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 132,
+    "extra": [
+     12
+    ],
+    "functionals": 3,
+    "k": 3,
+    "least": 8,
+    "q": 44,
+    "rep": [
+     11,
+     45,
+     57,
+     69,
+     72,
+     81,
+     88,
+     105
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 132,
+    "extra": [
+     33
+    ],
+    "functionals": 3,
+    "k": 3,
+    "least": 10,
+    "q": 44,
+    "rep": [
+     32,
+     39,
+     44,
+     51,
+     58,
+     65,
+     75,
+     89,
+     99,
+     108
+    ],
+    "sec": 0.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 132,
+    "extra": [
+     12,
+     33
+    ],
+    "functionals": 3,
+    "k": 3,
+    "least": 9,
+    "q": 44,
+    "rep": [
+     25,
+     27,
+     29,
+     32,
+     46,
+     77,
+     113,
+     120,
+     125
+    ],
+    "sec": 0.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 156,
+    "extra": [
+     12
+    ],
+    "functionals": 3,
+    "k": 3,
+    "least": 10,
+    "q": 52,
+    "rep": [
+     13,
+     27,
+     29,
+     48,
+     73,
+     104,
+     111,
+     117,
+     125,
+     133
+    ],
+    "sec": 1.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 156,
+    "extra": [
+     39
+    ],
+    "functionals": 3,
+    "k": 3,
+    "least": 9,
+    "q": 52,
+    "rep": [
+     5,
+     49,
+     51,
+     60,
+     82,
+     101,
+     111,
+     118,
+     125
+    ],
+    "sec": 2.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 156,
+    "extra": [
+     12,
+     39
+    ],
+    "functionals": 3,
+    "k": 3,
+    "least": 12,
+    "q": 52,
+    "rep": [
+     13,
+     19,
+     35,
+     48,
+     58,
+     71,
+     81,
+     95,
+     104,
+     117,
+     141,
+     154
+    ],
+    "sec": 2.7,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 204,
+    "extra": [
+     12
+    ],
+    "functionals": 3,
+    "k": 4,
+    "least": 8,
+    "q": 51,
+    "rep": [
+     17,
+     58,
+     60,
+     70,
+     138,
+     142,
+     153,
+     178
+    ],
+    "sec": 4.7,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 220,
+    "extra": [
+     20
+    ],
+    "functionals": 3,
+    "k": 5,
+    "least": 10,
+    "q": 44,
+    "rep": [
+     5,
+     44,
+     45,
+     85,
+     99,
+     125,
+     145,
+     165,
+     187,
+     200
+    ],
+    "sec": 0.9,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 220,
+    "extra": [
+     55
+    ],
+    "functionals": 3,
+    "k": 5,
+    "least": 12,
+    "q": 44,
+    "rep": [
+     20,
+     54,
+     55,
+     74,
+     75,
+     94,
+     95,
+     134,
+     135,
+     175,
+     194,
+     215
+    ],
+    "sec": 2.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 220,
+    "extra": [
+     20,
+     55
+    ],
+    "functionals": 3,
+    "k": 5,
+    "least": 15,
+    "q": 44,
+    "rep": [
+     20,
+     42,
+     44,
+     55,
+     75,
+     82,
+     95,
+     99,
+     102,
+     122,
+     135,
+     175,
+     187,
+     202,
+     215
+    ],
+    "sec": 2.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 255,
+    "extra": [
+     15
+    ],
+    "functionals": 3,
+    "k": 5,
+    "least": 12,
+    "q": 51,
+    "rep": [
+     5,
+     20,
+     35,
+     51,
+     95,
+     125,
+     136,
+     155,
+     200,
+     230,
+     238,
+     240
+    ],
+    "sec": 2.7,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 260,
+    "extra": [
+     20
+    ],
+    "functionals": 3,
+    "k": 5,
+    "least": 10,
+    "q": 52,
+    "rep": [
+     5,
+     85,
+     104,
+     105,
+     117,
+     145,
+     165,
+     169,
+     200,
+     205
+    ],
+    "sec": 3.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 308,
+    "extra": [
+     28
+    ],
+    "functionals": 3,
+    "k": 7,
+    "least": 9,
+    "q": 44,
+    "rep": [
+     63,
+     119,
+     121,
+     140,
+     147,
+     165,
+     175,
+     203,
+     253
+    ],
+    "sec": 6.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 357,
+    "extra": [
+     21
+    ],
+    "functionals": 3,
+    "k": 7,
+    "least": 14,
+    "q": 51,
+    "rep": [
+     17,
+     28,
+     49,
+     105,
+     112,
+     170,
+     175,
+     196,
+     217,
+     238,
+     255,
+     272,
+     322,
+     343
+    ],
+    "sec": 42.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 364,
+    "extra": [
+     28
+    ],
+    "functionals": 3,
+    "k": 7,
+    "least": 11,
+    "q": 52,
+    "rep": [
+     28,
+     91,
+     119,
+     143,
+     147,
+     175,
+     195,
+     203,
+     287,
+     299,
+     315
+    ],
+    "sec": 6.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 510,
+    "extra": [
+     15
+    ],
+    "functionals": 3,
+    "k": 10,
+    "least": 8,
+    "q": 51,
+    "rep": [
+     75,
+     210,
+     215,
+     245,
+     289,
+     305,
+     306,
+     395
+    ],
+    "sec": 74.2,
+    "status": 0,
+    "verified": true
+   }
+  ],
+  "T": [
+   {
+    "d": 66,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 4,
+    "mmrv": 4,
+    "q": 33,
+    "rep": [
+     22,
+     23,
+     40,
+     47
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 70,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 6,
+    "mmrv": 6,
+    "q": 35,
+    "rep": [
+     6,
+     20,
+     33,
+     43,
+     52,
+     56
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 78,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 3,
+    "mmrv": 3,
+    "q": 39,
+    "rep": [
+     5,
+     41,
+     71
+    ],
+    "sec": 0.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 132,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 7,
+    "mmrv": 7,
+    "q": 44,
+    "rep": [
+     7,
+     33,
+     48,
+     57,
+     93,
+     95,
+     129
+    ],
+    "sec": 0.3,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 102,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 7,
+    "mmrv": 7,
+    "q": 51,
+    "rep": [
+     7,
+     36,
+     43,
+     49,
+     68,
+     75,
+     79
+    ],
+    "sec": 0.2,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 156,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 7,
+    "mmrv": 7,
+    "q": 52,
+    "rep": [
+     12,
+     17,
+     73,
+     75,
+     121,
+     123,
+     125
+    ],
+    "sec": 2.6,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 110,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 5,
+    "mmrv": 5,
+    "q": 55,
+    "rep": [
+     27,
+     37,
+     47,
+     67,
+     97
+    ],
+    "sec": 0.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 114,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 6,
+    "mmrv": 6,
+    "q": 57,
+    "rep": [
+     23,
+     29,
+     35,
+     40,
+     107,
+     108
+    ],
+    "sec": 0.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 130,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 10,
+    "mmrv": 10,
+    "q": 65,
+    "rep": [
+     3,
+     5,
+     33,
+     43,
+     52,
+     83,
+     100,
+     102,
+     103,
+     126
+    ],
+    "sec": 1.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 204,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 8,
+    "mmrv": 8,
+    "q": 68,
+    "rep": [
+     5,
+     29,
+     61,
+     65,
+     109,
+     173,
+     181,
+     193
+    ],
+    "sec": 1.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 138,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 9,
+    "mmrv": 9,
+    "q": 69,
+    "rep": [
+     4,
+     46,
+     47,
+     58,
+     77,
+     82,
+     95,
+     101,
+     111
+    ],
+    "sec": 1.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 228,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 11,
+    "mmrv": 11,
+    "q": 76,
+    "rep": [
+     21,
+     33,
+     45,
+     57,
+     79,
+     141,
+     153,
+     155,
+     165,
+     192,
+     213
+    ],
+    "sec": 5.5,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 154,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 12,
+    "mmrv": 12,
+    "q": 77,
+    "rep": [
+     8,
+     13,
+     27,
+     55,
+     74,
+     79,
+     92,
+     93,
+     98,
+     120,
+     130,
+     135
+    ],
+    "sec": 4.4,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 170,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 12,
+    "mmrv": 12,
+    "q": 85,
+    "rep": [
+     31,
+     52,
+     61,
+     80,
+     81,
+     91,
+     92,
+     94,
+     101,
+     102,
+     114,
+     121
+    ],
+    "sec": 2.7,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 174,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 10,
+    "mmrv": 10,
+    "q": 87,
+    "rep": [
+     11,
+     18,
+     41,
+     52,
+     58,
+     77,
+     130,
+     149,
+     161,
+     173
+    ],
+    "sec": 1.8,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 182,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 17,
+    "mmrv": 17,
+    "q": 91,
+    "rep": [
+     10,
+     28,
+     33,
+     44,
+     48,
+     62,
+     80,
+     85,
+     89,
+     104,
+     117,
+     118,
+     122,
+     133,
+     141,
+     159,
+     174
+    ],
+    "sec": 10.7,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 276,
+    "extra": [],
+    "functionals": 3,
+    "k": 3,
+    "least": 12,
+    "mmrv": 12,
+    "q": 92,
+    "rep": [
+     3,
+     27,
+     39,
+     75,
+     87,
+     123,
+     147,
+     207,
+     219,
+     231,
+     243,
+     255
+    ],
+    "sec": 2.9,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 186,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 10,
+    "mmrv": 10,
+    "q": 93,
+    "rep": [
+     17,
+     29,
+     47,
+     52,
+     100,
+     108,
+     113,
+     137,
+     149,
+     178
+    ],
+    "sec": 3.1,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 190,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 10,
+    "mmrv": 10,
+    "q": 95,
+    "rep": [
+     23,
+     43,
+     63,
+     73,
+     83,
+     93,
+     123,
+     133,
+     153,
+     163
+    ],
+    "sec": 3.0,
+    "status": 0,
+    "verified": true
+   },
+   {
+    "d": 222,
+    "extra": [],
+    "functionals": 1,
+    "k": 2,
+    "least": 10,
+    "mmrv": 10,
+    "q": 111,
+    "rep": [
+     19,
+     31,
+     45,
+     61,
+     97,
+     109,
+     133,
+     193,
+     205,
+     217
+    ],
+    "sec": 5.0,
+    "status": 0,
+    "verified": true
+   }
+  ]
+ },
+ "seconds": {
+  "Q": 85.0,
+  "R": 77.9,
+  "S": 503.3,
+  "T": 17.9
+ }
+}

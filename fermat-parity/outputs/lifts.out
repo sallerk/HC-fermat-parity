@@ -1,0 +1,9 @@
+    (Q) nu on bases: True; B_2q / (D + S) = Z/2 for 17 degrees; l_{2,2q} for 25 odd q <= 150, two programs agree; <= 6 exactly for [15, 21, 33, 35, 39, 55, 57]: True
+(Q) True
+    (R) witness families valid, coverage <= 1, bound <= least, for 33 levels (tight in 33): True
+(R) True
+    (S) 130 integer programs; 44, 52: 7 at every k <= 12; 51: 7 for even k, 10 for odd k; adding known algebraic xi_q' never helps: True
+(S) True
+    (T) all 20 entries of [MMRV] Table 3 are the exact l_{2,d}: True
+(T) True
+ALL CHECKS PASS: True

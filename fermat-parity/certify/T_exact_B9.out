@@ -1,0 +1,7 @@
+level d=186 n=92 rank_L=62 rank_S=62 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 0.4s
+  q=93 k=2 d=186 extra=[] HiGHS=10 | rep ok=True len=10 | B=9 w1=61961200 w2max=50404915 keymatch=0 genuine=0 131.0s | CERTIFIED
+level d=190 n=94 rank_L=58 rank_S=58 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 0.5s
+  q=95 k=2 d=190 extra=[] HiGHS=10 | rep ok=True len=10 | B=9 w1=63307600 w2max=54870480 keymatch=0 genuine=0 135.3s | CERTIFIED
+level d=222 n=110 rank_L=74 rank_S=74 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=14 setup 0.9s
+  q=111 k=2 d=222 extra=[] HiGHS=10 | rep ok=True len=10 | B=9 w1=125205842 w2max=102114376 keymatch=0 genuine=0 271.4s | CERTIFIED
+finished 3 of 3 levels in 273.0 s; unfinished levels: []

@@ -1,0 +1,202 @@
+[
+ {
+  "q": 15,
+  "d": 30,
+  "value": 3,
+  "pins": true,
+  "below": {
+   "B": 2,
+   "result": "unsat",
+   "sec": 0.03
+  },
+  "at": {
+   "B": 3,
+   "result": "sat",
+   "sec": 0.01,
+   "model_norm": 3,
+   "model_hodge": true,
+   "model_in_class": true
+  },
+  "confirms_value": true
+ },
+ {
+  "q": 21,
+  "d": 42,
+  "value": 3,
+  "pins": true,
+  "below": {
+   "B": 2,
+   "result": "unsat",
+   "sec": 0.01
+  },
+  "at": {
+   "B": 3,
+   "result": "sat",
+   "sec": 0.01,
+   "model_norm": 3,
+   "model_hodge": true,
+   "model_in_class": true
+  },
+  "confirms_value": true
+ },
+ {
+  "q": 33,
+  "d": 66,
+  "value": 4,
+  "pins": true,
+  "below": {
+   "B": 3,
+   "result": "unsat",
+   "sec": 0.06
+  },
+  "at": {
+   "B": 4,
+   "result": "sat",
+   "sec": 0.01,
+   "model_norm": 4,
+   "model_hodge": true,
+   "model_in_class": true
+  },
+  "confirms_value": true
+ },
+ {
+  "q": 35,
+  "d": 70,
+  "value": 6,
+  "pins": true,
+  "below": {
+   "B": 5,
+   "result": "unknown",
+   "sec": 25.01
+  },
+  "at": {
+   "B": 6,
+   "result": "sat",
+   "sec": 0.18,
+   "model_norm": 6,
+   "model_hodge": true,
+   "model_in_class": true
+  },
+  "confirms_value": false
+ },
+ {
+  "q": 39,
+  "d": 78,
+  "value": 3,
+  "pins": true,
+  "below": {
+   "B": 2,
+   "result": "unsat",
+   "sec": 0.11
+  },
+  "at": {
+   "B": 3,
+   "result": "sat",
+   "sec": 0.01,
+   "model_norm": 3,
+   "model_hodge": true,
+   "model_in_class": true
+  },
+  "confirms_value": true
+ },
+ {
+  "q": 51,
+  "d": 102,
+  "value": 7,
+  "pins": true,
+  "below": {
+   "B": 6,
+   "result": "unknown",
+   "sec": 25.0
+  },
+  "at": {
+   "B": 7,
+   "result": "sat",
+   "sec": 0.53,
+   "model_norm": 7,
+   "model_hodge": true,
+   "model_in_class": true
+  },
+  "confirms_value": false
+ },
+ {
+  "q": 55,
+  "d": 110,
+  "value": 5,
+  "pins": true,
+  "below": {
+   "B": 4,
+   "result": "unknown",
+   "sec": 25.02
+  },
+  "at": {
+   "B": 5,
+   "result": "sat",
+   "sec": 0.88,
+   "model_norm": 5,
+   "model_hodge": true,
+   "model_in_class": true
+  },
+  "confirms_value": false
+ },
+ {
+  "q": 57,
+  "d": 114,
+  "value": 6,
+  "pins": true,
+  "below": {
+   "B": 5,
+   "result": "unsat",
+   "sec": 8.26
+  },
+  "at": {
+   "B": 6,
+   "result": "sat",
+   "sec": 0.08,
+   "model_norm": 6,
+   "model_hodge": true,
+   "model_in_class": true
+  },
+  "confirms_value": true
+ },
+ {
+  "q": 65,
+  "d": 130,
+  "value": 10,
+  "pins": true,
+  "below": {
+   "B": 9,
+   "result": "unknown",
+   "sec": 25.01
+  },
+  "at": {
+   "B": 10,
+   "result": "sat",
+   "sec": 1.44,
+   "model_norm": 10,
+   "model_hodge": true,
+   "model_in_class": true
+  },
+  "confirms_value": false
+ },
+ {
+  "q": 69,
+  "d": 138,
+  "value": 9,
+  "pins": true,
+  "below": {
+   "B": 8,
+   "result": "unknown",
+   "sec": 25.0
+  },
+  "at": {
+   "B": 9,
+   "result": "sat",
+   "sec": 9.5,
+   "model_norm": 9,
+   "model_hodge": true,
+   "model_in_class": true
+  },
+  "confirms_value": false
+ }
+]

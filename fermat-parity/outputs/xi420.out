@@ -1,0 +1,55 @@
+    (AR) (i) 97 degrees l p, 4p <= 400: -tau integral, Hodge and equal to parity.py's xi_q (odd q); printed never Hodge; negated Hodge iff q odd: True
+    (AR) (ii) 420: 128 products x 5 readings, every one has a division without solution: True; first failing level {'printed': [3], '-tau': [3], 'negated': [3], 'printed, phi(q)/phi(q/d)': [2], '-tau, phi(q)/phi(q/d)': [2]}; Aoki's half systems (mu_5, mu_7 = ['2,3', '2,5', '3,3', '3,5']), -tau: failing levels [3, 4, 5, 7, 12, 15, 20, 21, 28, 60, 84]: True
+    (AR) (iii)(a) q=420: 128 products; exactness of the first divisions = criterion: True; number of exact first divisions at l = [4, 3, 5, 7]: [0, 0, 0, 0] (none, so only the 'only if' direction is tested)
+    (AR) (iii)(a) q=660: 512 products; exactness of the first divisions = criterion: True; number of exact first divisions at l = [4, 3, 5, 11]: [0, 0, 0, 0] (none, so only the 'only if' direction is tested)
+    (AR) (iii)(a) q=780: 1024 products; exactness of the first divisions = criterion: True; number of exact first divisions at l = [4, 3, 5, 13]: [0, 0, 0, 0] (none, so only the 'only if' direction is tested)
+    (AR) (iii)(a) q=924: 1024 products; exactness of the first divisions = criterion: True; number of exact first divisions at l = [4, 3, 7, 11]: [0, 0, 0, 0] (none, so only the 'only if' direction is tested)
+    (AR) (iii)(a) q=1155: 2048 products; exactness of the first divisions = criterion: True; number of exact first divisions at l = [3, 5, 7, 11]: [0, 0, 0, 0] (none, so only the 'only if' direction is tested)
+    (AR) (iii)(b) q=1596 = 3.4.7.19: first levels that can be exact [3]; 30 products, exact first divisions {3: 15, 4: 0, 7: 0, 19: 0}; criterion agrees: True
+    (AR) (iii)(b) q=2415 = 3.5.7.23: first levels that can be exact [5]; 30 products, exact first divisions {3: 0, 5: 15, 7: 0, 23: 0}; criterion agrees: True
+    (AR) (iii)(b) q=2508 = 3.4.11.19: first levels that can be exact [4]; 30 products, exact first divisions {3: 0, 4: 15, 11: 0, 19: 0}; criterion agrees: True
+    (AR) (iii)(b) q=2604 = 3.4.7.31: first levels that can be exact [3]; 30 products, exact first divisions {3: 15, 4: 0, 7: 0, 31: 0}; criterion agrees: True
+    (AR) (iii)(b) q=2660 = 4.5.7.19: first levels that can be exact [19]; 30 products, exact first divisions {4: 0, 5: 0, 7: 0, 19: 16}; criterion agrees: True
+    (AR) (iii)(b) q=3036 = 3.4.11.23: first levels that can be exact [11]; 30 products, exact first divisions {3: 0, 4: 0, 11: 15, 23: 0}; criterion agrees: True
+    (AR) (iii)(b) the four-factor degrees <= 3036 where some first division can be exact: [1596, 2415, 2508, 2604, 2660, 3036]: True
+    (AR) (iv) 579 degrees with four factors <= 20000, none with the odd-order condition: True; 3170089 = 13.43.53.107 has it, and the reading -tau is integral at every level for the invariant half systems (173628 primitive entries, 6 s): True
+    (AR) (v) over Q (Hodge, largest denominator): {420: {'printed': (False, 4), '-tau': (True, 4), 'negated': (False, 4), '-tau, all primitive roots': [(True, 4)]}, 660: {'printed': (False, 4), '-tau': (True, 4), 'negated': (False, 4), '-tau, all primitive roots': [(True, 4)]}, 780: {'printed': (False, 4), '-tau': (True, 4), 'negated': (False, 4), '-tau, all primitive roots': [(True, 4)]}, 924: {'printed': (False, 4), '-tau': (True, 4), 'negated': (False, 4), '-tau, all primitive roots': [(True, 4)]}, 1155: {'printed': (False, 4), '-tau': (True, 4), 'negated': (False, 4), '-tau, all primitive roots': [(True, 4)]}}: True
+(AR) True
+    (AS) (i)-(iii) 420: two orbits of products (sizes, H_7 = squares or non-squares) [(96, False), (32, True)]; elements without primitive entries: rank 120, seven parities of rank 6, eps = 0 True; products with a Hodge completion 128 of 128 (6 s): True
+    (AS) (iv) completion of Aoki's product of length 17: Hodge True, primitive part True, eps 1 True, levels {15: 1, 35: 1, 60: 1, 84: 2, 105: 3, 140: 3, 420: 6}, expression of Theorem 55(b) at 105, 140, 84, 60: {4: '3', 3: '3', 5: '2', 7: '1'} (squares mod 7: {4: '3', 3: '3', 5: '0', 7: '1'}), seven parities even: True
+    (AS) (v) 64 classes with eps = 1, one Hodge element each of length 15 + w (+2 if odd at 28): True; weight <= 1: {'0000000': 15, '0000010': 16, '0001000': 16, '0010000': 16, '1000000': 16}
+(AS) True
+    (AT) level 420 (the eleven witnesses): 11 functions, witnesses on 2986 standard tuples True, disjoint supports True, 1 on the lift of XI420 True: True
+    (AT) each of the eleven equals eps on B_420: True; F_105, F_140 are mod-3 witnesses True, vanish mod 3 on B_420 True, are +-1 exactly on the supports of lambda_105, lambda_140 True
+    (AT) level 1260 (Theorem 57(i)): 11 functions, witnesses on 10518 standard tuples True, disjoint supports True, 1 on the lift of XI420 True: True
+    (AT) level 1260: mod-3 counts that extend: {105: False, 140: True}; lower bound 13
+    (AT) level 2100 (Theorem 57(i)): 11 functions, witnesses on 16814 standard tuples True, disjoint supports True, 1 on the lift of XI420 True: True
+    (AT) level 2100: mod-3 counts that extend: {105: False, 140: False}; lower bound 11
+    (AT) level 2940 (Theorem 57(i)): 11 functions, witnesses on 23134 standard tuples True, disjoint supports True, 1 on the lift of XI420 True: True
+    (AT) level 2940: mod-3 counts that extend: {105: True, 140: True}; lower bound 15
+    (AT) level 840 (explicit): 11 functions, witnesses on 6650 standard tuples True, disjoint supports True, 1 on the lift of XI420 True: True
+    (AT) level 840: mod-3 counts that extend: {105: True, 140: False}; lower bound 13
+    (AT) Psi exists for each of the six coset witnesses and every class of r mod 420 (576 systems): True; dimension of the homogeneous solutions [8]
+    (AT) level 4620 (Psi): 11 functions, witnesses on 50696 standard tuples True, disjoint supports True, 1 on the lift of XI420 True: True
+    (AT) level 4620: mod-3 counts that extend: {105: False, 140: False}; lower bound 11
+    (AT) level 5460 (Psi): 11 functions, witnesses on 59638 standard tuples True, disjoint supports True, 1 on the lift of XI420 True: True
+    (AT) level 5460: mod-3 counts that extend: {105: False, 140: False}; lower bound 11
+    (AT) level 7140 (Psi): 11 functions, witnesses on 77522 standard tuples True, disjoint supports True, 1 on the lift of XI420 True: True
+    (AT) level 7140: mod-3 counts that extend: {105: True, 140: False}; lower bound 13
+    (AT) level 7980 (Psi): 11 functions, witnesses on 86464 standard tuples True, disjoint supports True, 1 on the lift of XI420 True: True
+    (AT) level 7980: mod-3 counts that extend: {105: True, 140: False}; lower bound 13
+    (AT) level 9660 (Psi): 11 functions, witnesses on 104348 standard tuples True, disjoint supports True, 1 on the lift of XI420 True: True
+    (AT) level 9660: mod-3 counts that extend: {105: True, 140: True}; lower bound 15
+    (AT) lower bounds for every element with eps = 1 (the lift of XI420 has 15 entries): {420: 15, 840: 13, 1260: 13, 2100: 11, 2940: 15, 4620: 11, 5460: 11, 7140: 13, 7980: 13, 9660: 15}: True
+(AT) True
+    (AU) degrees with four factors, N_{P(q)} even and every e_l [G_S : Gamma_l] even, up to 3315: [1740, 2460, 2652, 3045, 3315]
+    (AU) q=420 (case of Corollary 58 without a count: False): orders with lambda = eps [15, 35, 60, 105, 140], vanishing [20, 84, 420]; two-factor levels (value, n n' mod 2) {12: ('class', 1), 20: ('0', 0), 28: ('class', 1), 15: ('eps', 0), 21: ('class', 1), 35: ('eps', 0)} (0 s): True
+    (AU) q=660 (case of Corollary 58 without a count: False): orders with lambda = eps [15, 20, 55, 132, 165, 220], vanishing [60, 660]; two-factor levels (value, n n' mod 2) {12: ('class', 1), 20: ('eps', 0), 44: ('class', 1), 15: ('eps', 0), 33: ('class', 1), 55: ('eps', 0)} (3 s): True
+    (AU) q=780 (case of Corollary 58 without a count: False): orders with lambda = eps [15, 20, 52, 60, 65, 156], vanishing [39, 195, 260, 780]; two-factor levels (value, n n' mod 2) {12: ('class', 1), 20: ('eps', 0), 52: ('eps', 0), 15: ('eps', 0), 39: ('0', 0), 65: ('eps', 0)} (7 s): True
+    (AU) q=924 (case of Corollary 58 without a count: False): orders with lambda = eps [924], vanishing [84, 132, 231, 308]; two-factor levels (value, n n' mod 2) {12: ('class', 1), 28: ('class', 1), 44: ('class', 1), 21: ('class', 1), 33: ('class', 1), 77: ('class', 1)} (4 s): True
+    (AU) q=1155 (case of Corollary 58 without a count: False): orders with lambda = eps [15, 55, 165, 385], vanishing [35, 105, 231, 1155]; two-factor levels (value, n n' mod 2) {15: ('eps', 0), 21: ('class', 1), 33: ('class', 1), 35: ('0', 0), 55: ('eps', 0), 77: ('class', 1)} (8 s): True
+    (AU) q=1740 (case of Corollary 58 without a count: True): orders with lambda = eps [15, 87], vanishing [20, 60, 116, 145, 348, 435, 580, 1740]; two-factor levels (value, n n' mod 2) {12: ('class', 1), 20: ('0', 0), 116: ('0', 0), 15: ('eps', 0), 87: ('eps', 0), 145: ('0', 0)} (18 s): True
+    (AU) q=2460 (case of Corollary 58 without a count: True): orders with lambda = eps [15, 205], vanishing [20, 60, 123, 164, 492, 615, 820, 2460]; two-factor levels (value, n n' mod 2) {12: ('class', 1), 20: ('0', 0), 164: ('0', 0), 15: ('eps', 0), 123: ('0', 0), 205: ('eps', 0)} (176 s): True
+    (AU) q=2652 (case of Corollary 58 without a count: True): orders with lambda = eps [39, 221], vanishing [51, 52, 68, 156, 204, 663, 884, 2652]; two-factor levels (value, n n' mod 2) {12: ('class', 1), 52: ('0', 0), 68: ('0', 0), 39: ('eps', 0), 51: ('0', 0), 221: ('eps', 0)} (153 s): True
+(AU) True
+ALL CHECKS PASS: True

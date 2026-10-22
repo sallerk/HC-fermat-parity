@@ -1,0 +1,268 @@
+| d | q | k | extra | srcs | HiGHS | rep len, exact check | certified LB | search (B, |W1|+|W2|max, time) | status |
+|---|---|---|---|---|---|---|---|---|---|
+| 12 | 12 | 1 | - | S | 3 | 3 ok | 3 | B=2, 26+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 15 | 15 | 1 | - | S | 4 | 4 ok | 4 | B=3, 25+15, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 20 | 20 | 1 | - | S | 3 | 3 ok | 3 | B=2, 40+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 21 | 21 | 1 | - | S | 4 | 4 ok | 4 | B=3, 33+21, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 24 | 12 | 2 | - | S | 3 | 3 ok | 3 | B=2, 64+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 28 | 28 | 1 | - | S | 4 | 4 ok | 4 | B=3, 54+27, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 30 | 15 | 2 | - | Q,S | 3 | 3 ok | 3 | B=2, 80+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 33 | 33 | 1 | - | S | 6 | 6 ok | 6 | B=5, 658+561, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 35 | 35 | 1 | - | S | 8 | 8 ok | 8 | B=7, 8.09e+03+7.77e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 36 | 12 | 3 | - | S | 3 | 3 ok | 3 | B=2, 101+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 39 | 39 | 1 | - | S | 6 | 6 ok | 6 | B=5, 906+780, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 40 | 20 | 2 | - | S | 3 | 3 ok | 3 | B=2, 98+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 42 | 21 | 2 | - | Q,S | 3 | 3 ok | 3 | B=2, 106+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 44 | 44 | 1 | - | S | 7 | 7 ok | 7 | B=6, 1.7e+04+946, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 45 | 15 | 3 | - | S | 4 | 4 ok | 4 | B=3, 89+45, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 48 | 12 | 4 | - | S | 3 | 3 ok | 3 | B=2, 142+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 51 | 51 | 1 | - | S | 10 | 10 ok | 10 | B=9, 3.24e+05+3.16e+05, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 52 | 52 | 1 | - | S | 7 | 7 ok | 7 | B=6, 2.78e+04+1.33e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 55 | 55 | 1 | - | S | 10 | 10 ok | 10 | B=9, 4.27e+05+4.24e+05, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 56 | 28 | 2 | - | S | 4 | 4 ok | 4 | B=3, 128+55, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 57 | 57 | 1 | - | S | 10 | 10 ok | 10 | B=9, 4.98e+05+4.88e+05, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 60 | 12 | 5 | - | S | 3 | 3 ok | 3 | B=2, 224+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 60 | 15 | 4 | - | S | 3 | 3 ok | 3 | B=2, 224+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 60 | 20 | 3 | - | S | 3 | 3 ok | 3 | B=2, 224+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 63 | 21 | 3 | - | S | 4 | 4 ok | 4 | B=3, 117+63, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 65 | 65 | 1 | - | S | 16 | 16 ok | 13 | B=12, 1.31e+08+1.12e+07, 182 s | LOWER BOUND ONLY |
+| 66 | 33 | 2 | - | Q,S,T | 4 | 4 ok | 4 | B=3, 158+65, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 68 | 68 | 1 | - | S | 10 | 10 ok | 10 | B=9, 9.98e+05+9.17e+05, 1 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 69 | 69 | 1 | - | S | 12 | 12 ok | 12 | B=11, 1.51e+07+1.5e+07, 27 s | CERTIFIED |
+| 70 | 35 | 2 | - | Q,S,T | 6 | 6 ok | 6 | B=5, 3.86e+03+2.42e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 72 | 12 | 6 | - | S | 3 | 3 ok | 3 | B=2, 242+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 75 | 15 | 5 | - | S | 4 | 4 ok | 4 | B=3, 135+75, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 78 | 39 | 2 | - | Q,S,T | 3 | 3 ok | 3 | B=2, 184+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 80 | 20 | 4 | - | S | 3 | 3 ok | 3 | B=2, 216+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 84 | 21 | 4 | - | S | 3 | 3 ok | 3 | B=2, 290+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 84 | 28 | 3 | - | S | 4 | 4 ok | 4 | B=3, 290+83, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 88 | 44 | 2 | - | S | 7 | 7 ok | 7 | B=6, 1.37e+05+3.83e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 90 | 15 | 6 | - | S | 3 | 3 ok | 3 | B=2, 302+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 99 | 33 | 3 | - | S | 6 | 6 ok | 6 | B=5, 5.97e+03+4.95e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 100 | 20 | 5 | - | S | 3 | 3 ok | 3 | B=2, 237+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 102 | 51 | 2 | - | Q,S,T | 7 | 7 ok | 7 | B=6, 2.45e+05+5.15e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 104 | 52 | 2 | - | S | 7 | 7 ok | 7 | B=6, 2.24e+05+5.36e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 105 | 21 | 5 | - | S | 4 | 4 ok | 4 | B=3, 239+105, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 105 | 35 | 3 | - | S | 8 | 8 ok | 8 | B=7, 2.4e+05+1.98e+05, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 110 | 55 | 2 | - | Q,S,T | 5 | 5 ok | 5 | B=4, 9.1e+03+109, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 112 | 28 | 4 | - | S | 4 | 4 ok | 4 | B=3, 282+111, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 114 | 57 | 2 | - | Q,S,T | 6 | 6 ok | 6 | B=5, 1.06e+04+6.44e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 117 | 39 | 3 | - | S | 6 | 6 ok | 6 | B=5, 8.22e+03+6.9e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 120 | 20 | 6 | - | S | 3 | 3 ok | 3 | B=2, 532+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 126 | 21 | 6 | - | S | 3 | 3 ok | 3 | B=2, 396+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 130 | 65 | 2 | - | Q,S,T | 10 | 10 ok | 10 | B=9, 1.41e+07+1.21e+07, 21 s | CERTIFIED |
+| 132 | 33 | 4 | - | S | 4 | 4 ok | 4 | B=3, 422+131, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 132 | 44 | 3 | - | S,T | 7 | 7 ok | 7 | B=6, 6.06e+05+8.65e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 132 | 44 | 3 | 12 | S | 8 | 8 ok | 8 | B=7, 6.06e+05+3.83e+05, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 132 | 44 | 3 | 12,33 | S | 9 | 9 ok | 9 | B=8, 1.74e+07+3.83e+05, 4 s | CERTIFIED |
+| 132 | 44 | 3 | 33 | S | 10 | 10 ok | 10 | B=9, 1.74e+07+1.28e+07, 31 s | CERTIFIED |
+| 136 | 68 | 2 | - | S | 10 | 10 ok | 10 | B=9, 1.57e+07+1.45e+07, 30 s | CERTIFIED |
+| 138 | 69 | 2 | - | Q,S,T | 9 | 9 ok | 9 | B=8, 1.89e+07+4.38e+05, 4 s | CERTIFIED |
+| 140 | 28 | 5 | - | S | 4 | 4 ok | 4 | B=3, 432+139, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 140 | 35 | 4 | - | S | 6 | 6 ok | 6 | B=5, 1.82e+04+9.73e+03, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 153 | 51 | 3 | - | S | 10 | 10 ok | 10 | B=9, 2.42e+07+2.37e+07, 50 s | CERTIFIED |
+| 154 | 77 | 2 | - | Q,T | 12 | 12 ok | 10 | B=9, 2.71e+07+2.37e+07, 54 s | LOWER BOUND ONLY |
+| 156 | 39 | 4 | - | S | 3 | 3 ok | 3 | B=2, 488+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 156 | 52 | 3 | - | S,T | 7 | 7 ok | 7 | B=6, 9.88e+05+1.21e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 156 | 52 | 3 | 12 | S | 10 | 10 ok | 10 | B=9, 3.35e+07+2.5e+07, 66 s | CERTIFIED |
+| 156 | 52 | 3 | 12,39 | S | 12 | 12 ok | 10 | B=9, 3.35e+07+2.5e+07, 91 s | LOWER BOUND ONLY |
+| 156 | 52 | 3 | 39 | S | 9 | 9 ok | 9 | B=8, 3.35e+07+6.33e+05, 8 s | CERTIFIED |
+| 165 | 33 | 5 | - | S | 6 | 6 ok | 6 | B=5, 1.89e+04+1.37e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 165 | 55 | 3 | - | S | 10 | 10 ok | 10 | B=9, 3.46e+07+3.2e+07, 72 s | CERTIFIED |
+| 168 | 28 | 6 | - | S | 4 | 4 ok | 4 | B=3, 682+167, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 170 | 85 | 2 | - | Q,T | 12 | 12 ok | 10 | B=9, 4.07e+07+3.52e+07, 87 s | LOWER BOUND ONLY |
+| 171 | 57 | 3 | - | S | 10 | 10 ok | 10 | B=9, 3.76e+07+3.69e+07, 102 s | CERTIFIED |
+| 174 | 87 | 2 | - | Q,T | 10 | 10 ok | 10 | B=9, 4.75e+07+3.86e+07, 105 s | CERTIFIED |
+| 175 | 35 | 5 | - | S | 8 | 8 ok | 8 | B=7, 9.44e+05+9.09e+05, 0 s | CERTIFIED |
+| 176 | 44 | 4 | - | S | 7 | 7 ok | 7 | B=6, 1.1e+06+1.54e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 182 | 91 | 2 | - | Q,T | 17 | 17 ok | 10 | B=9, 5.25e+07+4.62e+07, 101 s | LOWER BOUND ONLY |
+| 186 | 93 | 2 | - | Q,T | 10 | 10 ok | 10 | B=9, 6.2e+07+5.04e+07, 131 s | CERTIFIED |
+| 190 | 95 | 2 | - | Q,T | 10 | 10 ok | 10 | B=9, 6.33e+07+5.49e+07, 135 s | CERTIFIED |
+| 195 | 39 | 5 | - | S | 6 | 6 ok | 6 | B=5, 2.59e+04+1.91e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 195 | 65 | 3 | - | S | 16 | 16 ok | 10 | B=9, 6.67e+07+6.21e+07, 134 s | LOWER BOUND ONLY |
+| 198 | 33 | 6 | - | S | 4 | 4 ok | 4 | B=3, 568+197, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 204 | 51 | 4 | - | S | 7 | 7 ok | 7 | B=6, 2.17e+06+2.07e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 204 | 51 | 4 | 12 | S | 8 | 8 ok | 8 | B=7, 2.17e+06+1.41e+06, 2 s | CERTIFIED |
+| 204 | 68 | 3 | - | S,T | 8 | 8 ok | 8 | B=7, 2.17e+06+1.41e+06, 2 s | CERTIFIED |
+| 207 | 69 | 3 | - | S | 12 | 12 ok | 10 | B=9, 8.02e+07+7.87e+07, 162 s | LOWER BOUND ONLY |
+| 208 | 52 | 4 | - | S | 7 | 7 ok | 7 | B=6, 1.79e+06+2.15e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 210 | 35 | 6 | - | S | 6 | 6 ok | 6 | B=5, 5.11e+04+2.19e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 220 | 44 | 5 | - | S | 7 | 7 ok | 7 | B=6, 2.45e+06+2.41e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 220 | 44 | 5 | 20 | S | 10 | 10 ok | 10 | B=9, 1.2e+08+9.85e+07, 235 s | CERTIFIED |
+| 220 | 44 | 5 | 20,55 | S | 15 | 15 ok | 9 | B=8, 1.2e+08+1.77e+06, 105 s | LOWER BOUND ONLY |
+| 220 | 44 | 5 | 55 | S | 12 | 12 ok | 9 | B=8, 1.2e+08+1.77e+06, 123 s | LOWER BOUND ONLY |
+| 220 | 55 | 4 | - | S | 5 | 5 ok | 5 | B=4, 4.2e+04+219, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 222 | 111 | 2 | - | Q,T | 10 | 10 ok | 10 | B=9, 1.25e+08+1.02e+08, 271 s | CERTIFIED |
+| 228 | 57 | 4 | - | S | 6 | 6 ok | 6 | B=5, 5.03e+04+2.59e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 228 | 76 | 3 | - | T | 11 | 11 ok | 9 | B=8, 1.5e+08+1.98e+06, 159 s | LOWER BOUND ONLY |
+| 230 | 115 | 2 | - | Q | 16 | 16 ok | 8 | B=7, 2.54e+06+2.03e+06, 4 s | LOWER BOUND ONLY |
+| 234 | 39 | 6 | - | S | 3 | 3 ok | 3 | B=2, 654+1, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 238 | 119 | 2 | - | Q | 18 | 18 ok | 8 | B=7, 2.75e+06+2.25e+06, 4 s | LOWER BOUND ONLY |
+| 246 | 123 | 2 | - | Q | 14 | 14 ok | 8 | B=7, 3.37e+06+2.48e+06, 5 s | LOWER BOUND ONLY |
+| 255 | 51 | 5 | - | S | 10 | 10 ok | 10 | B=9, 1.92e+08+1.8e+08, 450 s | CERTIFIED |
+| 255 | 51 | 5 | 15 | S | 12 | 12 ok | 10 | B=9, 1.92e+08+1.8e+08, 470 s | LOWER BOUND ONLY |
+| 258 | 129 | 2 | - | Q | 13 | 13 ok | 8 | B=7, 3.88e+06+2.86e+06, 7 s | LOWER BOUND ONLY |
+| 260 | 52 | 5 | - | S | 7 | 7 ok | 7 | B=6, 4e+06+3.37e+04, 1 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 260 | 52 | 5 | 20 | S | 10 | 10 ok | 9 | B=8, 2.31e+08+2.93e+06, 210 s | LOWER BOUND ONLY |
+| 260 | 65 | 4 | - | S | 10 | 10 ok | 10 | B=9, 2.31e+08+1.92e+08, 483 s | CERTIFIED |
+| 264 | 44 | 6 | - | S | 7 | 7 ok | 7 | B=6, 4.96e+06+3.47e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 266 | 133 | 2 | - | Q | 19 | 19 ok | 8 | B=7, 3.82e+06+3.14e+06, 8 s | LOWER BOUND ONLY |
+| 272 | 68 | 4 | - | S | 10 | 10 ok | 9 | B=8, 2.5e+08+3.35e+06, 361 s | LOWER BOUND ONLY |
+| 275 | 55 | 5 | - | S | 10 | 10 ok | 9 | B=8, 2.45e+08+3.5e+06, 381 s | LOWER BOUND ONLY |
+| 276 | 69 | 4 | - | S | 9 | 9 ok | 9 | B=8, 3.19e+08+3.5e+06, 258 s | CERTIFIED |
+| 276 | 92 | 3 | - | T | 12 | 12 ok | 9 | B=8, 3.19e+08+3.5e+06, 296 s | LOWER BOUND ONLY |
+| 282 | 141 | 2 | - | Q | 15 | 15 ok | 8 | B=7, 5.06e+06+3.74e+06, 11 s | LOWER BOUND ONLY |
+| 285 | 57 | 5 | - | S | 10 | 10 ok | 9 | B=8, 2.99e+08+3.9e+06, 336 s | LOWER BOUND ONLY |
+| 286 | 143 | 2 | - | Q | 19 | 19 ok | 8 | B=7, 4.69e+06+3.9e+06, 10 s | LOWER BOUND ONLY |
+| 290 | 145 | 2 | - | Q | 19 | 19 ok | 8 | B=7, 5.06e+06+4.06e+06, 11 s | LOWER BOUND ONLY |
+| 306 | 51 | 6 | - | S | 7 | 7 ok | 7 | B=6, 6.69e+06+4.67e+04, 1 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 308 | 44 | 7 | - | S | 7 | 7 ok | 7 | B=6, 6.41e+06+4.73e+04, 1 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 308 | 44 | 7 | 28 | S | 9 | 9 ok | 9 | B=8, 4.43e+08+4.87e+06, 468 s | CERTIFIED |
+| 312 | 52 | 6 | - | S | 7 | 7 ok | 7 | B=6, 8.06e+06+4.85e+04, 1 s | CERTIFIED |
+| 325 | 65 | 5 | - | S | 16 | 16 ok | 8 | B=7, 5.89e+06+5.77e+06, 9 s | LOWER BOUND ONLY |
+| 330 | 55 | 6 | - | S | 5 | 5 ok | 5 | B=4, 1.17e+05+329, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 340 | 68 | 5 | - | S | 10 | 10 ok | 8 | B=7, 8.81e+06+6.55e+06, 12 s | LOWER BOUND ONLY |
+| 342 | 57 | 6 | - | S | 6 | 6 ok | 6 | B=5, 9.98e+04+5.83e+04, 0 s | CERTIFIED (selftest at B=HiGHS: rep orbit found) |
+| 345 | 69 | 5 | - | S | 12 | 12 ok | 8 | B=7, 7.82e+06+6.9e+06, 12 s | LOWER BOUND ONLY |
+| 352 | 44 | 8 | - | S | 7 | 7 ok | 7 | B=6, 8.78e+06+6.18e+04, 1 s | CERTIFIED |
+| 357 | 51 | 7 | - | S | 10 | 10 ok | 8 | B=7, 8.48e+06+7.65e+06, 13 s | LOWER BOUND ONLY |
+| 357 | 51 | 7 | 21 | S | 14 | 14 ok | 8 | B=7, 8.48e+06+7.65e+06, 13 s | LOWER BOUND ONLY |
+| 364 | 52 | 7 | - | S | 7 | 7 ok | 7 | B=6, 1.05e+07+6.61e+04, 1 s | CERTIFIED |
+| 364 | 52 | 7 | 28 | S | 11 | 11 ok | 8 | B=7, 1.05e+07+8.04e+06, 16 s | LOWER BOUND ONLY |
+| 390 | 65 | 6 | - | S | 10 | 10 ok | 8 | B=7, 1.63e+07+9.89e+06, 24 s | LOWER BOUND ONLY |
+| 396 | 44 | 9 | - | S | 7 | 7 ok | 7 | B=6, 1.67e+07+7.82e+04, 2 s | CERTIFIED |
+| 408 | 51 | 8 | - | S | 7 | 7 ok | 7 | B=6, 1.77e+07+8.3e+04, 2 s | CERTIFIED |
+| 408 | 68 | 6 | - | S | 8 | 8 ok | 8 | B=7, 1.77e+07+1.13e+07, 26 s | CERTIFIED |
+| 414 | 69 | 6 | - | S | 9 | 9 ok | 8 | B=7, 1.64e+07+1.18e+07, 26 s | LOWER BOUND ONLY |
+| 416 | 52 | 8 | - | S | 7 | 7 ok | 7 | B=6, 1.44e+07+8.63e+04, 1 s | CERTIFIED |
+| 440 | 44 | 10 | - | S | 7 | 7 ok | 7 | B=6, 2.03e+07+9.66e+04, 2 s | CERTIFIED |
+| 459 | 51 | 9 | - | S | 10 | 10 ok | 8 | B=7, 1.72e+07+1.62e+07, 31 s | LOWER BOUND ONLY |
+| 468 | 52 | 9 | - | S | 7 | 7 ok | 7 | B=6, 2.71e+07+1.09e+05, 3 s | CERTIFIED |
+| 484 | 44 | 11 | - | S | 7 | 7 ok | 7 | B=6, 2.26e+07+1.17e+05, 2 s | CERTIFIED |
+| 510 | 51 | 10 | - | S | 7 | 7 ok | 7 | B=6, 3.58e+07+1.3e+05, 4 s | CERTIFIED |
+| 510 | 51 | 10 | 15 | S | 8 | 8 ok | 8 | B=7, 3.58e+07+2.21e+07, 64 s | CERTIFIED |
+| 520 | 52 | 10 | - | S | 7 | 7 ok | 7 | B=6, 3.3e+07+1.35e+05, 4 s | CERTIFIED |
+| 528 | 44 | 12 | - | S | 7 | 7 ok | 7 | B=6, 3.99e+07+1.39e+05, 4 s | CERTIFIED |
+| 561 | 51 | 11 | - | S | 10 | 10 ok | 8 | B=7, 3.21e+07+2.96e+07, 54 s | LOWER BOUND ONLY |
+| 572 | 52 | 11 | - | S | 7 | 7 ok | 7 | B=6, 3.91e+07+1.63e+05, 5 s | CERTIFIED |
+| 612 | 51 | 12 | - | S | 7 | 7 ok | 7 | B=6, 5.96e+07+1.87e+05, 8 s | CERTIFIED |
+| 624 | 52 | 12 | - | S | 7 | 7 ok | 7 | B=6, 6.48e+07+1.94e+05, 9 s | CERTIFIED |
+
+level d=12: n=5 rank L=3 rank S=3 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=15: n=7 rank L=3 rank S=3 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=20: n=9 rank L=5 rank S=5 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=21: n=10 rank L=4 rank S=4 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=24: n=11 rank L=7 rank S=7 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=28: n=13 rank L=7 rank S=7 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=30: n=14 rank L=10 rank S=10 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=33: n=16 rank L=6 rank S=6 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=35: n=17 rank L=5 rank S=5 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=36: n=17 rank L=11 rank S=11 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=39: n=19 rank L=7 rank S=7 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=40: n=19 rank L=11 rank S=11 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=42: n=20 rank L=14 rank S=14 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=44: n=21 rank L=11 rank S=11 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=45: n=22 rank L=10 rank S=10 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=48: n=23 rank L=15 rank S=15 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=51: n=25 rank L=9 rank S=9 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=52: n=25 rank L=13 rank S=13 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=55: n=27 rank L=7 rank S=7 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=56: n=27 rank L=15 rank S=15 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=57: n=28 rank L=10 rank S=10 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=60: n=29 rank L=21 rank S=21 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=63: n=31 rank L=13 rank S=13 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=65: n=32 rank L=8 rank S=8 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=66: n=32 rank L=22 rank S=22 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=68: n=33 rank L=17 rank S=17 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=69: n=34 rank L=12 rank S=12 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=70: n=34 rank L=22 rank S=22 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=72: n=35 rank L=23 rank S=23 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=75: n=37 rank L=17 rank S=17 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=78: n=38 rank L=26 rank S=26 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=80: n=39 rank L=23 rank S=23 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=84: n=41 rank L=29 rank S=29 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=88: n=43 rank L=23 rank S=23 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=90: n=44 rank L=32 rank S=32 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=99: n=49 rank L=19 rank S=19 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=100: n=49 rank L=29 rank S=29 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=102: n=50 rank L=34 rank S=34 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=104: n=51 rank L=27 rank S=27 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=105: n=52 rank L=28 rank S=28 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=110: n=54 rank L=34 rank S=34 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=112: n=55 rank L=31 rank S=31 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=114: n=56 rank L=38 rank S=38 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=117: n=58 rank L=22 rank S=22 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=120: n=59 rank L=43 rank S=43 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=126: n=62 rank L=44 rank S=44 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=130: n=64 rank L=40 rank S=40 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=132: n=65 rank L=45 rank S=45 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=136: n=67 rank L=35 rank S=35 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=138: n=68 rank L=46 rank S=46 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=140: n=69 rank L=45 rank S=45 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=153: n=76 rank L=28 rank S=28 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=154: n=76 rank L=46 rank S=46 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=156: n=77 rank L=53 rank S=53 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=165: n=82 rank L=42 rank S=42 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=168: n=83 rank L=59 rank S=59 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=170: n=84 rank L=52 rank S=52 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=171: n=85 rank L=31 rank S=31 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=174: n=86 rank L=58 rank S=58 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=175: n=87 rank L=27 rank S=27 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=176: n=87 rank L=47 rank S=47 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=182: n=90 rank L=54 rank S=54 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=186: n=92 rank L=62 rank S=62 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=190: n=94 rank L=58 rank S=58 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=195: n=97 rank L=49 rank S=49 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=198: n=98 rank L=68 rank S=68 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=204: n=101 rank L=69 rank S=69 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=207: n=103 rank L=37 rank S=37 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=208: n=103 rank L=55 rank S=55 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=210: n=104 rank L=80 rank S=80 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=220: n=109 rank L=69 rank S=69 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=222: n=110 rank L=74 rank S=74 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=228: n=113 rank L=77 rank S=77 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=230: n=114 rank L=70 rank S=70 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=234: n=116 rank L=80 rank S=80 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=238: n=118 rank L=70 rank S=70 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=246: n=122 rank L=82 rank S=82 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=255: n=127 rank L=63 rank S=63 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=258: n=128 rank L=86 rank S=86 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=260: n=129 rank L=81 rank S=81 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=264: n=131 rank L=91 rank S=91 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=266: n=132 rank L=78 rank S=78 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=272: n=135 rank L=71 rank S=71 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=275: n=137 rank L=37 rank S=37 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=276: n=137 rank L=93 rank S=93 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=282: n=140 rank L=94 rank S=94 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=285: n=142 rank L=70 rank S=70 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=286: n=142 rank L=82 rank S=82 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=290: n=144 rank L=88 rank S=88 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=306: n=152 rank L=104 rank S=104 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=308: n=153 rank L=93 rank S=93 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=312: n=155 rank L=107 rank S=107 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=325: n=162 rank L=42 rank S=42 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=330: n=164 rank L=124 rank S=124 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=340: n=169 rank L=105 rank S=105 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=342: n=170 rank L=116 rank S=116 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=345: n=172 rank L=84 rank S=84 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=352: n=175 rank L=95 rank S=95 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=357: n=178 rank L=82 rank S=82 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=364: n=181 rank L=109 rank S=109 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=390: n=194 rank L=146 rank S=146 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=396: n=197 rank L=137 rank S=137 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=408: n=203 rank L=139 rank S=139 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=414: n=206 rank L=140 rank S=140 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=416: n=207 rank L=111 rank S=111 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=440: n=219 rank L=139 rank S=139 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=459: n=229 rank L=85 rank S=85 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=468: n=233 rank L=161 rank S=161 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=484: n=241 rank L=131 rank S=131 [L:S]=2 k=1 SNF non-unit=[2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=510: n=254 rank L=190 rank S=190 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=520: n=259 rank L=163 rank S=163 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=528: n=263 rank L=183 rank S=183 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=561: n=280 rank L=120 rank S=120 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=572: n=285 rank L=165 rank S=165 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=612: n=305 rank L=209 rank S=209 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+level d=624: n=311 rank L=215 rank S=215 [L:S]=8 k=3 SNF non-unit=[2, 2, 2] pins=True lifts.class_functionals same classes=True symmetry ok=True
+
+147 jobs, 116 levels: 113 CERTIFIED, 34 LOWER BOUND ONLY, 0 other; all levels pin the class: True; all lower bounds >= 7 where HiGHS >= 7: True; files: ['P1.json', 'Q_only_B7.json', 'ST_129_300.json', 'ST_301_624.json', 'S_195_q65_B9.json', 'S_207_q69_B9.json', 'S_220_x20_B9.json', 'S_255_q51_B9.json', 'S_255_x15_B9.json', 'S_260_q65_B9.json', 'S_276_q69_B8.json', 'S_285_q57_B8.json', 'S_308_x28_B8.json', 'S_T_upto128.json', 'T_182_q91_B9.json', 'T_276_q92_B8.json', 'T_exact_B9.json', 'test_small.json']

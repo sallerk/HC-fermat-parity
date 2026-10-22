@@ -1,0 +1,9 @@
+    (M) Theorem 12 on 11 degrees, converse on 90 random (A, B): True
+(M) True
+    (N) extremal tuples: 194 odd degrees l p <= 1000, 167 degrees 4p (p < 1000): True
+(N) True
+    (O) formula equals all 105 entries of [MMRV] Table 1: True
+(O) True
+    (P) Theorem 12' on 6 degrees, 75 random triples, 2564 standard tuples; B / (D + S) = Z/2 for 24 degrees 4p: True
+(P) True
+ALL CHECKS PASS: True

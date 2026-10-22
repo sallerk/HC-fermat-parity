@@ -1,0 +1,865 @@
+{
+ "_all_checks_pass": true,
+ "results": {
+  "M": [
+   {
+    "q": 33,
+    "theorem12": true,
+    "tuples": 152
+   },
+   {
+    "q": 39,
+    "theorem12": true,
+    "tuples": 209
+   },
+   {
+    "q": 51,
+    "theorem12": true,
+    "tuples": 350
+   },
+   {
+    "q": 35,
+    "theorem12": true,
+    "tuples": 158
+   },
+   {
+    "q": 55,
+    "theorem12": true,
+    "tuples": 385
+   },
+   {
+    "q": 57,
+    "theorem12": true,
+    "tuples": 434
+   },
+   {
+    "q": 77,
+    "theorem12": true,
+    "tuples": 749
+   },
+   {
+    "q": 65,
+    "theorem12": true,
+    "tuples": 536
+   },
+   {
+    "q": 91,
+    "theorem12": true,
+    "tuples": 1044
+   },
+   {
+    "q": 143,
+    "theorem12": true,
+    "tuples": 2567
+   },
+   {
+    "q": 95,
+    "theorem12": true,
+    "tuples": 1139
+   },
+   {
+    "converse_built": 90,
+    "not_hodge": 0
+   }
+  ],
+  "N": [
+   {
+    "degrees_4p": 167,
+    "odd_degrees": 194
+   }
+  ],
+  "O": [
+   {
+    "formula": 3,
+    "mmrv": 3,
+    "q": 12
+   },
+   {
+    "formula": 4,
+    "mmrv": 4,
+    "q": 15
+   },
+   {
+    "formula": 3,
+    "mmrv": 3,
+    "q": 20
+   },
+   {
+    "formula": 4,
+    "mmrv": 4,
+    "q": 21
+   },
+   {
+    "formula": 4,
+    "mmrv": 4,
+    "q": 28
+   },
+   {
+    "formula": 6,
+    "mmrv": 6,
+    "q": 33
+   },
+   {
+    "formula": 8,
+    "mmrv": 8,
+    "q": 35
+   },
+   {
+    "formula": 6,
+    "mmrv": 6,
+    "q": 39
+   },
+   {
+    "formula": 7,
+    "mmrv": 7,
+    "q": 44
+   },
+   {
+    "formula": 10,
+    "mmrv": 10,
+    "q": 51
+   },
+   {
+    "formula": 7,
+    "mmrv": 7,
+    "q": 52
+   },
+   {
+    "formula": 10,
+    "mmrv": 10,
+    "q": 55
+   },
+   {
+    "formula": 10,
+    "mmrv": 10,
+    "q": 57
+   },
+   {
+    "formula": 16,
+    "mmrv": 16,
+    "q": 65
+   },
+   {
+    "formula": 10,
+    "mmrv": 10,
+    "q": 68
+   },
+   {
+    "formula": 12,
+    "mmrv": 12,
+    "q": 69
+   },
+   {
+    "formula": 11,
+    "mmrv": 11,
+    "q": 76
+   },
+   {
+    "formula": 16,
+    "mmrv": 16,
+    "q": 77
+   },
+   {
+    "formula": 18,
+    "mmrv": 18,
+    "q": 85
+   },
+   {
+    "formula": 16,
+    "mmrv": 16,
+    "q": 87
+   },
+   {
+    "formula": 22,
+    "mmrv": 22,
+    "q": 91
+   },
+   {
+    "formula": 12,
+    "mmrv": 12,
+    "q": 92
+   },
+   {
+    "formula": 16,
+    "mmrv": 16,
+    "q": 93
+   },
+   {
+    "formula": 20,
+    "mmrv": 20,
+    "q": 95
+   },
+   {
+    "formula": 20,
+    "mmrv": 20,
+    "q": 111
+   },
+   {
+    "formula": 24,
+    "mmrv": 24,
+    "q": 115
+   },
+   {
+    "formula": 15,
+    "mmrv": 15,
+    "q": 116
+   },
+   {
+    "formula": 26,
+    "mmrv": 26,
+    "q": 119
+   },
+   {
+    "formula": 26,
+    "mmrv": 26,
+    "q": 123
+   },
+   {
+    "formula": 16,
+    "mmrv": 16,
+    "q": 124
+   },
+   {
+    "formula": 22,
+    "mmrv": 22,
+    "q": 129
+   },
+   {
+    "formula": 28,
+    "mmrv": 28,
+    "q": 133
+   },
+   {
+    "formula": 24,
+    "mmrv": 24,
+    "q": 141
+   },
+   {
+    "formula": 32,
+    "mmrv": 32,
+    "q": 143
+   },
+   {
+    "formula": 32,
+    "mmrv": 32,
+    "q": 145
+   },
+   {
+    "formula": 19,
+    "mmrv": 19,
+    "q": 148
+   },
+   {
+    "formula": 30,
+    "mmrv": 30,
+    "q": 155
+   },
+   {
+    "formula": 28,
+    "mmrv": 28,
+    "q": 159
+   },
+   {
+    "formula": 34,
+    "mmrv": 34,
+    "q": 161
+   },
+   {
+    "formula": 22,
+    "mmrv": 22,
+    "q": 164
+   },
+   {
+    "formula": 25,
+    "mmrv": 25,
+    "q": 172
+   },
+   {
+    "formula": 30,
+    "mmrv": 30,
+    "q": 177
+   },
+   {
+    "formula": 36,
+    "mmrv": 36,
+    "q": 183
+   },
+   {
+    "formula": 38,
+    "mmrv": 38,
+    "q": 185
+   },
+   {
+    "formula": 42,
+    "mmrv": 42,
+    "q": 187
+   },
+   {
+    "formula": 24,
+    "mmrv": 24,
+    "q": 188
+   },
+   {
+    "formula": 36,
+    "mmrv": 36,
+    "q": 201
+   },
+   {
+    "formula": 42,
+    "mmrv": 42,
+    "q": 203
+   },
+   {
+    "formula": 42,
+    "mmrv": 42,
+    "q": 205
+   },
+   {
+    "formula": 46,
+    "mmrv": 46,
+    "q": 209
+   },
+   {
+    "formula": 27,
+    "mmrv": 27,
+    "q": 212
+   },
+   {
+    "formula": 36,
+    "mmrv": 36,
+    "q": 213
+   },
+   {
+    "formula": 44,
+    "mmrv": 44,
+    "q": 215
+   },
+   {
+    "formula": 46,
+    "mmrv": 46,
+    "q": 217
+   },
+   {
+    "formula": 42,
+    "mmrv": 42,
+    "q": 219
+   },
+   {
+    "formula": 54,
+    "mmrv": 54,
+    "q": 221
+   },
+   {
+    "formula": 48,
+    "mmrv": 48,
+    "q": 235
+   },
+   {
+    "formula": 31,
+    "mmrv": 31,
+    "q": 236
+   },
+   {
+    "formula": 40,
+    "mmrv": 40,
+    "q": 237
+   },
+   {
+    "formula": 31,
+    "mmrv": 31,
+    "q": 244
+   },
+   {
+    "formula": 56,
+    "mmrv": 56,
+    "q": 247
+   },
+   {
+    "formula": 42,
+    "mmrv": 42,
+    "q": 249
+   },
+   {
+    "formula": 56,
+    "mmrv": 56,
+    "q": 253
+   },
+   {
+    "formula": 54,
+    "mmrv": 54,
+    "q": 259
+   },
+   {
+    "formula": 54,
+    "mmrv": 54,
+    "q": 265
+   },
+   {
+    "formula": 46,
+    "mmrv": 46,
+    "q": 267
+   },
+   {
+    "formula": 35,
+    "mmrv": 35,
+    "q": 268
+   },
+   {
+    "formula": 36,
+    "mmrv": 36,
+    "q": 284
+   },
+   {
+    "formula": 64,
+    "mmrv": 64,
+    "q": 287
+   },
+   {
+    "formula": 50,
+    "mmrv": 50,
+    "q": 291
+   },
+   {
+    "formula": 36,
+    "mmrv": 36,
+    "q": 292
+   },
+   {
+    "formula": 60,
+    "mmrv": 60,
+    "q": 295
+   },
+   {
+    "formula": 68,
+    "mmrv": 68,
+    "q": 299
+   },
+   {
+    "formula": 70,
+    "mmrv": 70,
+    "q": 301
+   },
+   {
+    "formula": 52,
+    "mmrv": 52,
+    "q": 303
+   },
+   {
+    "formula": 62,
+    "mmrv": 62,
+    "q": 305
+   },
+   {
+    "formula": 54,
+    "mmrv": 54,
+    "q": 309
+   },
+   {
+    "formula": 40,
+    "mmrv": 40,
+    "q": 316
+   },
+   {
+    "formula": 72,
+    "mmrv": 72,
+    "q": 319
+   },
+   {
+    "formula": 54,
+    "mmrv": 54,
+    "q": 321
+   },
+   {
+    "formula": 74,
+    "mmrv": 74,
+    "q": 323
+   },
+   {
+    "formula": 54,
+    "mmrv": 54,
+    "q": 327
+   },
+   {
+    "formula": 70,
+    "mmrv": 70,
+    "q": 329
+   },
+   {
+    "formula": 43,
+    "mmrv": 43,
+    "q": 332
+   },
+   {
+    "formula": 70,
+    "mmrv": 70,
+    "q": 335
+   },
+   {
+    "formula": 58,
+    "mmrv": 58,
+    "q": 339
+   },
+   {
+    "formula": 76,
+    "mmrv": 76,
+    "q": 341
+   },
+   {
+    "formula": 70,
+    "mmrv": 70,
+    "q": 355
+   },
+   {
+    "formula": 44,
+    "mmrv": 44,
+    "q": 356
+   },
+   {
+    "formula": 74,
+    "mmrv": 74,
+    "q": 365
+   },
+   {
+    "formula": 80,
+    "mmrv": 80,
+    "q": 371
+   },
+   {
+    "formula": 86,
+    "mmrv": 86,
+    "q": 377
+   },
+   {
+    "formula": 64,
+    "mmrv": 64,
+    "q": 381
+   },
+   {
+    "formula": 50,
+    "mmrv": 50,
+    "q": 388
+   },
+   {
+    "formula": 90,
+    "mmrv": 90,
+    "q": 391
+   },
+   {
+    "formula": 66,
+    "mmrv": 66,
+    "q": 393
+   },
+   {
+    "formula": 80,
+    "mmrv": 80,
+    "q": 395
+   },
+   {
+    "formula": 94,
+    "mmrv": 94,
+    "q": 403
+   },
+   {
+    "formula": 51,
+    "mmrv": 51,
+    "q": 404
+   },
+   {
+    "formula": 96,
+    "mmrv": 96,
+    "q": 407
+   },
+   {
+    "formula": 70,
+    "mmrv": 70,
+    "q": 411
+   },
+   {
+    "formula": 52,
+    "mmrv": 52,
+    "q": 412
+   },
+   {
+    "formula": 88,
+    "mmrv": 88,
+    "q": 413
+   },
+   {
+    "formula": 84,
+    "mmrv": 84,
+    "q": 415
+   },
+   {
+    "formula": 70,
+    "mmrv": 70,
+    "q": 417
+   }
+  ],
+  "P": [
+   {
+    "q": 44,
+    "theorem12p": true,
+    "tuples": 304
+   },
+   {
+    "q": 52,
+    "theorem12p": true,
+    "tuples": 412
+   },
+   {
+    "q": 68,
+    "theorem12p": true,
+    "tuples": 676
+   },
+   {
+    "q": 76,
+    "theorem12p": true,
+    "tuples": 832
+   },
+   {
+    "q": 92,
+    "theorem12p": true,
+    "tuples": 1192
+   },
+   {
+    "q": 116,
+    "theorem12p": true,
+    "tuples": 1852
+   },
+   {
+    "converse_built": 75,
+    "not_hodge_or_wrong": 0
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 12,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 20,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 28,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 44,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 52,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 68,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 76,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 92,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 116,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 124,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 148,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 164,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 172,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 188,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 212,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "b_extremal": "1/2",
+    "q": 236,
+    "standard_span_all_integral_triples": true
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 12
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 20
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 28
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 44
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 52
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 68
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 76
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 92
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 116
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 124
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 148
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 164
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 172
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 188
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 212
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 236
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 244
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 268
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 284
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 292
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 316
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 332
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 356
+   },
+   {
+    "B_mod_D_plus_S": [
+     2
+    ],
+    "q": 388
+   }
+  ]
+ },
+ "seconds": {
+  "M": 2.4,
+  "N": 6.7,
+  "O": 0.0,
+  "P": 28.8
+ }
+}

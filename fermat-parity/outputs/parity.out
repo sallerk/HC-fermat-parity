@@ -1,0 +1,9 @@
+    (A) xi_q Hodge, Lemma 2, Theorem 3(i), reciprocity, order-4 parts: True
+(A) True
+    (B) counts nonzero on B_q exactly as the residue symbols predict, 97 degrees: True
+(B) True
+    (C) counts with symbol -1 even on the base generators except for [12, 15, 20, 21, 28]: True
+(C) True
+    (D) B_q / base = Z/2 (0 for [12, 15, 20, 21, 28, 39]), detected by a count iff a symbol is -1, 97 degrees: True
+(D) True
+ALL CHECKS PASS: True

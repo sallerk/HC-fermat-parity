@@ -1,0 +1,42 @@
+== d = 1260
+   F105 extends (as f(ly)=F(y), f(a)=F(a mod 420)): False
+   F140 extends (as f(ly)=F(y), f(a)=F(a mod 420)): True
+level 1260 : all maps pass: True ; supports of the 11 mod-2 maps disjoint: True
+== d = 2100
+   F105 extends (as f(ly)=F(y), f(a)=F(a mod 420)): False
+   F140 extends (as f(ly)=F(y), f(a)=F(a mod 420)): False
+level 2100 : all maps pass: True ; supports of the 11 mod-2 maps disjoint: True
+== d = 2940
+   F105 extends (as f(ly)=F(y), f(a)=F(a mod 420)): True
+   F140 extends (as f(ly)=F(y), f(a)=F(a mod 420)): True
+level 2940 : all maps pass: True ; supports of the 11 mod-2 maps disjoint: True
+== d = 840
+level 840 : all maps pass: True ; supports of the 11 mod-2 maps disjoint: True
+   F105 extends by 0 at the odd points: True value on lift mod 3: 0
+   (F140 by 0 at the odd points: passes = False )
+== d = 420 * 11
+  r = 11: two cosets with disjoint Psi: True
+level 4620 : all maps pass: True ; supports of the 11 mod-2 maps disjoint: True
+    F105 extends by 0: False ; predicted (chi(r) = 1): False
+    F140 extends by 0: False ; predicted (chi(r) = 1): False
+== d = 420 * 13
+level 5460 : all maps pass: True ; supports of the 11 mod-2 maps disjoint: True
+    F105 extends by 0: False ; predicted (chi(r) = 1): False
+    F140 extends by 0: False ; predicted (chi(r) = 1): False
+== d = 420 * 17
+level 7140 : all maps pass: True ; supports of the 11 mod-2 maps disjoint: True
+    F105 extends by 0: True ; predicted (chi(r) = 1): True
+    F140 extends by 0: False ; predicted (chi(r) = 1): False
+== d = 420 * 19
+level 7980 : all maps pass: True ; supports of the 11 mod-2 maps disjoint: True
+    F105 extends by 0: True ; predicted (chi(r) = 1): True
+    F140 extends by 0: False ; predicted (chi(r) = 1): False
+== d = 420 * 23
+level 9660 : all maps pass: True ; supports of the 11 mod-2 maps disjoint: True
+    F105 extends by 0: True ; predicted (chi(r) = 1): True
+    F140 extends by 0: True ; predicted (chi(r) = 1): True
+== Peterson's w_1, w_2
+w_1 Hodge: True orders: {2: 1, 15: 1, 35: 1, 60: 1, 105: 3, 140: 3, 420: 6} coset counts odd: True
+w_2 Hodge: True orders: {5: 1, 15: 1, 35: 1, 60: 1, 105: 3, 140: 3, 420: 6} coset counts odd: True
+== Psi systems for all 96 classes of r mod 420
+solvable systems: 576 of 576 ; kernel dimensions: {8}

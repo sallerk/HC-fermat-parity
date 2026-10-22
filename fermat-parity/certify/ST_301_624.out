@@ -1,0 +1,60 @@
+level d=357 n=178 rank_L=82 rank_S=82 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=7 setup 11.1s
+  q=51 k=7 d=357 extra=[] HiGHS=10 | rep ok=True len=10 | B=7 w1=8477654 w2max=7647059 keymatch=0 genuine=0 13.0s | LOWER BOUND ONLY (>= 8)
+  q=51 k=7 d=357 extra=[21] HiGHS=14 | rep ok=True len=14 | B=7 w1=8477654 w2max=7647059 keymatch=0 genuine=0 12.7s | LOWER BOUND ONLY (>= 8)
+level d=414 n=206 rank_L=140 rank_S=140 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=43 setup 12.8s
+  q=69 k=6 d=414 extra=[] HiGHS=9 | rep ok=True len=9 | B=7 w1=16376467 w2max=11826255 keymatch=0 genuine=0 26.3s | LOWER BOUND ONLY (>= 8)
+level d=408 n=203 rank_L=139 rank_S=139 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=15 setup 12.3s
+  q=51 k=8 d=408 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=17687819 w2max=83028 keymatch=0 genuine=0 1.7s | CERTIFIED
+  q=68 k=6 d=408 extra=[] HiGHS=8 | rep ok=True len=8 | B=7 w1=17687819 w2max=11319484 keymatch=0 genuine=0 26.2s | CERTIFIED
+level d=364 n=181 rank_L=109 rank_S=109 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=10 setup 7.6s
+  q=52 k=7 d=364 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=10464679 w2max=66066 keymatch=0 genuine=0 1.0s | CERTIFIED
+  q=52 k=7 d=364 extra=[28] HiGHS=11 | rep ok=True len=11 | B=7 w1=10464679 w2max=8038030 keymatch=0 genuine=0 15.5s | LOWER BOUND ONLY (>= 8)
+level d=390 n=194 rank_L=146 rank_S=146 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=13 setup 11.9s
+  q=65 k=6 d=390 extra=[] HiGHS=10 | rep ok=True len=10 | B=7 w1=16279361 w2max=9886435 keymatch=0 genuine=0 24.2s | LOWER BOUND ONLY (>= 8)
+level d=528 n=263 rank_L=183 rank_S=183 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=20 setup 36.3s
+  q=44 k=12 d=528 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=39880154 w2max=139128 keymatch=0 genuine=0 4.3s | CERTIFIED
+level d=459 n=229 rank_L=85 rank_S=85 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 54.6s
+  q=51 k=9 d=459 extra=[] HiGHS=10 | rep ok=True len=10 | B=7 w1=17161076 w2max=16222590 keymatch=0 genuine=0 30.9s | LOWER BOUND ONLY (>= 8)
+level d=612 n=305 rank_L=209 rank_S=209 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=31 setup 78.4s
+  q=51 k=12 d=612 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=59567680 w2max=186966 keymatch=0 genuine=0 7.7s | CERTIFIED
+level d=624 n=311 rank_L=215 rank_S=215 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=33 setup 83.9s
+  q=52 k=12 d=624 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=64785109 w2max=194376 keymatch=0 genuine=0 8.7s | CERTIFIED
+level d=345 n=172 rank_L=84 rank_S=84 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 7.3s
+  q=69 k=5 d=345 extra=[] HiGHS=12 | rep ok=True len=12 | B=7 w1=7824164 w2max=6903565 keymatch=0 genuine=0 11.7s | LOWER BOUND ONLY (>= 8)
+level d=468 n=233 rank_L=161 rank_S=161 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=8 setup 21.7s
+  q=52 k=9 d=468 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=27149418 w2max=109278 keymatch=0 genuine=0 2.8s | CERTIFIED
+level d=308 n=153 rank_L=93 rank_S=93 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=11 setup 3.8s
+  q=44 k=7 d=308 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=6408920 w2max=47278 keymatch=0 genuine=0 0.6s | CERTIFIED | selftest {"B": 7, "genuine_matches": 100, "min_norm": 7, "distinct_normalized": 5, "highs_rep_orbit_found": true, "sec": 7.8}
+  q=44 k=7 d=308 extra=[28] HiGHS=9 | rep ok=True len=9 | B=7 w1=6408920 w2max=4869634 keymatch=0 genuine=0 8.2s | LOWER BOUND ONLY (>= 8)
+level d=510 n=254 rank_L=190 rank_S=190 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=40 setup 40.1s
+  q=51 k=10 d=510 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=35807763 w2max=129795 keymatch=0 genuine=0 3.8s | CERTIFIED
+  q=51 k=10 d=510 extra=[15] HiGHS=8 | rep ok=True len=8 | B=7 w1=35807763 w2max=22108415 keymatch=0 genuine=0 63.8s | CERTIFIED
+level d=340 n=169 rank_L=105 rank_S=105 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=7 setup 5.4s
+  q=68 k=5 d=340 extra=[] HiGHS=10 | rep ok=True len=10 | B=7 w1=8810546 w2max=6550610 keymatch=0 genuine=0 11.7s | LOWER BOUND ONLY (>= 8)
+level d=520 n=259 rank_L=163 rank_S=163 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 31.7s
+  q=52 k=10 d=520 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=33041178 w2max=134940 keymatch=0 genuine=0 3.8s | CERTIFIED
+level d=312 n=155 rank_L=107 rank_S=107 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=9 setup 3.5s
+  q=52 k=6 d=312 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=8058865 w2max=48516 keymatch=0 genuine=0 0.7s | CERTIFIED
+level d=396 n=197 rank_L=137 rank_S=137 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=10 setup 10.2s
+  q=44 k=9 d=396 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=16700529 w2max=78210 keymatch=0 genuine=0 1.6s | CERTIFIED
+level d=352 n=175 rank_L=95 rank_S=95 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 6.7s
+  q=44 k=8 d=352 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=8779819 w2max=61776 keymatch=0 genuine=0 0.8s | CERTIFIED
+level d=440 n=219 rank_L=139 rank_S=139 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=7 setup 15.6s
+  q=44 k=10 d=440 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=20305205 w2max=96580 keymatch=0 genuine=0 1.9s | CERTIFIED
+level d=416 n=207 rank_L=111 rank_S=111 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 14.1s
+  q=52 k=8 d=416 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=14350852 w2max=86320 keymatch=0 genuine=0 1.4s | CERTIFIED
+level d=325 n=162 rank_L=42 rank_S=42 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 10.9s
+  q=65 k=5 d=325 extra=[] HiGHS=16 | rep ok=True len=16 | B=7 w1=5890413 w2max=5774275 keymatch=0 genuine=0 9.1s | LOWER BOUND ONLY (>= 8)
+level d=572 n=285 rank_L=165 rank_S=165 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=13 setup 60.6s
+  q=52 k=11 d=572 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=39089557 w2max=163306 keymatch=0 genuine=0 4.6s | CERTIFIED
+level d=330 n=164 rank_L=124 rank_S=124 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=10 setup 5.0s
+  q=55 k=6 d=330 extra=[] HiGHS=5 | rep ok=True len=5 | B=4 w1=117408 w2max=329 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 5, "genuine_matches": 6, "min_norm": 5, "distinct_normalized": 1, "highs_rep_orbit_found": true, "sec": 0.0}
+level d=342 n=170 rank_L=116 rank_S=116 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=12 setup 5.7s
+  q=57 k=6 d=342 extra=[] HiGHS=6 | rep ok=True len=6 | B=5 w1=99753 w2max=58311 keymatch=0 genuine=0 0.0s | CERTIFIED | selftest {"B": 6, "genuine_matches": 120, "min_norm": 6, "distinct_normalized": 12, "highs_rep_orbit_found": true, "sec": 0.8}
+level d=306 n=152 rank_L=104 rank_S=104 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=7 setup 3.3s
+  q=51 k=6 d=306 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=6686306 w2max=46665 keymatch=0 genuine=0 0.6s | CERTIFIED | selftest {"B": 7, "genuine_matches": 240, "min_norm": 7, "distinct_normalized": 12, "highs_rep_orbit_found": true, "sec": 7.4}
+level d=484 n=241 rank_L=131 rank_S=131 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=2 setup 27.6s
+  q=44 k=11 d=484 extra=[] HiGHS=7 | rep ok=True len=7 | B=6 w1=22588790 w2max=116886 keymatch=0 genuine=0 2.1s | CERTIFIED
+level d=561 n=280 rank_L=120 rank_S=120 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=48 setup 131.5s
+  q=51 k=11 d=561 extra=[] HiGHS=10 | rep ok=True len=10 | B=7 w1=32063668 w2max=29583961 keymatch=0 genuine=0 54.5s | LOWER BOUND ONLY (>= 8)
+finished 27 of 27 levels in 186.8 s; unfinished levels: []

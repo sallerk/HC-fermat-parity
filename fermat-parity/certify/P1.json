@@ -1,0 +1,1798 @@
+{
+ "args": {
+  "out": "P1",
+  "src": "Q",
+  "q": "15,21,33,35,39,51,55,57,65,69",
+  "dmin": 0,
+  "dmax": 1000000000,
+  "procs": 8,
+  "w1cap": 250000000.0,
+  "w2cap": 30000000.0,
+  "st_w1cap": 30000000.0,
+  "st_w2cap": 5000000.0,
+  "Bfix": null,
+  "selftest": true,
+  "count": "102:7",
+  "plan": false,
+  "deadline": 300.0
+ },
+ "results": [
+  {
+   "d": 30,
+   "level": {
+    "d": 30,
+    "n": 14,
+    "hodge_rows": 4,
+    "rank_L": 10,
+    "max_entry_L_basis": 2,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 13,
+    "S_hodge": true,
+    "rank_S": 10,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     7,
+     11
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.0
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 15,
+      "l": 3,
+      "p": 5,
+      "k": 2,
+      "d": 30,
+      "extra": [],
+      "extra_q": [],
+      "highs": 3,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "S"
+      ],
+      "orbit_program": 3
+     },
+     "rep": [
+      6,
+      19,
+      20
+     ],
+     "target": {
+      "target_entries": 4,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [7, 11] verified",
+      "orbit_sizes": [
+       4,
+       4,
+       2,
+       2,
+       1,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 3,
+      "norm": 3,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 2,
+      "cases": [
+       {
+        "orbit_size": 4,
+        "U": 14,
+        "N": 29,
+        "b1": 1,
+        "b2": 0,
+        "w1": 29,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 4,
+        "U": 10,
+        "N": 21,
+        "b1": 1,
+        "b2": 0,
+        "w1": 21,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 6,
+        "N": 13,
+        "b1": 1,
+        "b2": 0,
+        "w1": 13,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 4,
+        "N": 9,
+        "b1": 1,
+        "b2": 0,
+        "w1": 9,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 2,
+        "N": 5,
+        "b1": 1,
+        "b2": 0,
+        "w1": 5,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 1,
+        "b2": 0,
+        "w1": 3,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 80,
+      "w2_max": 1,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 0.0
+     },
+     "selftest": {
+      "B": 3,
+      "genuine_matches": 2,
+      "min_norm": 3,
+      "distinct_normalized": 1,
+      "highs_rep_orbit_found": true,
+      "sec": 0.0
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 3,
+     "sec": 0.0
+    }
+   ],
+   "sec": 0.0
+  },
+  {
+   "d": 42,
+   "level": {
+    "d": 42,
+    "n": 20,
+    "hodge_rows": 6,
+    "rank_L": 14,
+    "max_entry_L_basis": 2,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 18,
+    "S_hodge": true,
+    "rank_S": 14,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     5,
+     11
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.0
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 21,
+      "l": 3,
+      "p": 7,
+      "k": 2,
+      "d": 42,
+      "extra": [],
+      "extra_q": [],
+      "highs": 3,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "S"
+      ],
+      "orbit_program": 3
+     },
+     "rep": [
+      5,
+      24,
+      34
+     ],
+     "target": {
+      "target_entries": 4,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [5, 11] verified",
+      "orbit_sizes": [
+       6,
+       6,
+       3,
+       3,
+       1,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 3,
+      "norm": 3,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 2,
+      "cases": [
+       {
+        "orbit_size": 6,
+        "U": 20,
+        "N": 41,
+        "b1": 1,
+        "b2": 0,
+        "w1": 41,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 6,
+        "U": 14,
+        "N": 29,
+        "b1": 1,
+        "b2": 0,
+        "w1": 29,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 3,
+        "U": 8,
+        "N": 17,
+        "b1": 1,
+        "b2": 0,
+        "w1": 17,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 3,
+        "U": 5,
+        "N": 11,
+        "b1": 1,
+        "b2": 0,
+        "w1": 11,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 2,
+        "N": 5,
+        "b1": 1,
+        "b2": 0,
+        "w1": 5,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 1,
+        "b2": 0,
+        "w1": 3,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 106,
+      "w2_max": 1,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 0.0
+     },
+     "selftest": {
+      "B": 3,
+      "genuine_matches": 4,
+      "min_norm": 3,
+      "distinct_normalized": 2,
+      "highs_rep_orbit_found": true,
+      "sec": 0.0
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 3,
+     "sec": 0.0
+    }
+   ],
+   "sec": 0.0
+  },
+  {
+   "d": 66,
+   "level": {
+    "d": 66,
+    "n": 32,
+    "hodge_rows": 10,
+    "rank_L": 22,
+    "max_entry_L_basis": 2,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 28,
+    "S_hodge": true,
+    "rank_S": 22,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     5,
+     7
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.0
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 33,
+      "l": 3,
+      "p": 11,
+      "k": 2,
+      "d": 66,
+      "extra": [],
+      "extra_q": [],
+      "highs": 4,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "S",
+       "T"
+      ],
+      "orbit_program": 4,
+      "mmrv": 4
+     },
+     "rep": [
+      22,
+      23,
+      40,
+      47
+     ],
+     "target": {
+      "target_entries": 8,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [5, 7] verified",
+      "orbit_sizes": [
+       10,
+       10,
+       5,
+       5,
+       1,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 4,
+      "norm": 4,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 3,
+      "cases": [
+       {
+        "orbit_size": 10,
+        "U": 32,
+        "N": 65,
+        "b1": 1,
+        "b2": 1,
+        "w1": 65,
+        "w2": 65,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 10,
+        "U": 22,
+        "N": 45,
+        "b1": 1,
+        "b2": 1,
+        "w1": 45,
+        "w2": 45,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 5,
+        "U": 12,
+        "N": 25,
+        "b1": 1,
+        "b2": 1,
+        "w1": 25,
+        "w2": 25,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 5,
+        "U": 7,
+        "N": 15,
+        "b1": 1,
+        "b2": 1,
+        "w1": 15,
+        "w2": 15,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 2,
+        "N": 5,
+        "b1": 1,
+        "b2": 1,
+        "w1": 5,
+        "w2": 5,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 1,
+        "b2": 1,
+        "w1": 3,
+        "w2": 3,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 158,
+      "w2_max": 65,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 0.0
+     },
+     "selftest": {
+      "B": 4,
+      "genuine_matches": 6,
+      "min_norm": 4,
+      "distinct_normalized": 2,
+      "highs_rep_orbit_found": true,
+      "sec": 0.0
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 4,
+     "sec": 0.0
+    }
+   ],
+   "sec": 0.0
+  },
+  {
+   "d": 70,
+   "level": {
+    "d": 70,
+    "n": 34,
+    "hodge_rows": 12,
+    "rank_L": 22,
+    "max_entry_L_basis": 4,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 27,
+    "S_hodge": true,
+    "rank_S": 22,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     3,
+     19
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.0
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 35,
+      "l": 5,
+      "p": 7,
+      "k": 2,
+      "d": 70,
+      "extra": [],
+      "extra_q": [],
+      "highs": 6,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "S",
+       "T"
+      ],
+      "orbit_program": 6,
+      "mmrv": 6
+     },
+     "rep": [
+      6,
+      20,
+      33,
+      43,
+      52,
+      56
+     ],
+     "target": {
+      "target_entries": 8,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [3, 19] verified",
+      "orbit_sizes": [
+       12,
+       12,
+       3,
+       3,
+       2,
+       2
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 6,
+      "norm": 6,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 5,
+      "cases": [
+       {
+        "orbit_size": 12,
+        "U": 34,
+        "N": 69,
+        "b1": 2,
+        "b2": 2,
+        "w1": 2415,
+        "w2": 2415,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 12,
+        "U": 22,
+        "N": 45,
+        "b1": 2,
+        "b2": 2,
+        "w1": 1035,
+        "w2": 1035,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 3,
+        "U": 10,
+        "N": 21,
+        "b1": 2,
+        "b2": 2,
+        "w1": 231,
+        "w2": 231,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 3,
+        "U": 7,
+        "N": 15,
+        "b1": 2,
+        "b2": 2,
+        "w1": 120,
+        "w2": 120,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 4,
+        "N": 9,
+        "b1": 2,
+        "b2": 2,
+        "w1": 45,
+        "w2": 45,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 2,
+        "N": 5,
+        "b1": 2,
+        "b2": 2,
+        "w1": 15,
+        "w2": 15,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 3861,
+      "w2_max": 2415,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 0.0
+     },
+     "selftest": {
+      "B": 6,
+      "genuine_matches": 20,
+      "min_norm": 6,
+      "distinct_normalized": 2,
+      "highs_rep_orbit_found": true,
+      "sec": 0.0
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 6,
+     "sec": 0.0
+    }
+   ],
+   "sec": 0.0
+  },
+  {
+   "d": 78,
+   "level": {
+    "d": 78,
+    "n": 38,
+    "hodge_rows": 12,
+    "rank_L": 26,
+    "max_entry_L_basis": 2,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 33,
+    "S_hodge": true,
+    "rank_S": 26,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     5,
+     7
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.0
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 39,
+      "l": 3,
+      "p": 13,
+      "k": 2,
+      "d": 78,
+      "extra": [],
+      "extra_q": [],
+      "highs": 3,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "S",
+       "T"
+      ],
+      "orbit_program": 3,
+      "mmrv": 3
+     },
+     "rep": [
+      5,
+      41,
+      71
+     ],
+     "target": {
+      "target_entries": 10,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [5, 7] verified",
+      "orbit_sizes": [
+       12,
+       12,
+       6,
+       6,
+       1,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 3,
+      "norm": 3,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 2,
+      "cases": [
+       {
+        "orbit_size": 12,
+        "U": 38,
+        "N": 77,
+        "b1": 1,
+        "b2": 0,
+        "w1": 77,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 12,
+        "U": 26,
+        "N": 53,
+        "b1": 1,
+        "b2": 0,
+        "w1": 53,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 6,
+        "U": 14,
+        "N": 29,
+        "b1": 1,
+        "b2": 0,
+        "w1": 29,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 6,
+        "U": 8,
+        "N": 17,
+        "b1": 1,
+        "b2": 0,
+        "w1": 17,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 2,
+        "N": 5,
+        "b1": 1,
+        "b2": 0,
+        "w1": 5,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 1,
+        "b2": 0,
+        "w1": 3,
+        "w2": 1,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 184,
+      "w2_max": 1,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 0.0
+     },
+     "selftest": {
+      "B": 3,
+      "genuine_matches": 2,
+      "min_norm": 3,
+      "distinct_normalized": 1,
+      "highs_rep_orbit_found": true,
+      "sec": 0.0
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 3,
+     "sec": 0.0
+    }
+   ],
+   "sec": 0.0
+  },
+  {
+   "d": 102,
+   "level": {
+    "d": 102,
+    "n": 50,
+    "hodge_rows": 16,
+    "rank_L": 34,
+    "max_entry_L_basis": 2,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 43,
+    "S_hodge": true,
+    "rank_S": 34,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     5,
+     7
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.0
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 51,
+      "l": 3,
+      "p": 17,
+      "k": 2,
+      "d": 102,
+      "extra": [],
+      "extra_q": [],
+      "highs": 7,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "S",
+       "T"
+      ],
+      "orbit_program": 7,
+      "mmrv": 7
+     },
+     "rep": [
+      7,
+      36,
+      43,
+      49,
+      68,
+      75,
+      79
+     ],
+     "target": {
+      "target_entries": 10,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [5, 7] verified",
+      "orbit_sizes": [
+       16,
+       16,
+       8,
+       8,
+       1,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 7,
+      "norm": 7,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 6,
+      "cases": [
+       {
+        "orbit_size": 16,
+        "U": 50,
+        "N": 101,
+        "b1": 3,
+        "b2": 2,
+        "w1": 176851,
+        "w2": 5151,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 16,
+        "U": 34,
+        "N": 69,
+        "b1": 3,
+        "b2": 2,
+        "w1": 57155,
+        "w2": 2415,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 8,
+        "U": 18,
+        "N": 37,
+        "b1": 3,
+        "b2": 2,
+        "w1": 9139,
+        "w2": 703,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 8,
+        "U": 10,
+        "N": 21,
+        "b1": 3,
+        "b2": 2,
+        "w1": 1771,
+        "w2": 231,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 2,
+        "N": 5,
+        "b1": 3,
+        "b2": 2,
+        "w1": 35,
+        "w2": 15,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 3,
+        "b2": 2,
+        "w1": 10,
+        "w2": 6,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 244961,
+      "w2_max": 5151,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 0.0
+     },
+     "selftest": {
+      "B": 7,
+      "genuine_matches": 240,
+      "min_norm": 7,
+      "distinct_normalized": 12,
+      "highs_rep_orbit_found": true,
+      "sec": 0.0
+     },
+     "count": {
+      "B": 7,
+      "distinct_normalized": 12,
+      "all_solutions_by_norm": {
+       "7": 96
+      },
+      "collect_cap_hit": false,
+      "sec": 0.0
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 7,
+     "sec": 0.1
+    }
+   ],
+   "sec": 0.2
+  },
+  {
+   "d": 110,
+   "level": {
+    "d": 110,
+    "n": 54,
+    "hodge_rows": 20,
+    "rank_L": 34,
+    "max_entry_L_basis": 3,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 41,
+    "S_hodge": true,
+    "rank_S": 34,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     3,
+     7
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.1
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 55,
+      "l": 5,
+      "p": 11,
+      "k": 2,
+      "d": 110,
+      "extra": [],
+      "extra_q": [],
+      "highs": 5,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "S",
+       "T"
+      ],
+      "orbit_program": 5,
+      "mmrv": 5
+     },
+     "rep": [
+      27,
+      37,
+      47,
+      67,
+      97
+     ],
+     "target": {
+      "target_entries": 14,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [3, 7] verified",
+      "orbit_sizes": [
+       20,
+       20,
+       5,
+       5,
+       2,
+       2
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 5,
+      "norm": 5,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 4,
+      "cases": [
+       {
+        "orbit_size": 20,
+        "U": 54,
+        "N": 109,
+        "b1": 2,
+        "b2": 1,
+        "w1": 5995,
+        "w2": 109,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 20,
+        "U": 34,
+        "N": 69,
+        "b1": 2,
+        "b2": 1,
+        "w1": 2415,
+        "w2": 69,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 5,
+        "U": 14,
+        "N": 29,
+        "b1": 2,
+        "b2": 1,
+        "w1": 435,
+        "w2": 29,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 5,
+        "U": 9,
+        "N": 19,
+        "b1": 2,
+        "b2": 1,
+        "w1": 190,
+        "w2": 19,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 4,
+        "N": 9,
+        "b1": 2,
+        "b2": 1,
+        "w1": 45,
+        "w2": 9,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 2,
+        "N": 5,
+        "b1": 2,
+        "b2": 1,
+        "w1": 15,
+        "w2": 5,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 9095,
+      "w2_max": 109,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 0.0
+     },
+     "selftest": {
+      "B": 5,
+      "genuine_matches": 6,
+      "min_norm": 5,
+      "distinct_normalized": 1,
+      "highs_rep_orbit_found": true,
+      "sec": 0.0
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 5,
+     "sec": 0.0
+    }
+   ],
+   "sec": 0.1
+  },
+  {
+   "d": 114,
+   "level": {
+    "d": 114,
+    "n": 56,
+    "hodge_rows": 18,
+    "rank_L": 38,
+    "max_entry_L_basis": 2,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 48,
+    "S_hodge": true,
+    "rank_S": 38,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     5,
+     13
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.1
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 57,
+      "l": 3,
+      "p": 19,
+      "k": 2,
+      "d": 114,
+      "extra": [],
+      "extra_q": [],
+      "highs": 6,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "S",
+       "T"
+      ],
+      "orbit_program": 6,
+      "mmrv": 6
+     },
+     "rep": [
+      23,
+      29,
+      35,
+      40,
+      107,
+      108
+     ],
+     "target": {
+      "target_entries": 14,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [5, 13] verified",
+      "orbit_sizes": [
+       18,
+       18,
+       9,
+       9,
+       1,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 6,
+      "norm": 6,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 5,
+      "cases": [
+       {
+        "orbit_size": 18,
+        "U": 56,
+        "N": 113,
+        "b1": 2,
+        "b2": 2,
+        "w1": 6441,
+        "w2": 6441,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 18,
+        "U": 38,
+        "N": 77,
+        "b1": 2,
+        "b2": 2,
+        "w1": 3003,
+        "w2": 3003,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 9,
+        "U": 20,
+        "N": 41,
+        "b1": 2,
+        "b2": 2,
+        "w1": 861,
+        "w2": 861,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 9,
+        "U": 11,
+        "N": 23,
+        "b1": 2,
+        "b2": 2,
+        "w1": 276,
+        "w2": 276,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 2,
+        "N": 5,
+        "b1": 2,
+        "b2": 2,
+        "w1": 15,
+        "w2": 15,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 2,
+        "b2": 2,
+        "w1": 6,
+        "w2": 6,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 10602,
+      "w2_max": 6441,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 0.0
+     },
+     "selftest": {
+      "B": 6,
+      "genuine_matches": 120,
+      "min_norm": 6,
+      "distinct_normalized": 12,
+      "highs_rep_orbit_found": true,
+      "sec": 0.0
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 6,
+     "sec": 0.0
+    }
+   ],
+   "sec": 0.1
+  },
+  {
+   "d": 130,
+   "level": {
+    "d": 130,
+    "n": 64,
+    "hodge_rows": 24,
+    "rank_L": 40,
+    "max_entry_L_basis": 4,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 48,
+    "S_hodge": true,
+    "rank_S": 40,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     3,
+     7
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.1
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 65,
+      "l": 5,
+      "p": 13,
+      "k": 2,
+      "d": 130,
+      "extra": [],
+      "extra_q": [],
+      "highs": 10,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "S",
+       "T"
+      ],
+      "orbit_program": 10,
+      "mmrv": 10
+     },
+     "rep": [
+      3,
+      5,
+      33,
+      43,
+      52,
+      83,
+      100,
+      102,
+      103,
+      126
+     ],
+     "target": {
+      "target_entries": 16,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [3, 7] verified",
+      "orbit_sizes": [
+       24,
+       24,
+       6,
+       6,
+       2,
+       2
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 10,
+      "norm": 10,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 9,
+      "cases": [
+       {
+        "orbit_size": 24,
+        "U": 64,
+        "N": 129,
+        "b1": 4,
+        "b2": 4,
+        "w1": 12082785,
+        "w2": 12082785,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 24,
+        "U": 40,
+        "N": 81,
+        "b1": 4,
+        "b2": 4,
+        "w1": 1929501,
+        "w2": 1929501,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 6,
+        "U": 16,
+        "N": 33,
+        "b1": 4,
+        "b2": 4,
+        "w1": 58905,
+        "w2": 58905,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 6,
+        "U": 10,
+        "N": 21,
+        "b1": 4,
+        "b2": 4,
+        "w1": 10626,
+        "w2": 10626,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 4,
+        "N": 9,
+        "b1": 4,
+        "b2": 4,
+        "w1": 495,
+        "w2": 495,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 2,
+        "N": 5,
+        "b1": 4,
+        "b2": 4,
+        "w1": 70,
+        "w2": 70,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 14082382,
+      "w2_max": 12082785,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 20.7
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 10,
+     "sec": 20.7
+    }
+   ],
+   "sec": 20.8
+  },
+  {
+   "d": 138,
+   "level": {
+    "d": 138,
+    "n": 68,
+    "hodge_rows": 22,
+    "rank_L": 46,
+    "max_entry_L_basis": 7,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 58,
+    "S_hodge": true,
+    "rank_S": 46,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     5,
+     7
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.1
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 69,
+      "l": 3,
+      "p": 23,
+      "k": 2,
+      "d": 138,
+      "extra": [],
+      "extra_q": [],
+      "highs": 9,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "S",
+       "T"
+      ],
+      "orbit_program": 9,
+      "mmrv": 9
+     },
+     "rep": [
+      4,
+      46,
+      47,
+      58,
+      77,
+      82,
+      95,
+      101,
+      111
+     ],
+     "target": {
+      "target_entries": 18,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [5, 7] verified",
+      "orbit_sizes": [
+       22,
+       22,
+       11,
+       11,
+       1,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 9,
+      "norm": 9,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 8,
+      "cases": [
+       {
+        "orbit_size": 22,
+        "U": 68,
+        "N": 137,
+        "b1": 4,
+        "b2": 3,
+        "w1": 15329615,
+        "w2": 437989,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 22,
+        "U": 46,
+        "N": 93,
+        "b1": 4,
+        "b2": 3,
+        "w1": 3321960,
+        "w2": 138415,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 11,
+        "U": 24,
+        "N": 49,
+        "b1": 4,
+        "b2": 3,
+        "w1": 270725,
+        "w2": 20825,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 11,
+        "U": 13,
+        "N": 27,
+        "b1": 4,
+        "b2": 3,
+        "w1": 27405,
+        "w2": 3654,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 2,
+        "N": 5,
+        "b1": 4,
+        "b2": 3,
+        "w1": 70,
+        "w2": 35,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 4,
+        "b2": 3,
+        "w1": 15,
+        "w2": 10,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 18949790,
+      "w2_max": 437989,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 3.8
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 9,
+     "sec": 3.8
+    }
+   ],
+   "sec": 4.0
+  }
+ ],
+ "unfinished": [],
+ "seconds": 21.5
+}

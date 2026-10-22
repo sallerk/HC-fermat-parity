@@ -1,0 +1,3 @@
+level d=285 n=142 rank_L=70 rank_S=70 [L:S]=8 SNF-nonunit=[2, 2, 2] k=3 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=7 setup 3.0s
+  q=57 k=5 d=285 extra=[] HiGHS=10 | rep ok=True len=10 | B=8 w1=298990296 w2max=3898895 keymatch=0 genuine=0 336.4s | LOWER BOUND ONLY (>= 9)
+finished 1 of 1 levels in 340.0 s; unfinished levels: []

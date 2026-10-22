@@ -1,0 +1,254 @@
+{
+ "args": {
+  "out": "S_220_x20_B9",
+  "src": "S",
+  "q": "44",
+  "dmin": 220,
+  "dmax": 220,
+  "procs": 1,
+  "w1cap": 250000000.0,
+  "w2cap": 30000000.0,
+  "st_w1cap": 30000000.0,
+  "st_w2cap": 5000000.0,
+  "Bfix": 9,
+  "selftest": false,
+  "count": "",
+  "plan": false,
+  "noextra": false,
+  "extra": "20",
+  "deadline": 570.0
+ },
+ "results": [
+  {
+   "d": 220,
+   "level": {
+    "d": 220,
+    "n": 109,
+    "hodge_rows": 40,
+    "rank_L": 69,
+    "max_entry_L_basis": 3,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 84,
+    "S_hodge": true,
+    "rank_S": 69,
+    "index_L_S": 8,
+    "snf_nonunit": [
+     2,
+     2,
+     2
+    ],
+    "k": 3,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 3,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 3,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     3,
+     7,
+     13
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.8
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 44,
+      "l": 4,
+      "p": 11,
+      "k": 5,
+      "d": 220,
+      "extra": [
+       [
+        4,
+        5
+       ]
+      ],
+      "extra_q": [
+       20
+      ],
+      "highs": 10,
+      "lifts_verified": true,
+      "srcs": [
+       "S"
+      ]
+     },
+     "rep": [
+      5,
+      44,
+      45,
+      85,
+      99,
+      125,
+      145,
+      165,
+      187,
+      200
+     ],
+     "target": {
+      "target_entries": 12,
+      "target_hodge": true,
+      "class_bits": "101",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [3, 7, 13] verified",
+      "orbit_sizes": [
+       40,
+       20,
+       20,
+       10,
+       5,
+       5,
+       4,
+       2,
+       2,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 10,
+      "norm": 10,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 9,
+      "cases": [
+       {
+        "orbit_size": 40,
+        "U": 109,
+        "N": 219,
+        "b1": 4,
+        "b2": 4,
+        "w1": 98491965,
+        "w2": 98491965,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 20,
+        "U": 69,
+        "N": 139,
+        "b1": 4,
+        "b2": 4,
+        "w1": 16234505,
+        "w2": 16234505,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 20,
+        "U": 49,
+        "N": 99,
+        "b1": 4,
+        "b2": 4,
+        "w1": 4249575,
+        "w2": 4249575,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 10,
+        "U": 29,
+        "N": 59,
+        "b1": 4,
+        "b2": 4,
+        "w1": 557845,
+        "w2": 557845,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 5,
+        "U": 19,
+        "N": 39,
+        "b1": 4,
+        "b2": 4,
+        "w1": 111930,
+        "w2": 111930,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 5,
+        "U": 14,
+        "N": 29,
+        "b1": 4,
+        "b2": 4,
+        "w1": 35960,
+        "w2": 35960,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 4,
+        "U": 9,
+        "N": 19,
+        "b1": 4,
+        "b2": 4,
+        "w1": 7315,
+        "w2": 7315,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 5,
+        "N": 11,
+        "b1": 4,
+        "b2": 4,
+        "w1": 1001,
+        "w2": 1001,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 3,
+        "N": 7,
+        "b1": 4,
+        "b2": 4,
+        "w1": 210,
+        "w2": 210,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 4,
+        "b2": 4,
+        "w1": 15,
+        "w2": 15,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 119690321,
+      "w2_max": 98491965,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 235.2
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 10,
+     "sec": 235.2
+    }
+   ],
+   "sec": 236.0
+  }
+ ],
+ "unfinished": [],
+ "seconds": 236.5
+}

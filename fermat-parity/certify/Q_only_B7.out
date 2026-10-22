@@ -1,0 +1,17 @@
+level d=266 n=132 rank_L=78 rank_S=78 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=7 setup 2.1s
+  q=133 k=2 d=266 extra=[] HiGHS=19 | rep ok=True len=19 | B=7 w1=3820984 w2max=3136805 keymatch=0 genuine=0 8.2s | LOWER BOUND ONLY (>= 8)
+level d=286 n=142 rank_L=82 rank_S=82 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=10 setup 2.8s
+  q=143 k=2 d=286 extra=[] HiGHS=19 | rep ok=True len=19 | B=7 w1=4686067 w2max=3898895 keymatch=0 genuine=0 10.2s | LOWER BOUND ONLY (>= 8)
+level d=282 n=140 rank_L=94 rank_S=94 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=21 setup 2.6s
+  q=141 k=2 d=282 extra=[] HiGHS=15 | rep ok=True len=15 | B=7 w1=5061036 w2max=3737581 keymatch=0 genuine=0 11.0s | LOWER BOUND ONLY (>= 8)
+level d=290 n=144 rank_L=88 rank_S=88 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 3.1s
+  q=145 k=2 d=290 extra=[] HiGHS=19 | rep ok=True len=19 | B=7 w1=5061958 w2max=4064785 keymatch=0 genuine=0 10.7s | LOWER BOUND ONLY (>= 8)
+level d=230 n=114 rank_L=70 rank_S=70 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=9 setup 1.2s
+  q=115 k=2 d=230 extra=[] HiGHS=16 | rep ok=True len=16 | B=7 w1=2536877 w2max=2027795 keymatch=0 genuine=0 3.5s | LOWER BOUND ONLY (>= 8)
+level d=258 n=128 rank_L=86 rank_S=86 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=10 setup 1.7s
+  q=129 k=2 d=258 extra=[] HiGHS=13 | rep ok=True len=13 | B=7 w1=3880138 w2max=2862209 keymatch=0 genuine=0 6.6s | LOWER BOUND ONLY (>= 8)
+level d=238 n=118 rank_L=70 rank_S=70 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=5 setup 1.2s
+  q=119 k=2 d=238 extra=[] HiGHS=18 | rep ok=True len=18 | B=7 w1=2745279 w2max=2246839 keymatch=0 genuine=0 4.0s | LOWER BOUND ONLY (>= 8)
+level d=246 n=122 rank_L=82 rank_S=82 [L:S]=2 SNF-nonunit=[2] k=1 pins=True lifts_same=True lifts_rows=True std=True sym=True maxL=4 setup 1.6s
+  q=123 k=2 d=246 extra=[] HiGHS=14 | rep ok=True len=14 | B=7 w1=3365725 w2max=2481115 keymatch=0 genuine=0 4.8s | LOWER BOUND ONLY (>= 8)
+finished 8 of 8 levels in 20.0 s; unfinished levels: []

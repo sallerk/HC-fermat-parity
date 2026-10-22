@@ -1,0 +1,546 @@
+{
+ "args": {
+  "out": "T_exact_B9",
+  "src": "T",
+  "q": "93,95,111",
+  "dmin": 0,
+  "dmax": 1000000000,
+  "procs": 3,
+  "w1cap": 250000000.0,
+  "w2cap": 30000000.0,
+  "st_w1cap": 30000000.0,
+  "st_w2cap": 5000000.0,
+  "Bfix": 9,
+  "selftest": false,
+  "count": "",
+  "plan": false,
+  "deadline": 560.0
+ },
+ "results": [
+  {
+   "d": 186,
+   "level": {
+    "d": 186,
+    "n": 92,
+    "hodge_rows": 30,
+    "rank_L": 62,
+    "max_entry_L_basis": 4,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 78,
+    "S_hodge": true,
+    "rank_S": 62,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     5,
+     7,
+     11
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.4
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 93,
+      "l": 3,
+      "p": 31,
+      "k": 2,
+      "d": 186,
+      "extra": [],
+      "extra_q": [],
+      "highs": 10,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "T"
+      ],
+      "orbit_program": 10,
+      "mmrv": 10
+     },
+     "rep": [
+      17,
+      29,
+      47,
+      52,
+      100,
+      108,
+      113,
+      137,
+      149,
+      178
+     ],
+     "target": {
+      "target_entries": 16,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [5, 7, 11] verified",
+      "orbit_sizes": [
+       30,
+       30,
+       15,
+       15,
+       1,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 10,
+      "norm": 10,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 9,
+      "cases": [
+       {
+        "orbit_size": 30,
+        "U": 92,
+        "N": 185,
+        "b1": 4,
+        "b2": 4,
+        "w1": 50404915,
+        "w2": 50404915,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 30,
+        "U": 62,
+        "N": 125,
+        "b1": 4,
+        "b2": 4,
+        "w1": 10668000,
+        "w2": 10668000,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 15,
+        "U": 32,
+        "N": 65,
+        "b1": 4,
+        "b2": 4,
+        "w1": 814385,
+        "w2": 814385,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 15,
+        "U": 17,
+        "N": 35,
+        "b1": 4,
+        "b2": 4,
+        "w1": 73815,
+        "w2": 73815,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 2,
+        "N": 5,
+        "b1": 4,
+        "b2": 4,
+        "w1": 70,
+        "w2": 70,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 4,
+        "b2": 4,
+        "w1": 15,
+        "w2": 15,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 61961200,
+      "w2_max": 50404915,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 131.0
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 10,
+     "sec": 131.0
+    }
+   ],
+   "sec": 131.5
+  },
+  {
+   "d": 190,
+   "level": {
+    "d": 190,
+    "n": 94,
+    "hodge_rows": 36,
+    "rank_L": 58,
+    "max_entry_L_basis": 4,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 69,
+    "S_hodge": true,
+    "rank_S": 58,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     3,
+     7
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.5
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 95,
+      "l": 5,
+      "p": 19,
+      "k": 2,
+      "d": 190,
+      "extra": [],
+      "extra_q": [],
+      "highs": 10,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "T"
+      ],
+      "orbit_program": 10,
+      "mmrv": 10
+     },
+     "rep": [
+      23,
+      43,
+      63,
+      73,
+      83,
+      93,
+      123,
+      133,
+      153,
+      163
+     ],
+     "target": {
+      "target_entries": 22,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [3, 7] verified",
+      "orbit_sizes": [
+       36,
+       36,
+       9,
+       9,
+       2,
+       2
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 10,
+      "norm": 10,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 9,
+      "cases": [
+       {
+        "orbit_size": 36,
+        "U": 94,
+        "N": 189,
+        "b1": 4,
+        "b2": 4,
+        "w1": 54870480,
+        "w2": 54870480,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 36,
+        "U": 58,
+        "N": 117,
+        "b1": 4,
+        "b2": 4,
+        "w1": 8214570,
+        "w2": 8214570,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 9,
+        "U": 22,
+        "N": 45,
+        "b1": 4,
+        "b2": 4,
+        "w1": 194580,
+        "w2": 194580,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 9,
+        "U": 13,
+        "N": 27,
+        "b1": 4,
+        "b2": 4,
+        "w1": 27405,
+        "w2": 27405,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 4,
+        "N": 9,
+        "b1": 4,
+        "b2": 4,
+        "w1": 495,
+        "w2": 495,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 2,
+        "N": 5,
+        "b1": 4,
+        "b2": 4,
+        "w1": 70,
+        "w2": 70,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 63307600,
+      "w2_max": 54870480,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 135.3
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 10,
+     "sec": 135.3
+    }
+   ],
+   "sec": 135.8
+  },
+  {
+   "d": 222,
+   "level": {
+    "d": 222,
+    "n": 110,
+    "hodge_rows": 36,
+    "rank_L": 74,
+    "max_entry_L_basis": 14,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 93,
+    "S_hodge": true,
+    "rank_S": 74,
+    "index_L_S": 2,
+    "snf_nonunit": [
+     2
+    ],
+    "k": 1,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 1,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 1,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     5,
+     11
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 0.9
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 111,
+      "l": 3,
+      "p": 37,
+      "k": 2,
+      "d": 222,
+      "extra": [],
+      "extra_q": [],
+      "highs": 10,
+      "lifts_verified": true,
+      "srcs": [
+       "Q",
+       "T"
+      ],
+      "orbit_program": 10,
+      "mmrv": 10
+     },
+     "rep": [
+      19,
+      31,
+      45,
+      61,
+      97,
+      109,
+      133,
+      193,
+      205,
+      217
+     ],
+     "target": {
+      "target_entries": 28,
+      "target_hodge": true,
+      "class_bits": "1",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [5, 11] verified",
+      "orbit_sizes": [
+       36,
+       36,
+       18,
+       18,
+       1,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 10,
+      "norm": 10,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 9,
+      "cases": [
+       {
+        "orbit_size": 36,
+        "U": 110,
+        "N": 221,
+        "b1": 4,
+        "b2": 4,
+        "w1": 102114376,
+        "w2": 102114376,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 36,
+        "U": 74,
+        "N": 149,
+        "b1": 4,
+        "b2": 4,
+        "w1": 21374050,
+        "w2": 21374050,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 18,
+        "U": 38,
+        "N": 77,
+        "b1": 4,
+        "b2": 4,
+        "w1": 1581580,
+        "w2": 1581580,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 18,
+        "U": 20,
+        "N": 41,
+        "b1": 4,
+        "b2": 4,
+        "w1": 135751,
+        "w2": 135751,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 2,
+        "N": 5,
+        "b1": 4,
+        "b2": 4,
+        "w1": 70,
+        "w2": 70,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 4,
+        "b2": 4,
+        "w1": 15,
+        "w2": 15,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 125205842,
+      "w2_max": 102114376,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 271.4
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 10,
+     "sec": 271.4
+    }
+   ],
+   "sec": 272.3
+  }
+ ],
+ "unfinished": [],
+ "seconds": 273.0
+}

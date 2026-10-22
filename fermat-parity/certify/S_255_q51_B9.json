@@ -1,0 +1,210 @@
+{
+ "args": {
+  "out": "S_255_q51_B9",
+  "src": "S",
+  "q": "51",
+  "dmin": 255,
+  "dmax": 255,
+  "procs": 1,
+  "w1cap": 250000000.0,
+  "w2cap": 30000000.0,
+  "st_w1cap": 30000000.0,
+  "st_w2cap": 5000000.0,
+  "Bfix": 9,
+  "selftest": false,
+  "count": "",
+  "plan": false,
+  "noextra": true,
+  "deadline": 570.0
+ },
+ "results": [
+  {
+   "d": 255,
+   "level": {
+    "d": 255,
+    "n": 127,
+    "hodge_rows": 64,
+    "rank_L": 63,
+    "max_entry_L_basis": 4,
+    "L_in_kernel": true,
+    "L_rank_ok": true,
+    "L_saturated": true,
+    "standard_tuples_equal_v2_exotic": true,
+    "S_generators": 74,
+    "S_hodge": true,
+    "rank_S": 63,
+    "index_L_S": 8,
+    "snf_nonunit": [
+     2,
+     2,
+     2
+    ],
+    "k": 3,
+    "F_kills_S": true,
+    "pins_class": true,
+    "lifts_rows_equal": true,
+    "lifts_k": 3,
+    "lifts_F_kill_S": true,
+    "lifts_F_rank_on_L": 3,
+    "lifts_same_classes": true,
+    "unit_generators": [
+     2,
+     7,
+     13
+    ],
+    "sym_level_ok": true,
+    "setup_sec": 1.7
+   },
+   "jobs": [
+    {
+     "job": {
+      "q": 51,
+      "l": 3,
+      "p": 17,
+      "k": 5,
+      "d": 255,
+      "extra": [],
+      "extra_q": [],
+      "highs": 10,
+      "lifts_verified": true,
+      "srcs": [
+       "S"
+      ]
+     },
+     "rep": [
+      25,
+      45,
+      55,
+      70,
+      85,
+      130,
+      160,
+      220,
+      235,
+      250
+     ],
+     "target": {
+      "target_entries": 10,
+      "target_hodge": true,
+      "class_bits": "101",
+      "target_nontrivial": true,
+      "symmetry": "full unit group, generators [2, 7, 13] verified",
+      "orbit_sizes": [
+       64,
+       32,
+       16,
+       8,
+       4,
+       2,
+       1
+      ]
+     },
+     "rep_check": {
+      "present": true,
+      "length": 10,
+      "norm": 10,
+      "hodge_rows": true,
+      "hodge_tuple": true,
+      "in_class": true,
+      "ok": true
+     },
+     "search": {
+      "B": 9,
+      "cases": [
+       {
+        "orbit_size": 64,
+        "U": 127,
+        "N": 255,
+        "b1": 4,
+        "b2": 4,
+        "w1": 180352320,
+        "w2": 180352320,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 32,
+        "U": 63,
+        "N": 127,
+        "b1": 4,
+        "b2": 4,
+        "w1": 11358880,
+        "w2": 11358880,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 16,
+        "U": 31,
+        "N": 63,
+        "b1": 4,
+        "b2": 4,
+        "w1": 720720,
+        "w2": 720720,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 8,
+        "U": 15,
+        "N": 31,
+        "b1": 4,
+        "b2": 4,
+        "w1": 46376,
+        "w2": 46376,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 4,
+        "U": 7,
+        "N": 15,
+        "b1": 4,
+        "b2": 4,
+        "w1": 3060,
+        "w2": 3060,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 2,
+        "U": 3,
+        "N": 7,
+        "b1": 4,
+        "b2": 4,
+        "w1": 210,
+        "w2": 210,
+        "key_matches": 0,
+        "genuine": 0
+       },
+       {
+        "orbit_size": 1,
+        "U": 1,
+        "N": 3,
+        "b1": 4,
+        "b2": 4,
+        "w1": 15,
+        "w2": 15,
+        "key_matches": 0,
+        "genuine": 0
+       }
+      ],
+      "w1": 192481581,
+      "w2_max": 180352320,
+      "key_matches": 0,
+      "genuine": 0,
+      "min_norm": null,
+      "rep": null,
+      "sec": 450.3
+     },
+     "status": "CERTIFIED",
+     "certified_lower_bound": 10,
+     "sec": 450.3
+    }
+   ],
+   "sec": 452.0
+  }
+ ],
+ "unfinished": [],
+ "seconds": 452.6
+}
